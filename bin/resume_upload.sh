@@ -134,6 +134,9 @@ while IFS= read -r jpg_file; do
             # Move to final location
             if "$ADB" shell "mv '$remote_file' '$ANDROID_FINAL_DIR/' 2>/dev/null"; then
                 print_status "  → Moved to Camera folder"
+                
+                # Notify media scanner about this file
+                "$ADB" shell "am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d 'file://$ANDROID_FINAL_DIR/$filename' 2>/dev/null"
             fi
         else
             print_error "Upload verification failed: $filename"

@@ -54,11 +54,14 @@ The script will:
 4. Convert HIF → JPEG (quality 100%)
 5. Push files to Android temp directory
 6. Move files to DCIM/Camera
-7. Clean up temporary files
+7. Notify Android media scanner
+8. Clean up temporary files
 
 ### 5. Google Photos Sync
 
 Once files are in `/storage/self/primary/DCIM/Camera/`:
+- The script notifies Android's media scanner about each new file
+- Files immediately appear in your Gallery app
 - Google Photos will automatically detect new images
 - Sync will begin based on your settings
 - Files will be backed up to your Google Photos library
