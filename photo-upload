@@ -1,0 +1,262 @@
+#!/bin/bash
+
+# photo-upload - Main entry point for photography automation tools
+# Automatically handles dependencies via nix-shell
+
+set -e
+
+# Script information
+SCRIPT_NAME="photo-upload"
+VERSION="1.0.0"
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Colors for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+CYAN='\033[0;36m'
+NC='\033[0m' # No Color
+
+# Function to display help
+show_help() {
+    cat << EOF
+${BLUE}Photography Upload Tool${NC} v${VERSION}
+
+${CYAN}USAGE:${NC}
+    ${SCRIPT_NAME} [OPTIONS] <directory>
+    ${SCRIPT_NAME} --help
+    ${SCRIPT_NAME} --version
+
+${CYAN}DESCRIPTION:${NC}
+    Automatically process and upload HIF files from Canon R3 to Google Photos
+    via Android device. This tool handles all dependencies automatically using
+    nix-shell.
+
+${CYAN}ARGUMENTS:${NC}
+    <directory>         Directory containing HIF files to process
+
+${CYAN}OPTIONS:${NC}
+    -h, --help         Show this help message
+    -v, --version      Show version information
+    -c, --check        Run setup check only
+    -r, --resume       Resume interrupted upload (auto-finds latest)
+    -s, --single <file> <output>
+                       Convert a single HIF file to JPEG
+    -q, --quality <1-100>
+                       JPEG quality (default: 100)
+    -k, --keep-temp    Keep temporary files (don't clean up)
+    -d, --dry-run      Show what would be done without executing
+
+${CYAN}EXAMPLES:${NC}
+    # Upload all HIF files from a directory
+    ${SCRIPT_NAME} ~/Pictures/canon_photos
+
+    # Resume interrupted upload
+    ${SCRIPT_NAME} --resume
+
+    # Check setup and dependencies
+    ${SCRIPT_NAME} --check
+
+    # Convert a single file
+    ${SCRIPT_NAME} --single photo.HIF photo.jpg
+
+    # Upload with custom quality
+    ${SCRIPT_NAME} --quality 95 ~/Pictures/photos
+
+    # Dry run to see what would happen
+    ${SCRIPT_NAME} --dry-run ~/Pictures/test
+
+${CYAN}WORKFLOW:${NC}
+    1. Connects to Android device via ADB
+    2. Converts HIF files to JPEG (default 100% quality)
+    3. Uploads to /storage/self/primary/DCIM/Camera/
+    4. Files are automatically synced by Google Photos
+
+${CYAN}REQUIREMENTS:${NC}
+    - Android device with USB debugging enabled
+    - USB connection to computer
+    - Sufficient storage space
+
+${CYAN}MORE INFO:${NC}
+    Documentation: ${SCRIPT_DIR}/README.md
+    Workflow guide: ${SCRIPT_DIR}/docs/workflow.md
+    
+${CYAN}AUTHOR:${NC}
+    Photography Automation Tools
+    https://github.com/yourusername/camera
+
+EOF
+}
+
+# Function to show version
+show_version() {
+    echo "${SCRIPT_NAME} version ${VERSION}"
+}
+
+# Function to run setup check
+run_check() {
+    if [ -f "$SCRIPT_DIR/shell.nix" ]; then
+        echo -e "${BLUE}Running setup check...${NC}"
+        nix-shell "$SCRIPT_DIR/shell.nix" --run "$SCRIPT_DIR/bin/check_setup.sh"
+    else
+        echo -e "${RED}Error: shell.nix not found${NC}"
+        exit 1
+    fi
+}
+
+# Function to convert single file
+convert_single() {
+    local input_file="$1"
+    local output_file="$2"
+    
+    if [ -z "$input_file" ] || [ -z "$output_file" ]; then
+        echo -e "${RED}Error: Both input and output files must be specified${NC}"
+        echo "Usage: ${SCRIPT_NAME} --single <input.HIF> <output.jpg>"
+        exit 1
+    fi
+    
+    if [ -f "$SCRIPT_DIR/shell.nix" ]; then
+        nix-shell "$SCRIPT_DIR/shell.nix" --run "$SCRIPT_DIR/bin/convert_hif.sh '$input_file' '$output_file'"
+    else
+        echo -e "${RED}Error: shell.nix not found${NC}"
+        exit 1
+    fi
+}
+
+# Function to run resume
+run_resume() {
+    local temp_dir="$1"
+    
+    if [ -f "$SCRIPT_DIR/shell.nix" ]; then
+        if [ -n "$temp_dir" ]; then
+            nix-shell "$SCRIPT_DIR/shell.nix" --run "$SCRIPT_DIR/bin/resume_upload.sh '$temp_dir'"
+        else
+            nix-shell "$SCRIPT_DIR/shell.nix" --run "$SCRIPT_DIR/bin/resume_upload.sh"
+        fi
+    else
+        echo -e "${RED}Error: shell.nix not found${NC}"
+        exit 1
+    fi
+}
+
+# Function to run main upload
+run_upload() {
+    local directory="$1"
+    local extra_args=""
+    
+    if [ -z "$directory" ]; then
+        echo -e "${RED}Error: No directory specified${NC}"
+        echo "Usage: ${SCRIPT_NAME} <directory>"
+        echo "Try '${SCRIPT_NAME} --help' for more information."
+        exit 1
+    fi
+    
+    if [ ! -d "$directory" ]; then
+        echo -e "${RED}Error: Directory not found: $directory${NC}"
+        exit 1
+    fi
+    
+    # Check for HIF files
+    local hif_count=$(find "$directory" -name "*.HIF" -o -name "*.hif" | wc -l | tr -d ' ')
+    if [ "$hif_count" -eq 0 ]; then
+        echo -e "${YELLOW}Warning: No HIF files found in $directory${NC}"
+        exit 1
+    fi
+    
+    echo -e "${BLUE}Photography Upload Tool${NC} v${VERSION}"
+    echo -e "${GREEN}Found $hif_count HIF file(s) to process${NC}"
+    echo ""
+    
+    # Set quality if specified
+    if [ -n "$QUALITY" ]; then
+        export JPEG_QUALITY="$QUALITY"
+        extra_args="JPEG_QUALITY=$QUALITY"
+    fi
+    
+    # Run in dry-run mode if specified
+    if [ "$DRY_RUN" = true ]; then
+        echo -e "${YELLOW}DRY RUN MODE - No files will be processed${NC}"
+        echo "Would process files from: $directory"
+        echo "Would use quality: ${QUALITY:-100}%"
+        echo "Would upload to Android device"
+        exit 0
+    fi
+    
+    # Run the upload script with nix-shell
+    if [ -f "$SCRIPT_DIR/shell.nix" ]; then
+        if [ -n "$extra_args" ]; then
+            nix-shell "$SCRIPT_DIR/shell.nix" --run "env $extra_args $SCRIPT_DIR/bin/upload_to_android.sh '$directory'"
+        else
+            nix-shell "$SCRIPT_DIR/shell.nix" --run "$SCRIPT_DIR/bin/upload_to_android.sh '$directory'"
+        fi
+    else
+        echo -e "${RED}Error: shell.nix not found${NC}"
+        exit 1
+    fi
+}
+
+# Parse command line arguments
+QUALITY=""
+DRY_RUN=false
+KEEP_TEMP=false
+
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        -h|--help)
+            show_help
+            exit 0
+            ;;
+        -v|--version)
+            show_version
+            exit 0
+            ;;
+        -c|--check)
+            run_check
+            exit 0
+            ;;
+        -r|--resume)
+            shift
+            run_resume "$1"
+            exit 0
+            ;;
+        -s|--single)
+            shift
+            convert_single "$1" "$2"
+            exit 0
+            ;;
+        -q|--quality)
+            shift
+            QUALITY="$1"
+            if ! [[ "$QUALITY" =~ ^[0-9]+$ ]] || [ "$QUALITY" -lt 1 ] || [ "$QUALITY" -gt 100 ]; then
+                echo -e "${RED}Error: Quality must be a number between 1 and 100${NC}"
+                exit 1
+            fi
+            shift
+            ;;
+        -k|--keep-temp)
+            KEEP_TEMP=true
+            shift
+            ;;
+        -d|--dry-run)
+            DRY_RUN=true
+            shift
+            ;;
+        -*)
+            echo -e "${RED}Error: Unknown option: $1${NC}"
+            echo "Try '${SCRIPT_NAME} --help' for more information."
+            exit 1
+            ;;
+        *)
+            # This is the directory argument
+            run_upload "$1"
+            exit 0
+            ;;
+    esac
+done
+
+# If we get here, no directory was specified
+echo -e "${RED}Error: No directory specified${NC}"
+echo "Usage: ${SCRIPT_NAME} <directory>"
+echo "Try '${SCRIPT_NAME} --help' for more information."
+exit 1 

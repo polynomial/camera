@@ -1,0 +1,45 @@
+# Temporary files
+temp/
+*.tmp
+*.temp
+
+# Image files (to avoid committing large files)
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.hif
+*.HIF
+*.heif
+*.HEIF
+*.heic
+*.HEIC
+*.cr3
+*.CR3
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*~
+*.swp
+
+# Test directories
+test/
+testing/
+
+# Personal configuration
+config.local
+
+# Archive directories
+archive/
+uploaded/ 
