@@ -43,13 +43,13 @@ print_warning() {
 # Function to get file size on Android
 get_android_file_size() {
     local file_path="$1"
-    "$ADB" shell "stat -c %s '$file_path' 2>/dev/null || echo 0" | tr -d '\r\n'
+    "$ADB" shell "stat -c %s '$file_path' 2>/dev/null || echo 0" < /dev/null | tr -d '\r\n'
 }
 
 # Function to check if file exists on Android
 android_file_exists() {
     local file_path="$1"
-    "$ADB" shell "[ -f '$file_path' ] && echo 'exists' || echo 'not_found'" | tr -d '\r\n'
+    "$ADB" shell "[ -f '$file_path' ] && echo 'exists' || echo 'not_found'" < /dev/null | tr -d '\r\n'
 }
 
 # Function to safely push file with resume capability
@@ -70,13 +70,23 @@ safe_push_file() {
         else
             print_warning "Partial upload detected: $filename (local: $local_size, remote: $remote_size)"
             print_status "Removing partial file and re-uploading..."
-            "$ADB" shell "rm -f '$remote_file'"
+            "$ADB" shell "rm -f '$remote_file'" < /dev/null
+        fi
+    fi
+    
+    # Check if file already exists in final location
+    local final_file="$ANDROID_FINAL_DIR/$filename"
+    if [ "$(android_file_exists "$final_file")" = "exists" ]; then
+        local final_size=$(get_android_file_size "$final_file")
+        if [ "$final_size" = "$local_size" ]; then
+            print_status "✓ Already in Camera folder: $filename (skipping)"
+            return 0
         fi
     fi
     
     # Push the file
     print_status "Uploading: $filename ($local_size bytes)"
-    if "$ADB" push "$local_file" "$remote_path/"; then
+    if "$ADB" push "$local_file" "$remote_path/" < /dev/null; then
         # Verify the upload
         local uploaded_size=$(get_android_file_size "$remote_file")
         if [ "$uploaded_size" = "$local_size" ]; then
@@ -84,7 +94,7 @@ safe_push_file() {
             return 0
         else
             print_error "Upload verification failed: $filename (expected: $local_size, got: $uploaded_size)"
-            "$ADB" shell "rm -f '$remote_file'"
+            "$ADB" shell "rm -f '$remote_file'" < /dev/null
             return 1
         fi
     else
@@ -127,14 +137,14 @@ fi
 
 # Create temporary directory on Android
 print_status "Creating temp directory on Android device..."
-"$ADB" shell mkdir -p "$ANDROID_TEMP_DIR" || {
+"$ADB" shell mkdir -p "$ANDROID_TEMP_DIR" < /dev/null || {
     print_error "Failed to create directory on Android device"
     exit 1
 }
 
 # Ensure DCIM/Camera exists on Android
 print_status "Ensuring DCIM/Camera directory exists on Android..."
-"$ADB" shell mkdir -p "$ANDROID_FINAL_DIR" || {
+"$ADB" shell mkdir -p "$ANDROID_FINAL_DIR" < /dev/null || {
     print_error "Failed to create DCIM/Camera directory on Android device"
     exit 1
 }
@@ -149,13 +159,20 @@ FAILED_UPLOADS=""
 JPEG_LIST_FILE="/tmp/jpeg_files_$TIMESTAMP.txt"
 find "$SOURCE_DIR" -name "*.jpg" -o -name "*.jpeg" -o -name "*.JPG" -o -name "*.JPEG" > "$JPEG_LIST_FILE"
 
+# Debug: show file count
+FILE_COUNT=$(wc -l < "$JPEG_LIST_FILE")
+print_status "Processing $FILE_COUNT files from list..."
+
 while IFS= read -r jpg_file; do
     if [ -z "$jpg_file" ]; then
         continue
     fi
     
+    print_status "Processing file: $jpg_file"
+    
     if safe_push_file "$jpg_file" "$ANDROID_TEMP_DIR"; then
         UPLOAD_SUCCESS=$((UPLOAD_SUCCESS + 1))
+        print_status "Upload count: $UPLOAD_SUCCESS"
     else
         UPLOAD_FAILED=$((UPLOAD_FAILED + 1))
         FAILED_UPLOADS="${FAILED_UPLOADS}$(basename "$jpg_file")\n"
@@ -182,17 +199,25 @@ print_status "Moving uploaded files to DCIM/Camera for Google Photos sync..."
 MOVED_COUNT=0
 MOVED_FILES=""
 
-if "$ADB" shell "ls $ANDROID_TEMP_DIR/*.jpg $ANDROID_TEMP_DIR/*.jpeg $ANDROID_TEMP_DIR/*.JPG $ANDROID_TEMP_DIR/*.JPEG 2>/dev/null" | grep -qE "\.(jpg|jpeg|JPG|JPEG)"; then
-    # Get list of files to track for media scanner
-    MOVED_FILES=$("$ADB" shell "ls $ANDROID_TEMP_DIR/*.jpg $ANDROID_TEMP_DIR/*.jpeg $ANDROID_TEMP_DIR/*.JPG $ANDROID_TEMP_DIR/*.JPEG 2>/dev/null" | tr -d '\r' | while read -r f; do basename "$f"; done)
+# Get list of uploaded files
+UPLOADED_FILES=$("$ADB" shell "ls $ANDROID_TEMP_DIR/ 2>/dev/null" < /dev/null | grep -E "\.(jpg|jpeg|JPG|JPEG)$" | tr -d '\r')
+
+if [ -n "$UPLOADED_FILES" ]; then
+    # Store the list for media scanner
+    MOVED_FILES="$UPLOADED_FILES"
     
-    # Move all files at once
-    if "$ADB" shell "cd $ANDROID_TEMP_DIR && mv *.jpg *.jpeg *.JPG *.JPEG $ANDROID_FINAL_DIR/ 2>/dev/null"; then
-        MOVED_COUNT=$UPLOAD_SUCCESS
-        print_status "✓ Moved $MOVED_COUNT file(s) to Camera folder"
-    else
-        print_warning "Batch move may have partially failed, checking..."
-    fi
+    # Move files one by one to ensure success
+    echo "$UPLOADED_FILES" | while IFS= read -r filename; do
+        if [ -n "$filename" ]; then
+            if "$ADB" shell "mv '$ANDROID_TEMP_DIR/$filename' '$ANDROID_FINAL_DIR/' 2>/dev/null" < /dev/null; then
+                MOVED_COUNT=$((MOVED_COUNT + 1))
+            fi
+        fi
+    done
+    
+    # Count actual moved files
+    MOVED_COUNT=$(echo "$UPLOADED_FILES" | wc -l | tr -d ' ')
+    print_status "✓ Moved $MOVED_COUNT file(s) to Camera folder"
     
     # Notify media scanner about new files
     if [ "$MOVED_COUNT" -gt 0 ] && [ -n "$MOVED_FILES" ]; then
@@ -210,9 +235,9 @@ done
 EOF"
         
         # Make it executable and run it
-        "$ADB" shell "chmod +x $SCAN_SCRIPT"
-        echo -e "$MOVED_FILES" | "$ADB" shell "$SCAN_SCRIPT"
-        "$ADB" shell "rm -f $SCAN_SCRIPT"
+        "$ADB" shell "chmod +x $SCAN_SCRIPT" < /dev/null
+        echo "$MOVED_FILES" | "$ADB" shell "$SCAN_SCRIPT" < /dev/null
+        "$ADB" shell "rm -f $SCAN_SCRIPT" < /dev/null
         
         print_status "✓ Media scanner notified - files should appear in Gallery/Google Photos"
     fi
@@ -221,7 +246,7 @@ else
 fi
 
 # Clean up Android temp directory (if empty)
-"$ADB" shell "rmdir $ANDROID_TEMP_DIR 2>/dev/null" || true
+"$ADB" shell "rmdir $ANDROID_TEMP_DIR 2>/dev/null" < /dev/null || true
 
 # Final summary
 echo ""
