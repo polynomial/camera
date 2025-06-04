@@ -41,6 +41,7 @@ ${CYAN}OPTIONS:${NC}
     -v, --version      Show version information
     -c, --check        Run setup check only
     -r, --resume       Resume interrupted upload (auto-finds latest)
+    -j, --jpeg <dir>   Upload pre-existing JPEG files (no conversion)
     -s, --single <file> <output>
                        Convert a single HIF file to JPEG
     -q, --quality <1-100>
@@ -51,6 +52,9 @@ ${CYAN}OPTIONS:${NC}
 ${CYAN}EXAMPLES:${NC}
     # Upload all HIF files from a directory
     ${SCRIPT_NAME} ~/Pictures/canon_photos
+
+    # Upload pre-existing JPEG files
+    ${SCRIPT_NAME} --jpeg ~/Pictures/prepared_jpgs
 
     # Resume interrupted upload
     ${SCRIPT_NAME} --resume
@@ -140,6 +144,25 @@ run_resume() {
     fi
 }
 
+# Function to run JPEG upload
+run_jpeg_upload() {
+    local directory="$1"
+    
+    if [ -z "$directory" ]; then
+        echo -e "${RED}Error: No directory specified for JPEG upload${NC}"
+        echo "Usage: ${SCRIPT_NAME} --jpeg <directory>"
+        exit 1
+    fi
+    
+    if [ ! -d "$directory" ]; then
+        echo -e "${RED}Error: Directory not found: $directory${NC}"
+        exit 1
+    fi
+    
+    # Run the JPEG upload script directly (no nix-shell needed)
+    "$SCRIPT_DIR/bin/upload_jpgs.sh" "$directory"
+}
+
 # Function to run main upload
 run_upload() {
     local directory="$1"
@@ -218,6 +241,11 @@ while [[ $# -gt 0 ]]; do
         -r|--resume)
             shift
             run_resume "$1"
+            exit 0
+            ;;
+        -j|--jpeg)
+            shift
+            run_jpeg_upload "$1"
             exit 0
             ;;
         -s|--single)

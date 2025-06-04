@@ -8,6 +8,9 @@ A collection of scripts and utilities for automating photography workflows with 
 # Upload HIF files to Google Photos
 ./photo-upload ~/Pictures/canon_photos
 
+# Upload pre-existing JPEG files
+./photo-upload --jpeg ~/Pictures/prepared_jpgs
+
 # Get help
 ./photo-upload --help
 
@@ -104,6 +107,17 @@ chmod +x bin/*.sh
 ./photo-upload --dry-run ~/Pictures/test
 ```
 
+### Upload Pre-existing JPEG Files
+```bash
+# For testing with other cameras or pre-processed JPEGs
+./photo-upload --jpeg ~/Pictures/camera_jpgs
+```
+
+This is useful when:
+- Testing with cameras that output JPEG directly
+- You've already processed images elsewhere
+- You have a batch of JPEGs ready for Google Photos
+
 ## Workflow
 
 1. **Process RAW files in Darktable** → Export as HIF
@@ -124,6 +138,8 @@ Options:
   -h, --help         Show help message
   -v, --version      Show version information
   -c, --check        Run setup check only
+  -r, --resume       Resume interrupted upload
+  -j, --jpeg         Upload pre-existing JPEG files (no conversion)
   -s, --single       Convert a single HIF file to JPEG
   -q, --quality      JPEG quality 1-100 (default: 100)
   -k, --keep-temp    Keep temporary files
@@ -142,7 +158,9 @@ Options:
 ├── bin/             # Implementation scripts
 │   ├── adb                  # Android Debug Bridge binary
 │   ├── upload_to_android.sh # Main upload script
+│   ├── upload_jpgs.sh       # JPEG-only upload script
 │   ├── convert_hif.sh       # HIF conversion utility
+│   ├── resume_upload.sh     # Resume interrupted uploads
 │   └── check_setup.sh       # Setup verification
 └── temp/            # Temporary files (gitignored)
 ```
