@@ -7,7 +7,8 @@ set -e
 
 # Configuration
 DEST_BASE="$HOME/camera"
-PHOTO_EXTENSIONS="jpg jpeg JPG JPEG heic HEIC hif HIF cr3 CR3 raw RAW dng DNG"
+# Only lowercase extensions needed since we use -iname (case-insensitive)
+PHOTO_EXTENSIONS="jpg jpeg heic hif cr3 raw dng"
 
 # Colors for output
 RED='\033[0;31m'
@@ -128,10 +129,20 @@ print_status "Using SD card: $SDCARD"
 # Find all photo files
 print_status "Searching for photos..."
 PHOTO_FILES=()
+FILE_TYPE_COUNTS=""
+
 for ext in $PHOTO_EXTENSIONS; do
+    count=0
     while IFS= read -r -d '' file; do
         PHOTO_FILES+=("$file")
+        count=$((count + 1))
     done < <(find "$SDCARD" -type f -iname "*.$ext" -print0 2>/dev/null)
+    
+    if [ $count -gt 0 ]; then
+        # Convert to uppercase in a portable way
+        ext_upper=$(echo "$ext" | tr '[:lower:]' '[:upper:]')
+        FILE_TYPE_COUNTS="${FILE_TYPE_COUNTS}  ${ext_upper}: $count\n"
+    fi
 done
 
 if [ ${#PHOTO_FILES[@]} -eq 0 ]; then
@@ -140,6 +151,9 @@ if [ ${#PHOTO_FILES[@]} -eq 0 ]; then
 fi
 
 print_status "Found ${#PHOTO_FILES[@]} photo(s)"
+if [ -n "$FILE_TYPE_COUNTS" ]; then
+    echo -e "$FILE_TYPE_COUNTS"
+fi
 
 # Get date range
 print_status "Analyzing photo dates..."
