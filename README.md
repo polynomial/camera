@@ -5,6 +5,9 @@ A collection of scripts and utilities for automating photography workflows with 
 ## Quick Start
 
 ```bash
+# Import photos from SD card
+./photo-upload --import
+
 # Upload HIF files to Google Photos
 ./photo-upload ~/Pictures/canon_photos
 
@@ -118,6 +121,19 @@ This is useful when:
 - You've already processed images elsewhere
 - You have a batch of JPEGs ready for Google Photos
 
+### Import Photos from SD Card
+```bash
+# Automatically find and import photos from SD card
+./photo-upload --import
+```
+
+This feature:
+- Automatically detects SD cards in /Volumes
+- Finds all photo files (JPG, HEIC, HIF, CR3, RAW, DNG)
+- Organizes by date range (first_date_last_date)
+- Shows progress and summary (size, count, date range)
+- Optionally unmounts SD card when done
+
 ## Workflow
 
 1. **Process RAW files in Darktable** → Export as HIF
@@ -138,6 +154,7 @@ Options:
   -h, --help         Show help message
   -v, --version      Show version information
   -c, --check        Run setup check only
+  -i, --import       Import photos from SD card
   -r, --resume       Resume interrupted upload
   -j, --jpeg         Upload pre-existing JPEG files (no conversion)
   -s, --single       Convert a single HIF file to JPEG
@@ -159,6 +176,7 @@ Options:
 │   ├── adb                  # Android Debug Bridge binary
 │   ├── upload_to_android.sh # Main upload script
 │   ├── upload_jpgs.sh       # JPEG-only upload script
+│   ├── import_from_sdcard.sh   # SD card import script
 │   ├── convert_hif.sh       # HIF conversion utility
 │   ├── resume_upload.sh     # Resume interrupted uploads
 │   └── check_setup.sh       # Setup verification
