@@ -195,49 +195,39 @@ fi
 # Move successfully uploaded files to DCIM/Camera on Android
 print_status "Moving uploaded files to DCIM/Camera for Google Photos sync..."
 
-# Use a simple batch move command
-MOVED_COUNT=0
-MOVED_FILES=""
-
 # Get list of uploaded files
 UPLOADED_FILES=$("$ADB" shell "ls $ANDROID_TEMP_DIR/ 2>/dev/null" < /dev/null | grep -E "\.(jpg|jpeg|JPG|JPEG)$" | tr -d '\r')
 
 if [ -n "$UPLOADED_FILES" ]; then
-    # Store the list for media scanner
-    MOVED_FILES="$UPLOADED_FILES"
+    # Move all files and collect list of successfully moved files
+    MOVED_FILES=""
+    MOVED_COUNT=0
     
-    # Move files one by one to ensure success
-    echo "$UPLOADED_FILES" | while IFS= read -r filename; do
+    while IFS= read -r filename; do
         if [ -n "$filename" ]; then
             if "$ADB" shell "mv '$ANDROID_TEMP_DIR/$filename' '$ANDROID_FINAL_DIR/' 2>/dev/null" < /dev/null; then
+                MOVED_FILES="${MOVED_FILES}${filename}\n"
                 MOVED_COUNT=$((MOVED_COUNT + 1))
+                print_status "✓ Moved: $filename"
+            else
+                print_warning "Failed to move: $filename"
             fi
         fi
-    done
+    done <<< "$UPLOADED_FILES"
     
-    # Count actual moved files
-    MOVED_COUNT=$(echo "$UPLOADED_FILES" | wc -l | tr -d ' ')
-    print_status "✓ Moved $MOVED_COUNT file(s) to Camera folder"
+    print_status "Moved $MOVED_COUNT file(s) to Camera folder"
     
     # Notify media scanner about new files
     if [ "$MOVED_COUNT" -gt 0 ] && [ -n "$MOVED_FILES" ]; then
         print_status "Notifying Android media scanner about new files..."
         
-        # Create a temporary script on the device
-        SCAN_SCRIPT="/data/local/tmp/scan_media_jpg.sh"
-        "$ADB" shell "cat > $SCAN_SCRIPT << 'EOF'
-#!/system/bin/sh
-while IFS= read -r filename; do
-    if [ -n \"\$filename\" ]; then
-        am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d \"file://$ANDROID_FINAL_DIR/\$filename\" 2>/dev/null
-    fi
-done
-EOF"
-        
-        # Make it executable and run it
-        "$ADB" shell "chmod +x $SCAN_SCRIPT" < /dev/null
-        echo "$MOVED_FILES" | "$ADB" shell "$SCAN_SCRIPT" < /dev/null
-        "$ADB" shell "rm -f $SCAN_SCRIPT" < /dev/null
+        # Broadcast for each file individually for better reliability
+        echo -e "$MOVED_FILES" | while IFS= read -r filename; do
+            if [ -n "$filename" ]; then
+                "$ADB" shell "am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d 'file://$ANDROID_FINAL_DIR/$filename'" < /dev/null 2>&1
+                echo "  ✓ Notified media scanner: $filename"
+            fi
+        done
         
         print_status "✓ Media scanner notified - files should appear in Gallery/Google Photos"
     fi
