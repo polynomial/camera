@@ -39,6 +39,7 @@ testing/
 
 # Personal configuration
 config.local
+.env
 
 # Archive directories
 archive/

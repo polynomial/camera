@@ -8,6 +8,9 @@ A collection of scripts and utilities for automating photography workflows with 
 # Import photos from SD card
 ./photo-upload --import
 
+# Download starred images from Canon R3
+./photo-upload --r3-download
+
 # Upload HIF files to Google Photos
 ./photo-upload ~/Pictures/canon_photos
 
@@ -24,6 +27,7 @@ A collection of scripts and utilities for automating photography workflows with 
 ## Overview
 
 This repository contains tools to:
+- Download starred images directly from Canon R3 over network
 - Process HIF (HEIF) files from Canon R3 camera
 - Convert HIF files to Android-compatible formats
 - Automatically upload processed images to Google Photos via ADB and Android device
@@ -62,6 +66,7 @@ All dependencies are handled automatically through nix-shell:
 - Nix package manager
 - Android device with USB debugging enabled
 - Local ADB binary (included in bin/)
+- For R3 download: Canon R3 with HTTP interface enabled
 
 ## Installation
 
@@ -85,6 +90,16 @@ chmod +x bin/*.sh
 4. Test the setup:
 ```bash
 ./photo-upload --check
+```
+
+5. For Canon R3 download, create a `.env` file:
+```bash
+cat > .env << EOF
+CANON_R3_IP=192.168.1.2
+CANON_R3_PORT=8080
+CANON_R3_USERNAME=admin
+CANON_R3_PASSWORD=your_password_here
+EOF
 ```
 
 ## Usage Examples
@@ -134,6 +149,28 @@ This feature:
 - Shows progress and summary (size, count, date range)
 - Optionally unmounts SD card when done
 
+### Download Starred Images from Canon R3
+```bash
+# Download all starred images from camera
+./photo-upload --r3-download --download
+
+# List starred images without downloading
+./photo-upload --r3-download --list
+
+# Download only 3+ star images
+./photo-upload --r3-download --download --min-rating 3
+
+# Show statistics
+./photo-upload --r3-download --stats
+```
+
+This feature:
+- Connects to Canon R3 over network (HTTP interface)
+- Downloads images with star ratings (1-5 stars)
+- Maintains camera folder structure
+- Resume support for interrupted downloads
+- Requires camera credentials in .env file
+
 ## Workflow
 
 1. **Process RAW files in Darktable** → Export as HIF
@@ -155,6 +192,7 @@ Options:
   -v, --version      Show version information
   -c, --check        Run setup check only
   -i, --import       Import photos from SD card
+  --r3-download      Download starred images from Canon R3
   -r, --resume       Resume interrupted upload
   -j, --jpeg         Upload pre-existing JPEG files (no conversion)
   -s, --single       Convert a single HIF file to JPEG
@@ -177,6 +215,8 @@ Options:
 │   ├── upload_to_android.sh # Main upload script
 │   ├── upload_jpgs.sh       # JPEG-only upload script
 │   ├── import_from_sdcard.sh   # SD card import script
+│   ├── download_starred.sh  # R3 download wrapper
+│   ├── download_starred_from_r3.py # R3 download implementation
 │   ├── convert_hif.sh       # HIF conversion utility
 │   ├── resume_upload.sh     # Resume interrupted uploads
 │   └── check_setup.sh       # Setup verification
