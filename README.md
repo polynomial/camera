@@ -11,6 +11,9 @@ A collection of scripts and utilities for automating photography workflows with 
 # Download starred images from Canon R3
 ./photo-upload --r3-download
 
+# Start FTP server for Canon R3 uploads
+./photo-upload --ftp-server
+
 # Upload HIF files to Google Photos
 ./photo-upload ~/Pictures/canon_photos
 
@@ -28,6 +31,7 @@ A collection of scripts and utilities for automating photography workflows with 
 
 This repository contains tools to:
 - Download starred images directly from Canon R3 over network
+- FTP server for real-time Canon R3 uploads with auto-conversion
 - Process HIF (HEIF) files from Canon R3 camera
 - Convert HIF files to Android-compatible formats
 - Automatically upload processed images to Google Photos via ADB and Android device
@@ -181,6 +185,25 @@ This feature:
 - Resume support for interrupted downloads
 - Requires camera credentials in .env file
 
+### FTP Server for Real-time Canon R3 Uploads
+```bash
+# Start FTP server with public access
+./photo-upload --ftp-server
+```
+
+This feature:
+- Starts local FTP server with ngrok tunnel for public access
+- Automatically converts CR3 to JPEG (95% quality)
+- Uploads converted files to Android device immediately
+- Saves all uploads to ~/camera/ftp_uploads/
+- Shows connection details for Canon R3 configuration
+
+To use:
+1. Run `./photo-upload --ftp-server`
+2. Configure Canon R3 with the displayed settings
+3. Take photos - they'll automatically upload and convert
+4. Files appear in Google Photos via Android sync
+
 ## Workflow
 
 1. **Process RAW files in Darktable** → Export as HIF
@@ -202,7 +225,9 @@ Options:
   -v, --version      Show version information
   -c, --check        Run setup check only
   -i, --import       Import photos from SD card
+  --import-rated     Import only rated photos from SD card
   --r3-download      Download starred images from Canon R3
+  --ftp-server       Start FTP server for Canon R3 uploads
   -r, --resume       Resume interrupted upload
   -j, --jpeg         Upload pre-existing JPEG files (no conversion)
   -s, --single       Convert a single HIF file to JPEG

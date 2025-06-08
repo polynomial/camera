@@ -45,6 +45,9 @@ ${CYAN}OPTIONS:${NC}
     -i, --import       Import photos from SD card
     --import-rated     Import only rated photos from SD card
     --r3-download      Download starred images from Canon R3
+    --r3-process [dir] Process downloaded R3 images (convert & upload)
+    --ftp-server       Start FTP server for Canon R3 uploads (requires ngrok card)
+    --ftp-server-free  Start FTP server using localhost.run (no card needed!)
     -s, --single <file> <output>
                        Convert a single HIF file to JPEG
     -q, --quality <1-100>
@@ -61,6 +64,12 @@ ${CYAN}EXAMPLES:${NC}
 
     # Download starred images from Canon R3
     ${SCRIPT_NAME} --r3-download
+
+    # Process downloaded R3 images
+    ${SCRIPT_NAME} --r3-process canon_r3_downloads
+
+    # Start FTP server for Canon R3 uploads
+    ${SCRIPT_NAME} --ftp-server
 
     # Upload all HIF files from a directory
     ${SCRIPT_NAME} ~/Pictures/canon_photos
@@ -191,6 +200,16 @@ run_r3_download() {
     "$SCRIPT_DIR/bin/download_starred.sh" "$@"
 }
 
+# Function to start FTP server
+run_ftp_server() {
+    "$SCRIPT_DIR/bin/start_ftp_tunnel.sh"
+}
+
+# Function to start FTP server with localhost.run
+run_ftp_server_free() {
+    "$SCRIPT_DIR/bin/start_ftp_localhost_run.sh"
+}
+
 # Function to run main upload
 run_upload() {
     local directory="$1"
@@ -277,6 +296,21 @@ while [[ $# -gt 0 ]]; do
         --r3-download)
             shift
             run_r3_download "$@"
+            exit 0
+            ;;
+        --r3-process)
+            shift
+            R3_DIR="${1:-canon_r3_downloads}"
+            echo "Processing R3 downloads from: $R3_DIR"
+            exec "$SCRIPT_DIR/bin/process_r3_downloads.sh" "$R3_DIR"
+            exit 0
+            ;;
+        --ftp-server)
+            run_ftp_server
+            exit 0
+            ;;
+        --ftp-server-free)
+            run_ftp_server_free
             exit 0
             ;;
         -r|--resume)
