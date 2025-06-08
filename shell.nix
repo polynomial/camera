@@ -9,6 +9,9 @@ pkgs.mkShell {
     python3
     python3Packages.requests
     python3Packages.python-dotenv
+    
+    # Metadata extraction
+    exiftool
   ];
   
   shellHook = ''

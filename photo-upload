@@ -43,6 +43,7 @@ ${CYAN}OPTIONS:${NC}
     -r, --resume       Resume interrupted upload (auto-finds latest)
     -j, --jpeg <dir>   Upload pre-existing JPEG files (no conversion)
     -i, --import       Import photos from SD card
+    --import-rated     Import only rated photos from SD card
     --r3-download      Download starred images from Canon R3
     -s, --single <file> <output>
                        Convert a single HIF file to JPEG
@@ -54,6 +55,9 @@ ${CYAN}OPTIONS:${NC}
 ${CYAN}EXAMPLES:${NC}
     # Import photos from SD card
     ${SCRIPT_NAME} --import
+
+    # Import only rated photos from SD card
+    ${SCRIPT_NAME} --import-rated
 
     # Download starred images from Canon R3
     ${SCRIPT_NAME} --r3-download
@@ -176,6 +180,11 @@ run_import() {
     "$SCRIPT_DIR/bin/import_from_sdcard.sh"
 }
 
+# Function to run rated SD card import
+run_import_rated() {
+    "$SCRIPT_DIR/bin/import_rated_from_sdcard.sh"
+}
+
 # Function to run R3 download
 run_r3_download() {
     # Pass all arguments to the download script
@@ -259,6 +268,10 @@ while [[ $# -gt 0 ]]; do
             ;;
         -i|--import)
             run_import
+            exit 0
+            ;;
+        --import-rated)
+            run_import_rated
             exit 0
             ;;
         --r3-download)

@@ -138,16 +138,26 @@ This is useful when:
 
 ### Import Photos from SD Card
 ```bash
-# Automatically find and import photos from SD card
+# Import all photos from SD card
 ./photo-upload --import
+
+# Import only rated photos from SD card
+./photo-upload --import-rated
 ```
 
-This feature:
+Standard import features:
 - Automatically detects SD cards in /Volumes
 - Finds all photo files (JPG, HEIC, HIF, CR3, RAW, DNG)
 - Organizes by date range (first_date_last_date)
 - Shows progress and summary (size, count, date range)
 - Optionally unmounts SD card when done
+
+Rated import features:
+- Scans all Canon folders (100EOSR3, 101EOSR3, etc.)
+- Only copies CR3 files with star ratings (1-5 stars)
+- Creates directory named with timestamp from first rated photo
+- Shows rating breakdown and progress
+- Handles multiple Canon camera folders automatically
 
 ### Download Starred Images from Canon R3
 ```bash
@@ -214,7 +224,8 @@ Options:
 │   ├── adb                  # Android Debug Bridge binary
 │   ├── upload_to_android.sh # Main upload script
 │   ├── upload_jpgs.sh       # JPEG-only upload script
-│   ├── import_from_sdcard.sh   # SD card import script
+│   ├── import_from_sdcard.sh   # SD card import (all files)
+│   ├── import_rated_from_sdcard.sh # Import only rated files
 │   ├── download_starred.sh  # R3 download wrapper
 │   ├── download_starred_from_r3.py # R3 download implementation
 │   ├── convert_hif.sh       # HIF conversion utility
