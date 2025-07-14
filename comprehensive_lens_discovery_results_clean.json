@@ -1,0 +1,627 @@
+{
+  "total_discovered": 77,
+  "by_mount": {
+    "RF": 57,
+    "Unknown": 3,
+    "EF": 15,
+    "EF-S": 2
+  },
+  "lenses": [
+    {
+      "name": "RF16-28mm F2.8 IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf16-28-f28/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF800mm F11 IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf800-f11/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF-S14-30mm F4-6.3 IS STM PZ",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf-s14-30-f4-63pz",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 4
+    },
+    {
+      "name": "RF24-105mm F4 L IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf24-105-f4l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 8
+    },
+    {
+      "name": "RF15-30mm F4.5-6.3 IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf15-30-f45-63",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 7
+    },
+    {
+      "name": "RF85mm F1.2 L USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf85-f12l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 6
+    },
+    {
+      "name": "RF24-105mm F2.8 L IS USM Z",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf24-105-f28lz/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF28-70mm F2 L USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf28-70-f2l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 8
+    },
+    {
+      "name": "コントロールリングマウントアダプター EF-EOS R",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/adp-cr-ef-eosr",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 1
+    },
+    {
+      "name": "RF24-240mm F4-6.3 IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf24-240-f4-63",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 8
+    },
+    {
+      "name": "RF600mm F4 L IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf600-f4l/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF50mm F1.4 L VCM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf50-f14lv",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 6
+    },
+    {
+      "name": "RF100-500mm F4.5-7.1 L IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf100-500-f45-71l/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF50mm F1.8 STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf50-f18",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 3
+    },
+    {
+      "name": "RF16mm F2.8 STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf16-f28/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF200-800mm F6.3-9 IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf200-800-f63-9/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RFレンズ",
+      "mount": "Unknown",
+      "url": "https://personal.canon.jp/product/camera/rf#drawer-site-menu-lv3--ab62ff37ef1c4477b9b161355d502561/spec",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 3
+    },
+    {
+      "name": "RF75-300mm F4-5.6",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf75-300-f4-56/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF135mm F1.8 L IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf135-f18l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 4
+    },
+    {
+      "name": "RF600mm F11 IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf600-f11",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 3
+    },
+    {
+      "name": "RF35mm F1.4 L VCM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf35-f14lv",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 4
+    },
+    {
+      "name": "RF400mm F2.8 L IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf400-f28l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 4
+    },
+    {
+      "name": "RF1200mm F8 L IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf1200-f8l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 4
+    },
+    {
+      "name": "RF-S18-150mm F3.5-6.3 IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf-s18-150-f35-63",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 7
+    },
+    {
+      "name": "RF-S55-210mm F5-7.1 IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf-s55-210-f5-71",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 8
+    },
+    {
+      "name": "RF14-35mm F4 L IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf14-35-f4l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 6
+    },
+    {
+      "name": "RF100-400mm F5.6-8 IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf100-400-f56-8/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "EXTENDER RF2x",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/extender-rf2/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF28mm F2.8 STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf28-f28/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF85mm F1.2 L USM DS",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf85-f12l-ds",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 7
+    },
+    {
+      "name": "EXTENDER RF1.4x",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/extender-rf14",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 1
+    },
+    {
+      "name": "RF10-20mm F4 L IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf10-20-f4l/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF100mm F2.8 L MACRO IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf100-f28l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 2
+    },
+    {
+      "name": "マウントアダプター EF-EOS R",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/adp-ef-eosr",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 1
+    },
+    {
+      "name": "RF24mm F1.4 L VCM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf24-f14lv/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF5.2mm F2.8 L DUAL FISHEYE",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf52-f28l-dfe",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 7
+    },
+    {
+      "name": "RF24-50mm F4.5-6.3 IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf24-50-f45-63",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 6
+    },
+    {
+      "name": "RF100-300mm F2.8 L IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf100-300-f28l/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 7
+    },
+    {
+      "name": "RF28-70mm F2.8 IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf28-70-f28",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 4
+    },
+    {
+      "name": "RF15-35mm F2.8 L IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf15-35-f28l/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF50mm F1.2 L USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf50-f12l/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF24-70mm F2.8 L IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf24-70-f28l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 7
+    },
+    {
+      "name": "CN7×17 KAS  T／R1・CN7×17 KAS  T／P1",
+      "mount": "Unknown",
+      "url": "https://canon.jp/biz/product/camera/pro-imaging/cinema-eos/lineup/ces-lens/cn7-17rf",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 8
+    },
+    {
+      "name": "RF35mm F1.8 MACRO IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf35-f18/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF70-200mm F2.8 L IS USM Z",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf70-200-f28lz",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 6
+    },
+    {
+      "name": "RF85mm F2 MACRO IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf85-f2",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 4
+    },
+    {
+      "name": "RF800mm F5.6 L IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf800-f56l/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF-S3.9mm F3.5 STM DUAL FISHEYE",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf-s39-f35-dfe",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 2
+    },
+    {
+      "name": "RF70-200mm F2.8 L IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf70-200-f28l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 7
+    },
+    {
+      "name": "RF70-200mm F4 L IS USM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf70-200-f4l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 4
+    },
+    {
+      "name": "RF24-240mm F4-6.3 IS USM 仕様",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf24-240-f4-63/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF24-105mm F4-7.1 IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf24-105-f4-71",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 4
+    },
+    {
+      "name": "RF-S10-18mm F4.5-6.3 IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf-s10-18-f45-63",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 7
+    },
+    {
+      "name": "RF-S18-45mm F4.5-6.3 IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf-s18-45-f45-63",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 4
+    },
+    {
+      "name": "RF-S7.8mm F4 STM DUAL",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf-s78-f4d",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 3
+    },
+    {
+      "name": "RF20mm F1.4 L VCM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf20-f14lv/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "RF24mm F1.8 MACRO IS STM",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/rf24-f18",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 7
+    },
+    {
+      "name": "ドロップインフィルター マウントアダプター EF-EOS R ドロップイン 可変式NDフィルター A付",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/adp-dif-ef-eosr-nd",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 1
+    },
+    {
+      "name": "ドロップインフィルター マウントアダプター EF-EOS R ドロップイン 円偏光フィルター A付",
+      "mount": "RF",
+      "url": "https://personal.canon.jp/product/camera/rf/adp-dif-ef-eosr-pl",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 1
+    },
+    {
+      "name": "EF50mm F1.8 STM",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/ef50-f18stm/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "EFレンズ一覧",
+      "mount": "Unknown",
+      "url": "https://personal.canon.jp/product/camera/ef#drawer-site-menu-lv3--ef9fcbfeea2f4bec96be938f742f12bb/spec",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 1
+    },
+    {
+      "name": "EF16-35mm F2.8L III USM",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/ef16-35-f28liii",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 4
+    },
+    {
+      "name": "EF100mm F2.8Lマクロ IS USM",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/ef100-f28l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 2
+    },
+    {
+      "name": "EF24-70mm F2.8L II USM",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/ef24-70-f28l-ii",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 5
+    },
+    {
+      "name": "EF70-200mm F2.8L IS III USM",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/ef70-200-f28l-iii/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "EF-S10-18mm F4.5-5.6 IS STM",
+      "mount": "EF-S",
+      "url": "https://personal.canon.jp/product/camera/ef/ef-s10-18-f45-56-is-stm",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 3
+    },
+    {
+      "name": "TS-E50mm F2.8L マクロ",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/ts-e50-f28l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 2
+    },
+    {
+      "name": "EF100-400mm F4.5-5.6L IS II USM",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/ef100-400-f45-56l-ii-usm",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 3
+    },
+    {
+      "name": "EF24-105mm F4L IS II USM",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/ef24-105-f4lii/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "EXTENDER EF2×III",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/extender-ef2-iii/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 28
+    },
+    {
+      "name": "EF16-35mm F4L IS USM",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/ef16-35-f4l-is-usm/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "EF-S24mm F2.8 STM",
+      "mount": "EF-S",
+      "url": "https://personal.canon.jp/product/camera/ef/ef-s24-f28-stm",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 2
+    },
+    {
+      "name": "EXTENDER EF1.4×III",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/extender-ef14-iii/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 28
+    },
+    {
+      "name": "TS-E24mm F3.5L II",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/ts-e24-f35lii",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 3
+    },
+    {
+      "name": "EF70-300mm F4-5.6 IS II USM",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/ef70-300-f4-56ii/spec",
+      "mtf_available": true,
+      "construction_available": true,
+      "spec_images": 5
+    },
+    {
+      "name": "TS-E17mm F4L",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/ts-e17-f4l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 3
+    },
+    {
+      "name": "TS-E90mm F2.8L マクロ",
+      "mount": "EF",
+      "url": "https://personal.canon.jp/product/camera/ef/ts-e90-f28l",
+      "mtf_available": false,
+      "construction_available": false,
+      "spec_images": 2
+    }
+  ]
+}
