@@ -1,0 +1,16 @@
+{
+  "lens_name": "RF100-500mm F4.5-7.1 L IS USM",
+  "url": "https://personal.canon.jp/product/camera/rf/rf100-500-f45-71l/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-mtf.png?h=286&la=ja-JP&w=550&hash=FB8988D9D63CE4FB86AB94B3E08E7DEE",
+  "specifications": {
+    "画角（水平・垂直・対角線）": "20°～4°・14°～2°45′・24°～5°",
+    "レンズ構成": "14群20枚",
+    "絞り羽根枚数": "9枚（円形絞り）",
+    "最小絞り": "32（100mm時）、51（500mm時）",
+    "最短撮影距離": "0.9m（100mm時）",
+    "最大撮影倍率": "0.33倍（500mm時）",
+    "フィルター径": "77mm",
+    "最大径×長さ": "φ93.8×207.6mm",
+    "質量": "約1,370g（三脚座含まず／三脚座質量 約160g）"
+  }
+}

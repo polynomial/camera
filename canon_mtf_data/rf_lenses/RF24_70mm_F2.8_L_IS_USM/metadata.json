@@ -1,0 +1,16 @@
+{
+  "lens_name": "RF24-70mm F2.8 L IS USM",
+  "url": "https://personal.canon.jp/product/camera/rf/rf24-70-f28l/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-70-f28l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=3739B158C3634C4699130A6CD35E5E69",
+  "specifications": {
+    "画角（水平・垂直・対角線）": "74°～29°・53°～19°30′・84°34°",
+    "レンズ構成": "15群21枚",
+    "絞り羽根枚数": "9枚（円形絞り）",
+    "最小絞り": "22",
+    "最短撮影距離": "0.21m（24mm時）",
+    "最大撮影倍率": "0.30倍（32mm時）",
+    "フィルター径": "82mm",
+    "最大径×長さ": "約φ88.5mm×125.7mm",
+    "質量": "約900g"
+  }
+}

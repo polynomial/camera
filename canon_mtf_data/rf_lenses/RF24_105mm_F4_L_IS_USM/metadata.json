@@ -1,0 +1,16 @@
+{
+  "lens_name": "RF24-105mm F4 L IS USM",
+  "url": "https://personal.canon.jp/product/camera/rf/rf24-105-f4l/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=56EC8DC580D4F93C51259EFC1B3A3BCA",
+  "specifications": {
+    "画角（水平・垂直・対角線）": "74°～19°20'・53°～13°・84°～23°20'",
+    "レンズ構成": "14群18枚",
+    "絞り羽根枚数": "9枚（円形絞り）",
+    "最小絞り": "22",
+    "最短撮影距離": "0.45m",
+    "最大撮影倍率": "0.24倍",
+    "フィルター径": "77mm",
+    "最大径×長さ": "φ83.5×107.3mm",
+    "質量": "700g"
+  }
+}
