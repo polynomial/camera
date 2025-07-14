@@ -1,42 +1,76 @@
 # 📊 Canon MTF Collection - Data Browser & Navigation Hub
 
-*Your comprehensive guide to browsing, exploring, and analyzing the Canon lens optical database*
+## 🚀 **NEW: Interactive Browsable Site Available!**
 
-## 🚀 Quick Start - Interactive Viewers
+### 🌟 **[📊 Browse the Complete Interactive Site](index.md)**
+*Your new gateway to 79 Canon lenses with clickable navigation, detailed analysis, and mobile-friendly browsing*
 
-### 🖥️ **Web Viewers** (Click to Open)
-| Viewer | Description | Features |
+---
+
+## 🎯 **Quick Access - Choose Your Experience**
+
+### 🖥️ **Interactive Viewers** (Click to Open)
+| Viewer | Description | Best For |
 |--------|-------------|----------|
-| **[📊 Enhanced MTF Viewer](canon_enhanced_mtf_viewer.html)** | **Primary Interface** - Advanced lens browser | 🔍 Filter by mount/type, 🖼️ Gallery view, 📱 Mobile-responsive |
-| **[📈 Classic MTF Viewer](canon_mtf_viewer.html)** | Original simple viewer | 📋 Basic lens listing, 🖼️ Image display |
+| **[📊 Enhanced MTF Viewer](canon_enhanced_mtf_viewer.html)** | Advanced lens browser with filtering | Technical analysis |
+| **[📈 Classic MTF Viewer](canon_mtf_viewer.html)** | Simple lens listing | Quick browsing |
 
-### 🎯 **Recommended**: Use the **Enhanced MTF Viewer** for the best browsing experience!
-
----
-
-## 📂 Browse Lens Data by Mount
-
-### 🔵 **RF Lenses** (Full-Frame Mirrorless) - [Browse Directory](canon_mtf_data/rf_lenses/)
-**Coverage**: 47/49 lenses (95.9% complete) | **Examples**:
-- [RF24-70mm F2.8L IS USM](canon_mtf_data/rf_lenses/RF24_70mm_F2.8L_IS_USM/)
-- [RF50mm F1.2L USM](canon_mtf_data/rf_lenses/RF50mm_F1.2L_USM/)
-- [RF100-500mm F4.5-7.1L IS USM](canon_mtf_data/rf_lenses/RF100_500mm_F4.5_7.1L_IS_USM/)
-
-### 🔴 **EF Lenses** (DSLR) - [Browse Directory](canon_mtf_data/ef_lenses/)
-**Coverage**: 17 lenses (active lenses) | **Examples**:
-- [EF24-70mm F2.8L II USM](canon_mtf_data/ef_lenses/EF24_70mm_F2.8L_II_USM/)
-- [EF70-200mm F2.8L IS III USM](canon_mtf_data/ef_lenses/EF70_200mm_F2.8L_IS_III_USM/)
-- [EF100mm F2.8L Macro IS USM](canon_mtf_data/ef_lenses/EF100mm_F2.8Lマクロ_IS_USM/)
-
-### 🟡 **Other/Specialty** - [Browse Directory](canon_mtf_data/other_lenses/)
-**Coverage**: Adapters, extenders, specialty lenses | **Examples**:
-- Mount adapters (EF-RF)
-- Teleconverters and extenders
-- Tilt-shift lenses
+### 📱 **Browsable Site** (NEW!)
+| Page | Description | Features |
+|------|-------------|----------|
+| **[📊 Interactive Site](index.md)** | **Complete browsable experience** | 📱 Mobile-friendly, 🔍 Smart search, 📊 93 pages |
+| **[📱 Mobile Gallery](pages/mobile_gallery.md)** | Touch-optimized browsing | 👆 Swipe navigation, 📱 Responsive design |
+| **[🔍 Lens Finder](pages/lens_finder.md)** | Smart search & recommendations | 🎯 Use case suggestions, 💰 Budget filtering |
 
 ---
 
-## 🔧 Tools & Scripts
+## 📂 Browse by Mount (NEW Interactive Pages)
+
+### 🔵 **RF Lenses** - [Browse Interactive Page](pages/rf_lenses.md)
+**Coverage**: 47/49 lenses (95.9% complete) | **Featured**:
+- [RF24-70mm F2.8L IS USM](pages/lens_detail/RF24_70mm_F2.8L_IS_USM.md) - Professional standard
+- [RF85mm F1.2L USM](pages/lens_detail/RF85mm_F1.2L_USM.md) - Ultimate portrait
+- [RF100-500mm F4.5-7.1L IS USM](pages/lens_detail/RF100_500mm_F4.5_7.1L_IS_USM.md) - Super telephoto
+
+### 🔴 **EF Lenses** - [Browse Interactive Page](pages/ef_lenses.md)
+**Coverage**: 17 lenses (active collection) | **Featured**:
+- [EF24-70mm F2.8L II USM](pages/lens_detail/EF24_70mm_F2.8L_II_USM.md) - Professional standard
+- [EF70-200mm F2.8L IS III USM](pages/lens_detail/EF70_200mm_F2.8L_IS_III_USM.md) - Telephoto legend
+- [EF100mm F2.8L Macro IS USM](pages/lens_detail/EF100mm_F2.8Lマクロ_IS_USM.md) - Macro specialist
+
+### 🟡 **Other/Specialty** - [Browse Interactive Page](pages/other_lenses.md)
+**Coverage**: Adapters, extenders, specialty lenses | **Featured**:
+- Mount adapters (EF-RF compatibility)
+- RF Extenders (1.4x, 2x)
+- Tilt-shift lenses (architectural)
+
+---
+
+## 🎨 **Browse by Category (NEW!)**
+
+### 📝 **By Lens Type**
+- **[Standard Zooms](pages/categories/standard_zooms.md)** - 24-70mm versatile lenses
+- **[Portrait Primes](pages/categories/portrait_primes.md)** - 85mm, 135mm specialists
+- **[Wide Angle](pages/categories/wide_angle.md)** - 14-35mm landscape lenses
+- **[Telephoto](pages/categories/telephoto.md)** - 70mm+ sports/wildlife lenses
+- **[Macro](pages/categories/macro.md)** - Close-up photography specialists
+
+### 🏅 **By Features**
+- **[L-Series](pages/categories/l_series.md)** - Professional quality lenses
+- **[Image Stabilized](pages/categories/image_stabilized.md)** - IS-equipped lenses
+- **[Fast Aperture](pages/categories/fast_aperture.md)** - f/2.8 or wider lenses
+
+---
+
+## 🖼️ **Visual Galleries (NEW!)**
+
+### 📊 **MTF Chart Gallery**
+- **[All MTF Charts](pages/galleries/mtf_charts.md)** - Visual optical performance comparison
+- **[Construction Diagrams](pages/galleries/construction_diagrams.md)** - Lens element layouts
+
+---
+
+## 🔧 **Developer Tools & Scripts**
 
 ### 📊 **Data Collection Tools**
 | Tool | Purpose | Usage |
@@ -44,6 +78,7 @@
 | **[canon_mtf_scraper.py](canon_mtf_scraper.py)** | Individual lens scraping | `python canon_mtf_scraper.py` |
 | **[comprehensive_lens_discovery.py](comprehensive_lens_discovery.py)** | Automated lens discovery | Smart web crawling |
 | **[collect_all_discovered_lenses.py](collect_all_discovered_lenses.py)** | Batch collection | Process all discovered lenses |
+| **[generate_site_pages.py](generate_site_pages.py)** | Site generation | Creates all browsable pages |
 
 ### 🖥️ **Viewer Generation**
 | Tool | Purpose | Output |
@@ -77,20 +112,26 @@
 
 ### 🔎 **I want to...**
 
+#### **Browse Lenses Interactively**
+→ **[📊 Visit the Complete Interactive Site](index.md)**
+
 #### **Browse Lenses Visually**
 → **[📊 Open Enhanced MTF Viewer](canon_enhanced_mtf_viewer.html)**
 
 #### **See All RF Lenses**
-→ **[🔵 RF Lenses Directory](canon_mtf_data/rf_lenses/)**
+→ **[🔵 RF Lenses Interactive Page](pages/rf_lenses.md)**
 
 #### **Find a Specific Lens**
-→ **[📊 Use Enhanced Viewer](canon_enhanced_mtf_viewer.html)** with search/filter
+→ **[🔍 Use Lens Finder](pages/lens_finder.md)** with smart recommendations
+
+#### **Browse on Mobile**
+→ **[📱 Mobile Gallery](pages/mobile_gallery.md)** with touch navigation
 
 #### **Understand Japanese Text**
 → **[🌐 Translation Reference](JAPANESE_TRANSLATION_REFERENCE.md)**
 
 #### **See Project Statistics**
-→ **[📋 Collection Summary](CANON_MTF_COLLECTION_SUMMARY.md)**
+→ **[📊 Collection Statistics](pages/statistics.md)**
 
 #### **Add New Lenses**
 → **[🔧 Use Collection Scripts](collect_all_discovered_lenses.py)**
@@ -165,39 +206,24 @@ Each lens includes:
 ## 📊 Current Collection Status
 
 ### 🎯 **Coverage Statistics**
+- **Total Lenses**: 79 lenses across all mounts
 - **RF Lenses**: 47/49 (95.9% complete)
-- **EF Lenses**: 17 active lenses
-- **Total Collection**: 79 lenses
-- **Success Rate**: 100% on unique lenses
-- **Growth**: 4x expansion from original 19 lenses
-
-### 🏆 **Achievements**
-- ✅ Nearly complete RF lens coverage
-- ✅ Comprehensive MTF and construction data
-- ✅ Bilingual support (Japanese/English)
-- ✅ Interactive browsing tools
-- ✅ Automated collection system
-- ✅ Professional documentation
+- **EF Lenses**: 17 lenses (active collection)
+- **MTF Charts**: 67 available (84.8% coverage)
+- **Interactive Pages**: 93 browsable pages
 
 ---
 
-## 🎉 Quick Start Guide
+## 🚀 **Ready to Explore?**
 
-### **New to this collection?**
-1. **Start here**: [📊 Enhanced MTF Viewer](canon_enhanced_mtf_viewer.html)
-2. **Browse RF lenses**: Use the "RF" filter
-3. **Search for specific lenses**: Use the search box
-4. **Switch to gallery mode**: Click the gallery icon
-5. **View lens details**: Click on any lens card
+### 🌟 **[📊 Start with the Interactive Site](index.md)**
+*The complete browsable experience with 93 pages of lens data*
 
-### **Want to contribute?**
-1. **Check for new lenses**: Run discovery scripts
-2. **Add missing data**: Use collection tools
-3. **Improve translations**: Update the reference guide
-4. **Enhance viewers**: Modify generator scripts
+### 🎯 **Quick Options**
+- **[📱 Mobile Gallery](pages/mobile_gallery.md)** - Touch-friendly browsing
+- **[🔍 Lens Finder](pages/lens_finder.md)** - Smart search and recommendations
+- **[📊 Collection Statistics](pages/statistics.md)** - Data analysis and insights
 
 ---
 
-*This Canon MTF collection represents the most comprehensive optical database for Canon lenses, providing both technical analysis data and visual construction diagrams for photographers, engineers, and optical enthusiasts.*
-
-**🔗 Bookmark this page for easy access to all collection resources!** 
+*This data browser is now part of a comprehensive interactive site. Visit [index.md](index.md) for the full experience!* 
