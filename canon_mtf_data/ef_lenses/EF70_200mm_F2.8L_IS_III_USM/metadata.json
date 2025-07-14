@@ -1,8 +1,8 @@
 {
   "lens_name": "EF70-200mm F2.8L IS III USM",
-  "url": "https://personal.canon.jp/product/camera/ef/ef70-200-f28l-iii/spec",
-  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-200-f28l-iii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=E5013DC0C087A2193299820CAC16C368",
-  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-200-f28l-iii/spec/image/spec-fig-02.png?h=270&la=ja-JP&w=400&hash=C05DF049B2B2E2D985D735A3AF31D47E",
+  "url": "https://personal.canon.jp/product/camera/ef/ef70-200-f28l-iii",
+  "mtf_image_url": null,
+  "construction_image_url": null,
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288",
@@ -10,35 +10,15 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-200-f28l-iii/spec/image/spec-fig.png?h=286&la=ja-JP&w=550&hash=0591C6DEB726284466AD9E6E0D815258",
-      "filename": "spec-fig.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-200-f28l-iii/spec/image/spec-fig.png?h=286&la=ja-JP&w=550&hash=0591C6DEB726284466AD9E6E0D815258"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-fluorite.png?la=ja-JP&hash=847F0B740C96434D70BF5991356AE38C",
+      "filename": "lens-fluorite.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-fluorite.png?la=ja-JP&hash=847F0B740C96434D70BF5991356AE38C"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-200-f28l-iii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=E5013DC0C087A2193299820CAC16C368",
-      "filename": "mtf-chart-note.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-200-f28l-iii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=E5013DC0C087A2193299820CAC16C368"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-200-f28l-iii/spec/image/spec-fig-02.png?h=270&la=ja-JP&w=400&hash=C05DF049B2B2E2D985D735A3AF31D47E",
-      "filename": "spec-fig-02.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-200-f28l-iii/spec/image/spec-fig-02.png?h=270&la=ja-JP&w=400&hash=C05DF049B2B2E2D985D735A3AF31D47E"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-200-f28l-iii/spec/image/index-product-ef70200mmf28lis3usm-02.jpg?h=270&la=ja-JP&w=400&hash=8E645F2BE5859970776AAEF7384E3B84",
-      "filename": "index-product-ef70200mmf28lis3usm-02.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-200-f28l-iii/spec/image/index-product-ef70200mmf28lis3usm-02.jpg?h=270&la=ja-JP&w=400&hash=8E645F2BE5859970776AAEF7384E3B84"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
+      "filename": "lens-ud.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
     }
   ],
-  "specifications": {
-    "画角（水平・垂直・対角線）": "29°～10°・19°30’～7°・34°～12°",
-    "レンズ構成": "19群23枚",
-    "絞り羽根枚数": "8枚（円形絞り）",
-    "最小絞り": "32",
-    "最短撮影距離": "1.2m",
-    "最大撮影倍率": "0.21倍",
-    "フィルター径": "77mm",
-    "最大径×長さ": "Φ88.8mm×199mm",
-    "質量": "約1,480g（三脚座を除く）"
-  }
+  "specifications": {}
 }

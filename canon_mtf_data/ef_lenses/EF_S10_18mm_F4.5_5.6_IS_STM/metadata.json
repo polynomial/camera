@@ -1,8 +1,8 @@
 {
   "lens_name": "EF-S10-18mm F4.5-5.6 IS STM",
-  "url": "https://personal.canon.jp/product/camera/ef/ef-s10-18-f45-56-is-stm/spec",
-  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s10-18-f45-56-is-stm/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=0D6907D3B3F72D4C3EA2C3AAA3E53B62",
-  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s10-18-f45-56-is-stm/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=A71FF5EB73196F0EDDFF36A705BBD1AF",
+  "url": "https://personal.canon.jp/product/camera/ef/ef-s10-18-f45-56-is-stm",
+  "mtf_image_url": null,
+  "construction_image_url": null,
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288",
@@ -10,36 +10,15 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s10-18-f45-56-is-stm/spec/image/mtf.png?h=286&la=ja-JP&w=550&hash=C5FAF1BA0364CEE37B060DAE2BC36594",
-      "filename": "mtf.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s10-18-f45-56-is-stm/spec/image/mtf.png?h=286&la=ja-JP&w=550&hash=C5FAF1BA0364CEE37B060DAE2BC36594"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E",
+      "filename": "lens-aspherical.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s10-18-f45-56-is-stm/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=0D6907D3B3F72D4C3EA2C3AAA3E53B62",
-      "filename": "mtf-chart-note.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s10-18-f45-56-is-stm/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=0D6907D3B3F72D4C3EA2C3AAA3E53B62"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s10-18-f45-56-is-stm/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=A71FF5EB73196F0EDDFF36A705BBD1AF",
-      "filename": "lens-construction.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s10-18-f45-56-is-stm/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=A71FF5EB73196F0EDDFF36A705BBD1AF"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s10-18-f45-56-is-stm/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=40411DAB8D8B01AE3CDCC62CD3BD5426",
-      "filename": "view.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s10-18-f45-56-is-stm/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=40411DAB8D8B01AE3CDCC62CD3BD5426"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
+      "filename": "lens-ud.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
     }
   ],
-  "specifications": {
-    "画角（水平・垂直・対角線）": "97°10'〜64°30'・74°10'〜45°30'・107°30'〜74°20'",
-    "レンズ構成": "11群14枚",
-    "絞り羽根枚数": "7枚",
-    "最小絞り": "22〜29",
-    "最短撮影距離": "0.22m",
-    "最大撮影倍率": "0.15倍",
-    "フィルター径": "67mm",
-    "最大径×長さ": "φ74.6mm×72mm",
-    "質量": "約240g",
-    "手ブレ補正効果": "4.0段分※（CIPAガイドライン準拠）"
-  }
+  "specifications": {}
 }

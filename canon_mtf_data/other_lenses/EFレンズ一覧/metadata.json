@@ -1,6 +1,6 @@
 {
-  "lens_name": "EF-S24mm F2.8 STM",
-  "url": "https://personal.canon.jp/product/camera/ef/ef-s24-f28-stm",
+  "lens_name": "EFレンズ一覧",
+  "url": "https://personal.canon.jp/product/camera/ef#drawer-site-menu-lv2--9e5670e3f9a74feeaef0043c772798af/spec",
   "mtf_image_url": null,
   "construction_image_url": null,
   "all_spec_images": [
@@ -8,11 +8,6 @@
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288",
       "filename": "pagetitle-logo-eflens.jpg",
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E",
-      "filename": "lens-aspherical.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E"
     }
   ],
   "specifications": {}
