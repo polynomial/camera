@@ -1,8 +1,8 @@
 {
   "lens_name": "RF70-200mm F2.8 L IS USM",
-  "url": "https://personal.canon.jp/product/camera/rf/rf70-200-f28l/spec",
-  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=DAF4B04C0133AB9A79660F1C0857F0B8",
-  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/spec/image/spec-lens-construction.png?h=300&la=ja-JP&w=400&hash=F626A1A82AD8676014CF8DDFB801B589",
+  "url": "https://personal.canon.jp/product/camera/rf/rf70-200-f28l",
+  "mtf_image_url": null,
+  "construction_image_url": null,
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
@@ -10,35 +10,35 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=DAF4B04C0133AB9A79660F1C0857F0B8",
-      "filename": "spec-mtf.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=DAF4B04C0133AB9A79660F1C0857F0B8"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/image/index-fig-01.jpg?h=222&la=ja-JP&w=360&hash=DA4F1C10AD46ACBB63851B1894BC0214",
+      "filename": "index-fig-01.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/image/index-fig-01.jpg?h=222&la=ja-JP&w=360&hash=DA4F1C10AD46ACBB63851B1894BC0214"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=4F6A65332066AABC97F0B8811EE972EC",
-      "filename": "media-fig.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=4F6A65332066AABC97F0B8811EE972EC"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/image/index-fig-02.jpg?h=222&la=ja-JP&w=360&hash=7B16A26B8570EE3581FBC59CC675094F",
+      "filename": "index-fig-02.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/image/index-fig-02.jpg?h=222&la=ja-JP&w=360&hash=7B16A26B8570EE3581FBC59CC675094F"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/spec/image/spec-lens-construction.png?h=300&la=ja-JP&w=400&hash=F626A1A82AD8676014CF8DDFB801B589",
-      "filename": "spec-lens-construction.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/spec/image/spec-lens-construction.png?h=300&la=ja-JP&w=400&hash=F626A1A82AD8676014CF8DDFB801B589"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E",
+      "filename": "lens-aspherical.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=6B82BDE27C5F92860BCCC76791B172BC",
-      "filename": "spec-view.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28l/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=6B82BDE27C5F92860BCCC76791B172BC"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud-super.png?la=ja-JP&hash=C85EAA932C1813019AD7E61872EC7ADA",
+      "filename": "lens-ud-super.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud-super.png?la=ja-JP&hash=C85EAA932C1813019AD7E61872EC7ADA"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
+      "filename": "lens-ud.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
+      "filename": "rf-lensworld-thumb.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
     }
   ],
-  "specifications": {
-    "画角（水平・垂直・対角線）": "29°～10°・19°30′～7°・34°～12°",
-    "レンズ構成": "13群17枚",
-    "絞り羽根枚数": "9枚（円形絞り）",
-    "最小絞り": "32",
-    "最短撮影距離": "0.7m",
-    "最大撮影倍率": "0.23倍（200mm時）",
-    "フィルター径": "77mm",
-    "最大径×長さ": "約φ89.9×146.0mm",
-    "質量": "約1,070g（三脚座含まず／三脚座質量 約130g）"
-  }
+  "specifications": {}
 }

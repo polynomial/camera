@@ -1,0 +1,24 @@
+{
+  "lens_name": "RFレンズ",
+  "url": "https://personal.canon.jp/product/camera/rf#drawer-site-menu-lv2--9e5670e3f9a74feeaef0043c772798af/spec",
+  "mtf_image_url": null,
+  "construction_image_url": null,
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
+      "filename": "rf-lensworld-thumb.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/articles/interview/rff4lis-series/yourEOS-product-lens-720x444-thumb.jpg?la=ja-JP&hash=0A6B251C899C1BDBB166281022AA78B1",
+      "filename": "yourEOS-product-lens-720x444-thumb.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/articles/interview/rff4lis-series/yourEOS-product-lens-720x444-thumb.jpg?la=ja-JP&hash=0A6B251C899C1BDBB166281022AA78B1"
+    }
+  ],
+  "specifications": {}
+}

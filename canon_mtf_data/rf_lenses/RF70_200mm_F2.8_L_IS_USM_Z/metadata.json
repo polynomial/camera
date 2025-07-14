@@ -1,0 +1,44 @@
+{
+  "lens_name": "RF70-200mm F2.8 L IS USM Z",
+  "url": "https://personal.canon.jp/product/camera/rf/rf70-200-f28lz/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28lz/spec/image/spec-mtf.jpg?h=1000&la=ja-JP&w=550&hash=0FF491C1D9D096F6D96DE907E13CEC2E",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28lz/spec/image/spec-lens-construction.jpg?h=295&la=ja-JP&w=416&hash=F59DECF7FD6A0EAA78E42B53185377D4",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28lz/spec/image/spec-mtf.jpg?h=1000&la=ja-JP&w=550&hash=0FF491C1D9D096F6D96DE907E13CEC2E",
+      "filename": "spec-mtf.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28lz/spec/image/spec-mtf.jpg?h=1000&la=ja-JP&w=550&hash=0FF491C1D9D096F6D96DE907E13CEC2E"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28lz/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=C4AC24967211166159D5D9E85D2E87DD",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28lz/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=C4AC24967211166159D5D9E85D2E87DD"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28lz/spec/image/spec-lens-construction.jpg?h=295&la=ja-JP&w=416&hash=F59DECF7FD6A0EAA78E42B53185377D4",
+      "filename": "spec-lens-construction.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28lz/spec/image/spec-lens-construction.jpg?h=295&la=ja-JP&w=416&hash=F59DECF7FD6A0EAA78E42B53185377D4"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28lz/spec/image/spec-view.jpg?h=525&la=ja-JP&w=470&hash=48FFEE547D2A8BE1F6627D25EC360166",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf70-200-f28lz/spec/image/spec-view.jpg?h=525&la=ja-JP&w=470&hash=48FFEE547D2A8BE1F6627D25EC360166"
+    }
+  ],
+  "specifications": {
+    "画角（水平・垂直・対角線）": "29°～10°・19°30'～7°・34°～12°",
+    "レンズ構成": "15群18枚",
+    "絞り羽根枚数": "11枚",
+    "最小絞り": "22",
+    "最短撮影距離": "0.49m（70mm時）、0.68m（200mm時）",
+    "最大撮影倍率": "0.2倍（70mm）、0.3倍（200mm時）",
+    "フィルター径": "Φ82mm",
+    "最大径×長さ": "約Φ88.5mm×199mm",
+    "質量": "ホワイト：約1,115g、ブラック：約1,110g（三脚座を含まず）"
+  }
+}

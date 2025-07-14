@@ -1,0 +1,44 @@
+{
+  "lens_name": "RF15-30mm F4.5-6.3 IS STM",
+  "url": "https://personal.canon.jp/product/camera/rf/rf15-30-f45-63/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-30-f45-63/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=458CB4A5BCA982E4FE01E8F23E0EBD29",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-30-f45-63/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=5A6B90C940DE3720C2437C24E57C8259",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-30-f45-63/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=458CB4A5BCA982E4FE01E8F23E0EBD29",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-30-f45-63/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=458CB4A5BCA982E4FE01E8F23E0EBD29"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-30-f45-63/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=2951D2D17CE2434A698E4E313EDA145C",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-30-f45-63/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=2951D2D17CE2434A698E4E313EDA145C"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-30-f45-63/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=5A6B90C940DE3720C2437C24E57C8259",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-30-f45-63/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=5A6B90C940DE3720C2437C24E57C8259"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-30-f45-63/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=9B0739D18FFAABA89FC9C97DAB22E098",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-30-f45-63/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=9B0739D18FFAABA89FC9C97DAB22E098"
+    }
+  ],
+  "specifications": {
+    "画角（水平・垂直・対角線）": "100°25′～61°55’・77°20′～43°35’・110°30′～71°35’",
+    "レンズ構成": "11群13枚",
+    "絞り羽根枚数": "7枚",
+    "最小絞り": "22（15mm時）、32（30mm時）",
+    "最短撮影距離": "AF時：0.28m（15mm時）、MF時：0.128m（15mm時）",
+    "最大撮影倍率": "AF時：0.09倍（15mm時）、AF時：0.16倍（30mm時）\r\n            MF時：0.52倍（15mm時）、MF時：0.16倍（30mm時）",
+    "フィルター径": "67mm",
+    "最大径×長さ": "約φ76.6mm×88.4mm",
+    "質量": "約390g"
+  }
+}

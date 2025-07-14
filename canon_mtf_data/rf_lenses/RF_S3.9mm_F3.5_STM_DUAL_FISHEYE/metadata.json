@@ -1,0 +1,19 @@
+{
+  "lens_name": "RF-S3.9mm F3.5 STM DUAL FISHEYE",
+  "url": "https://personal.canon.jp/product/camera/rf/rf-s39-f35-dfe",
+  "mtf_image_url": null,
+  "construction_image_url": null,
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
+      "filename": "lens-ud.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
+    }
+  ],
+  "specifications": {}
+}

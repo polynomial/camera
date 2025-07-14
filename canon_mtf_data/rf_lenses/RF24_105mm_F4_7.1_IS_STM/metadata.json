@@ -1,0 +1,44 @@
+{
+  "lens_name": "RF24-105mm F4-7.1 IS STM",
+  "url": "https://personal.canon.jp/product/camera/rf/rf24-105-f4-71/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4-71/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=36340D62B73806245E9732F9A5F6863C",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4-71/spec/image/spec-lens-construction.png?h=268&la=ja-JP&w=400&hash=8EB723125BC609C112078D8BCB251A11",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4-71/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=36340D62B73806245E9732F9A5F6863C",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4-71/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=36340D62B73806245E9732F9A5F6863C"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4-71/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=24B6BA3F58D8F3ACEAD93DC3AA3E9F39",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4-71/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=24B6BA3F58D8F3ACEAD93DC3AA3E9F39"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4-71/spec/image/spec-lens-construction.png?h=268&la=ja-JP&w=400&hash=8EB723125BC609C112078D8BCB251A11",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4-71/spec/image/spec-lens-construction.png?h=268&la=ja-JP&w=400&hash=8EB723125BC609C112078D8BCB251A11"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4-71/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=87D73D1270FA0BEE28749C6408E78C30",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4-71/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=87D73D1270FA0BEE28749C6408E78C30"
+    }
+  ],
+  "specifications": {
+    "画角（水平・垂直・対角線）": "74°～19°20′・53°～13°・84°～23°20′",
+    "レンズ構成": "11群13枚",
+    "絞り羽根枚数": "7枚（円形絞り）",
+    "最小絞り": "22（24mm時）、40（105mm時）",
+    "最短撮影距離": "AF時：0.2m（24mm時）、MF時：0.13m（24mm時）",
+    "最大撮影倍率": "AF時：0.4 倍（105mm）、MF時：0.5 倍（24mm）",
+    "フィルター径": "67mm",
+    "最大径×長さ": "約φ76.6×88.8 mm",
+    "質量": "約395g"
+  }
+}

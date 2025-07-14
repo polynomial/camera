@@ -1,0 +1,44 @@
+{
+  "lens_name": "RF24-240mm F4-6.3 IS USM 仕様",
+  "url": "https://personal.canon.jp/product/camera/rf/rf24-240-f4-63/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-240-f4-63/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=E51777F6BEDE90DD83AC69965D95B012",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-240-f4-63/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=389D698E9746A7AE73A1A43253B9CFB9",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-240-f4-63/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=E51777F6BEDE90DD83AC69965D95B012",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-240-f4-63/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=E51777F6BEDE90DD83AC69965D95B012"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-240-f4-63/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=6D3E397AC8707918AD71B5FDDE938D29",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-240-f4-63/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=6D3E397AC8707918AD71B5FDDE938D29"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-240-f4-63/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=389D698E9746A7AE73A1A43253B9CFB9",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-240-f4-63/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=389D698E9746A7AE73A1A43253B9CFB9"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-240-f4-63/spec/image/spec-view.jpg?h=280&la=ja-JP&w=470&hash=5C535018113B939D5FF443A728021EA3",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-240-f4-63/spec/image/spec-view.jpg?h=280&la=ja-JP&w=470&hash=5C535018113B939D5FF443A728021EA3"
+    }
+  ],
+  "specifications": {
+    "画角（水平・垂直・対角線）": "74°～8°35′・53°～5°45′・84°～10°20′",
+    "レンズ構成": "15群21枚",
+    "絞り羽根枚数": "7枚（円形絞り）",
+    "最小絞り": "22（24mm時）、36（240mm時）",
+    "最短撮影距離": "0.5m（24mm時）",
+    "最大撮影倍率": "0.26倍（240mm時）",
+    "フィルター径": "72mm",
+    "最大径×長さ": "約φ80.4×122.5mm",
+    "質量": "約750g"
+  }
+}

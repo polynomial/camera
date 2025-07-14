@@ -1,0 +1,39 @@
+{
+  "lens_name": "RF100-400mm F5.6-8 IS USM",
+  "url": "https://personal.canon.jp/product/camera/rf/rf100-400-f56-8",
+  "mtf_image_url": null,
+  "construction_image_url": null,
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-400-f56-8/image/configuration-diagram.jpg?h=426&la=ja-JP&w=850&hash=0F07A1AA34367D7FE17E1C1D00AD21BC",
+      "filename": "configuration-diagram.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-400-f56-8/image/configuration-diagram.jpg?h=426&la=ja-JP&w=850&hash=0F07A1AA34367D7FE17E1C1D00AD21BC"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-400-f56-8/image/zoom-lens.jpg?h=575&la=ja-JP&w=800&hash=B464FB313EE1939A7E071C6521FD0B9D",
+      "filename": "zoom-lens.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-400-f56-8/image/zoom-lens.jpg?h=575&la=ja-JP&w=800&hash=B464FB313EE1939A7E071C6521FD0B9D"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E",
+      "filename": "lens-aspherical.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
+      "filename": "lens-ud.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
+      "filename": "rf-lensworld-thumb.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
+    }
+  ],
+  "specifications": {}
+}

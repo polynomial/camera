@@ -1,0 +1,49 @@
+{
+  "lens_name": "RF35mm F1.4 L VCM",
+  "url": "https://personal.canon.jp/product/camera/rf/rf35-f14lv/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf35-f14lv/spec/image/mtf.jpg?h=280&la=ja-JP&w=400&hash=D1E4CB43ED2E298663AA08815040D59D",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf35-f14lv/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=36CA045C5F495B5CA13022DABD5C71F6",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf35-f14lv/spec/image/mtf.jpg?h=280&la=ja-JP&w=400&hash=D1E4CB43ED2E298663AA08815040D59D",
+      "filename": "mtf.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf35-f14lv/spec/image/mtf.jpg?h=280&la=ja-JP&w=400&hash=D1E4CB43ED2E298663AA08815040D59D"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf35-f14lv/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=47894F80266D9C19F9CB7036DF91C541",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf35-f14lv/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=47894F80266D9C19F9CB7036DF91C541"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf35-f14lv/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=36CA045C5F495B5CA13022DABD5C71F6",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf35-f14lv/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=36CA045C5F495B5CA13022DABD5C71F6"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf35-f14lv/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=97AF3202BF8DCB8DA2A1A90452AC59AB",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf35-f14lv/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=97AF3202BF8DCB8DA2A1A90452AC59AB"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf35-f14lv/spec/image/spec-package.jpg?h=222&la=ja-JP&w=360&hash=CF49B248D2B2290FCB1C4C41E851E93D",
+      "filename": "spec-package.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf35-f14lv/spec/image/spec-package.jpg?h=222&la=ja-JP&w=360&hash=CF49B248D2B2290FCB1C4C41E851E93D"
+    }
+  ],
+  "specifications": {
+    "画角（水平・垂直・対角線）": "54°00'・38°00'・63°00'",
+    "レンズ構成": "11群14枚",
+    "絞り羽根枚数": "11枚",
+    "最小絞り": "16",
+    "最短撮影距離": "0.28m",
+    "最大撮影倍率": "0.18倍",
+    "フィルター径": "Φ67mm（前部）、シートタイプのフィルターを装着可能（後部）",
+    "最大径×長さ": "約76.5×99.3mm",
+    "質量": "約555g"
+  }
+}

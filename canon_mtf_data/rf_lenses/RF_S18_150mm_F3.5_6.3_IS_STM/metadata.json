@@ -1,0 +1,44 @@
+{
+  "lens_name": "RF-S18-150mm F3.5-6.3 IS STM",
+  "url": "https://personal.canon.jp/product/camera/rf/rf-s18-150-f35-63",
+  "mtf_image_url": null,
+  "construction_image_url": null,
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-s18-150-f35-63/image/index-fig-01.jpg?h=410&la=ja-JP&w=1120&hash=0BECBC5A19F136E69413EA478AF048FA",
+      "filename": "index-fig-01.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-s18-150-f35-63/image/index-fig-01.jpg?h=410&la=ja-JP&w=1120&hash=0BECBC5A19F136E69413EA478AF048FA"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-s18-150-f35-63/image/index-fig-02.jpg?h=460&la=ja-JP&w=540&hash=CC5FF230614B37E2DAE1B301D058223B",
+      "filename": "index-fig-02.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-s18-150-f35-63/image/index-fig-02.jpg?h=460&la=ja-JP&w=540&hash=CC5FF230614B37E2DAE1B301D058223B"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-s18-150-f35-63/image/index-fig-04.jpg?h=343&la=ja-JP&w=1120&hash=3E49663F7EF6EE4F93C0A4857A75D422",
+      "filename": "index-fig-04.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-s18-150-f35-63/image/index-fig-04.jpg?h=343&la=ja-JP&w=1120&hash=3E49663F7EF6EE4F93C0A4857A75D422"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-s18-150-f35-63/image/index-fig-03.jpg?h=370&la=ja-JP&w=1120&hash=A4A084BD160207B2EB27CA2DFAF5A823",
+      "filename": "index-fig-03.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-s18-150-f35-63/image/index-fig-03.jpg?h=370&la=ja-JP&w=1120&hash=A4A084BD160207B2EB27CA2DFAF5A823"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E",
+      "filename": "lens-aspherical.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
+      "filename": "rf-lensworld-thumb.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
+    }
+  ],
+  "specifications": {}
+}

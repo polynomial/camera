@@ -1,0 +1,50 @@
+{
+  "lens_name": "RF PRIME",
+  "url": "https://canon.jp/biz/product/camera/pro-imaging/cinema-eos/lineup/ces-lens/rfprime",
+  "mtf_image_url": null,
+  "construction_image_url": null,
+  "all_spec_images": [
+    {
+      "url": "https://canon.jp/-/media/Project/Canon/CanonJP/Website/business/solution/pro-img-sys/cinema-eos/lineup/ces-lens/rfprime/rf-prime-750x370-wide.jpg?la=ja-JP&hash=DF78CDEF44B9213537142AEF52515239",
+      "filename": "rf-prime-750x370-wide.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Website/business/solution/pro-img-sys/cinema-eos/lineup/ces-lens/rfprime/rf-prime-750x370-wide.jpg?la=ja-JP&hash=DF78CDEF44B9213537142AEF52515239"
+    },
+    {
+      "url": "https://canon.jp/-/media/Project/Canon/CanonJP/Website/business/solution/pro-img-sys/cinema-eos/lineup/ces-lens/rfprime/rf-prime-750x370.jpg?la=ja-JP&hash=C9BA9D0BCF473BF473A66863FF63AC5D",
+      "filename": "rf-prime-750x370.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Website/business/solution/pro-img-sys/cinema-eos/lineup/ces-lens/rfprime/rf-prime-750x370.jpg?la=ja-JP&hash=C9BA9D0BCF473BF473A66863FF63AC5D"
+    },
+    {
+      "url": "https://canon.jp/-/media/Project/Canon/CanonJP/Website/business/solution/pro-img-sys/cinema-eos/lineup/ces-lens/rfprime/rf-prime-01.jpg?h=222&la=ja-JP&w=360&hash=A287783183CD8FEA76FBD9F8AAB09075",
+      "filename": "rf-prime-01.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Website/business/solution/pro-img-sys/cinema-eos/lineup/ces-lens/rfprime/rf-prime-01.jpg?h=222&la=ja-JP&w=360&hash=A287783183CD8FEA76FBD9F8AAB09075"
+    },
+    {
+      "url": "https://canon.jp/-/media/Project/Canon/CanonJP/Website/business/solution/pro-img-sys/cinema-eos/lineup/ces-lens/rfprime/rf-prime-02.jpg?h=222&la=ja-JP&w=360&hash=7A64EFCD3DA540BDE4FFB442C1374F70",
+      "filename": "rf-prime-02.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Website/business/solution/pro-img-sys/cinema-eos/lineup/ces-lens/rfprime/rf-prime-02.jpg?h=222&la=ja-JP&w=360&hash=7A64EFCD3DA540BDE4FFB442C1374F70"
+    },
+    {
+      "url": "https://canon.jp/-/media/Project/Canon/CanonJP/Website/business/solution/pro-img-sys/cinema-eos/lineup/ces-lens/efprime/efprime-03.jpg?h=222&la=ja-JP&w=360&hash=DFD7888CD41A6362E4D41A8A18D28435",
+      "filename": "efprime-03.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Website/business/solution/pro-img-sys/cinema-eos/lineup/ces-lens/efprime/efprime-03.jpg?h=222&la=ja-JP&w=360&hash=DFD7888CD41A6362E4D41A8A18D28435"
+    },
+    {
+      "url": "https://canon.jp/-/media/Project/Canon/CanonJP/Website/business/solution/pro-img-sys/cinema-eos/lineup/ces-lens/rfprime/rf-prime.png?h=188&la=ja-JP&w=300&hash=B3DD47ED34CD2B19A1A246EC5F0B4788",
+      "filename": "rf-prime.png",
+      "src": "/-/media/Project/Canon/CanonJP/Website/business/solution/pro-img-sys/cinema-eos/lineup/ces-lens/rfprime/rf-prime.png?h=188&la=ja-JP&w=300&hash=B3DD47ED34CD2B19A1A246EC5F0B4788"
+    }
+  ],
+  "specifications": {
+    "": "14mm",
+    "Tナンバー\r\n            最大口径": "3.1",
+    "最至近\r\n            撮影距離": "0.2m/8”",
+    "前玉径\r\n            （mm）": "Φ114",
+    "イメージ\r\n            サークル\r\n            （mm）": "Φ43.3",
+    "外形寸法\r\n            横×縦×高さ\r\n            （mm）": "約118.4\r\n            ×118.4\r\n            ×118.0",
+    "質量\r\n            （kg）": "約1.3",
+    "画角\r\n            （度）": "Full\r\n            Frame※1",
+    "Super\r\n            35※2": "16.9\r\n            ×9.5",
+    "最近接時の\r\n            撮影範囲\r\n            （cm）": "Full\r\n            Frame※1"
+  }
+}

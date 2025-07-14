@@ -1,0 +1,34 @@
+{
+  "lens_name": "RF800mm F11 IS STM",
+  "url": "https://personal.canon.jp/product/camera/rf/rf800-f11",
+  "mtf_image_url": null,
+  "construction_image_url": null,
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf800-f11/image/index-fig-01.jpg?h=222&la=ja-JP&w=360&hash=8F86FE843AFD0D909209FD7B010400D2",
+      "filename": "index-fig-01.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf800-f11/image/index-fig-01.jpg?h=222&la=ja-JP&w=360&hash=8F86FE843AFD0D909209FD7B010400D2"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf800-f11/image/index-fig-02.jpg?h=222&la=ja-JP&w=360&hash=2F25025197E7F5D60A495B9CC353304D",
+      "filename": "index-fig-02.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf800-f11/image/index-fig-02.jpg?h=222&la=ja-JP&w=360&hash=2F25025197E7F5D60A495B9CC353304D"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-do.png?la=ja-JP&hash=04A5EB315DC630CA7C9F891A0D293E64",
+      "filename": "lens-do.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-do.png?la=ja-JP&hash=04A5EB315DC630CA7C9F891A0D293E64"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
+      "filename": "rf-lensworld-thumb.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
+    }
+  ],
+  "specifications": {}
+}

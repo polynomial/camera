@@ -1,0 +1,44 @@
+{
+  "lens_name": "RF20mm F1.4 L VCM",
+  "url": "https://personal.canon.jp/product/camera/rf/rf20-f14lv/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf20-f14lv/spec/image/mtf.jpg?h=280&la=ja-JP&w=400&hash=0C3535BBB0D366A7781780E319BCDA54",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf20-f14lv/spec/image/spec-lens-construction.jpg?h=295&la=ja-JP&w=400&hash=A112CDC5F40E418D38D659C305168602",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf20-f14lv/spec/image/mtf.jpg?h=280&la=ja-JP&w=400&hash=0C3535BBB0D366A7781780E319BCDA54",
+      "filename": "mtf.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf20-f14lv/spec/image/mtf.jpg?h=280&la=ja-JP&w=400&hash=0C3535BBB0D366A7781780E319BCDA54"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf20-f14lv/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=317C9D8361B690DC9229631E3A345310",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf20-f14lv/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=317C9D8361B690DC9229631E3A345310"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf20-f14lv/spec/image/spec-lens-construction.jpg?h=295&la=ja-JP&w=400&hash=A112CDC5F40E418D38D659C305168602",
+      "filename": "spec-lens-construction.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf20-f14lv/spec/image/spec-lens-construction.jpg?h=295&la=ja-JP&w=400&hash=A112CDC5F40E418D38D659C305168602"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf20-f14lv/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=CC51F7E5E5B7CC2648B9E61BD9A33947",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf20-f14lv/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=CC51F7E5E5B7CC2648B9E61BD9A33947"
+    }
+  ],
+  "specifications": {
+    "画角（水平・垂直・対角線）": "84°・62°・94°",
+    "レンズ構成": "11群15枚",
+    "絞り羽根枚数": "11枚",
+    "最小絞り": "16",
+    "最短撮影距離": "0.2m",
+    "最大撮影倍率": "0.19倍",
+    "フィルター径": "Φ67mm",
+    "最大径×長さ": "約Φ76.5×99.3mm",
+    "質量": "約519g"
+  }
+}

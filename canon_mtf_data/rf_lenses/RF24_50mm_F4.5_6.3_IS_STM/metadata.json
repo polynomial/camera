@@ -1,0 +1,44 @@
+{
+  "lens_name": "RF24-50mm F4.5-6.3 IS STM",
+  "url": "https://personal.canon.jp/product/camera/rf/rf24-50-f45-63/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-50-f45-63/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=A108185FCEF4A0FD03D0FC6F454780BF",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-50-f45-63/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=7B51B78DD5B44EAD30911CED1A8CBD54",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-50-f45-63/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=A108185FCEF4A0FD03D0FC6F454780BF",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-50-f45-63/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=A108185FCEF4A0FD03D0FC6F454780BF"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-50-f45-63/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=6E1540B18277D594E5546571B8876298",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-50-f45-63/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=6E1540B18277D594E5546571B8876298"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-50-f45-63/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=7B51B78DD5B44EAD30911CED1A8CBD54",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-50-f45-63/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=7B51B78DD5B44EAD30911CED1A8CBD54"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-50-f45-63/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=41EB59C7D4B35D9E3A97A84C71D73E0B",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-50-f45-63/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=41EB59C7D4B35D9E3A97A84C71D73E0B"
+    }
+  ],
+  "specifications": {
+    "画角（水平・垂直・対角線）": "74°00‘～40°00’・53°00‘～27°00’・84°00‘～46°00’",
+    "レンズ構成": "8群8枚",
+    "絞り羽根枚数": "7枚",
+    "最小絞り": "22（24mm時）、32（50mm時）",
+    "最短撮影距離": "0.3m（24mm時）、0.35m（50mm時）",
+    "最大撮影倍率": "0.11倍（24mm時）、0.19倍（50mm時）",
+    "フィルター径": "58mm",
+    "最大径×長さ": "約φ69.6mm×58mm",
+    "質量": "約210g"
+  }
+}

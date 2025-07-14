@@ -1,8 +1,8 @@
 {
   "lens_name": "RF100-500mm F4.5-7.1 L IS USM",
-  "url": "https://personal.canon.jp/product/camera/rf/rf100-500-f45-71l/spec",
-  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-mtf.png?h=286&la=ja-JP&w=550&hash=FB8988D9D63CE4FB86AB94B3E08E7DEE",
-  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-lens-construction.png?h=295&la=ja-JP&w=400&hash=8F3A36F9EFC5571F2E10DD459FF69973",
+  "url": "https://personal.canon.jp/product/camera/rf/rf100-500-f45-71l",
+  "mtf_image_url": null,
+  "construction_image_url": null,
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
@@ -10,35 +10,30 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-mtf.png?h=286&la=ja-JP&w=550&hash=FB8988D9D63CE4FB86AB94B3E08E7DEE",
-      "filename": "spec-mtf.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-mtf.png?h=286&la=ja-JP&w=550&hash=FB8988D9D63CE4FB86AB94B3E08E7DEE"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/image/index-fig-01.jpg?h=222&la=ja-JP&w=360&hash=3609FE24514B708DFEB83CC1EF8524EB",
+      "filename": "index-fig-01.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/image/index-fig-01.jpg?h=222&la=ja-JP&w=360&hash=3609FE24514B708DFEB83CC1EF8524EB"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=0C73A7D76FE65709E95E2DFD5000756A",
-      "filename": "media-fig.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=0C73A7D76FE65709E95E2DFD5000756A"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/image/index-fig-02.jpg?h=222&la=ja-JP&w=360&hash=F21E357013AC778E26827FB5F83FBEA0",
+      "filename": "index-fig-02.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/image/index-fig-02.jpg?h=222&la=ja-JP&w=360&hash=F21E357013AC778E26827FB5F83FBEA0"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-lens-construction.png?h=295&la=ja-JP&w=400&hash=8F3A36F9EFC5571F2E10DD459FF69973",
-      "filename": "spec-lens-construction.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-lens-construction.png?h=295&la=ja-JP&w=400&hash=8F3A36F9EFC5571F2E10DD459FF69973"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
+      "filename": "lens-ud.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-view.jpg?h=280&la=ja-JP&w=470&hash=89791D42559FC918621332B8F6EC71E3",
-      "filename": "spec-view.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-view.jpg?h=280&la=ja-JP&w=470&hash=89791D42559FC918621332B8F6EC71E3"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud-super.png?la=ja-JP&hash=C85EAA932C1813019AD7E61872EC7ADA",
+      "filename": "lens-ud-super.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud-super.png?la=ja-JP&hash=C85EAA932C1813019AD7E61872EC7ADA"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
+      "filename": "rf-lensworld-thumb.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
     }
   ],
-  "specifications": {
-    "画角（水平・垂直・対角線）": "20°～4°・14°～2°45′・24°～5°",
-    "レンズ構成": "14群20枚",
-    "絞り羽根枚数": "9枚（円形絞り）",
-    "最小絞り": "32（100mm時）、51（500mm時）",
-    "最短撮影距離": "0.9m（100mm時）",
-    "最大撮影倍率": "0.33倍（500mm時）",
-    "フィルター径": "77mm",
-    "最大径×長さ": "φ93.8×207.6mm",
-    "質量": "約1,370g（三脚座含まず／三脚座質量 約160g）"
-  }
+  "specifications": {}
 }
