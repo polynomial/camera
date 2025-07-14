@@ -19,13 +19,17 @@ KNOWN_RF_LENSES = [
     "https://personal.canon.jp/product/camera/rf/rf24-70-f28l/spec",
 ]
 
-# Known Canon EF lens URLs for testing
+# Known Canon EF lens URLs with corrected pattern
 KNOWN_EF_LENSES = [
-    "https://personal.canon.jp/product/camera/ef/ef16-35-f28l-3/spec",
-    "https://personal.canon.jp/product/camera/ef/ef24-70-f28l-2/spec",
-    "https://personal.canon.jp/product/camera/ef/ef70-200-f28l-3/spec",
-    "https://personal.canon.jp/product/camera/ef/ef100-f28l-macro/spec",
-    "https://personal.canon.jp/product/camera/ef/ef50-f18-stm/spec",
+    "https://personal.canon.jp/product/camera/ef/ef70-200-f28l-iii/spec",
+    "https://personal.canon.jp/product/camera/ef/ef24-70-f28l-ii/spec",
+    "https://personal.canon.jp/product/camera/ef/ef16-35-f28liii/spec",
+    "https://personal.canon.jp/product/camera/ef/ef16-35-f4l-is-usm/spec",
+    "https://personal.canon.jp/product/camera/ef/ef24-105-f4lii/spec",
+    "https://personal.canon.jp/product/camera/ef/ef70-300-f4-56ii/spec",
+    "https://personal.canon.jp/product/camera/ef/ef100-400-f45-56l-ii-usm/spec",
+    "https://personal.canon.jp/product/camera/ef/ef50-f18stm/spec",
+    "https://personal.canon.jp/product/camera/ef/ef100-f28l/spec",
 ]
 
 def test_known_lenses():

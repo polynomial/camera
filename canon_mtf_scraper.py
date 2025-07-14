@@ -120,15 +120,31 @@ class CanonMTFScraper:
             raw_title = h1_tag.get_text().strip()
             lens_name = self.extract_lens_name(raw_title)
         
-        # Find MTF chart image
+        # Find MTF chart image - handle both RF and EF patterns
         mtf_image_url = None
         
-        # Look for images with 'mtf' in the src
+        # First, look for standard MTF images (RF lenses use 'mtf' in filename)
         for img in soup.find_all('img'):
             src = img.get('src')
             if src and 'mtf' in src.lower():
                 mtf_image_url = urljoin(url, src)
                 break
+        
+        # If not found, look for EF-style MTF images (spec-fig.png)
+        if not mtf_image_url:
+            for img in soup.find_all('img'):
+                src = img.get('src')
+                if src and ('spec-fig.png' in src or '/image/spec-fig' in src):
+                    mtf_image_url = urljoin(url, src)
+                    break
+        
+        # If still not found, look for any image in spec/image/ directory
+        if not mtf_image_url:
+            for img in soup.find_all('img'):
+                src = img.get('src')
+                if src and '/spec/image/' in src and any(ext in src.lower() for ext in ['.png', '.jpg', '.jpeg']):
+                    mtf_image_url = urljoin(url, src)
+                    break
         
         # Extract specifications table
         specs = {}
