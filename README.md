@@ -2,6 +2,18 @@
 
 A collection of scripts and utilities for automating photography workflows with Canon R3 and Google Photos upload via Android.
 
+## 📊 Canon MTF Collection Database
+
+**NEW**: Comprehensive Canon lens optical database with MTF charts and construction diagrams for 79+ lenses!
+
+### 🚀 **Quick Access**:
+- **[📊 Browse All Data & Tools](DATA_BROWSER.md)** - Complete navigation hub
+- **[📊 Enhanced MTF Viewer](canon_enhanced_mtf_viewer.html)** - Interactive lens browser
+- **[📋 Project Summary](CANON_MTF_COLLECTION_SUMMARY.md)** - Complete overview
+- **[🌐 Japanese Translation Guide](JAPANESE_TRANSLATION_REFERENCE.md)** - Bilingual reference
+
+**Features**: 95.9% RF lens coverage, bilingual support, interactive viewers, automated collection system.
+
 ## Quick Start
 
 ```bash
