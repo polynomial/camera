@@ -1,8 +1,8 @@
 {
   "lens_name": "RF200-800mm F6.3-9 IS USM",
-  "url": "https://personal.canon.jp/product/camera/rf/rf200-800-f63-9/spec",
-  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=738E5F89081E37516FDC52F1F108011B",
-  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=5EC2D0F758F25C3FCB9CE8A552F38492",
+  "url": "https://personal.canon.jp/product/camera/rf/rf200-800-f63-9",
+  "mtf_image_url": null,
+  "construction_image_url": null,
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
@@ -10,35 +10,40 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=738E5F89081E37516FDC52F1F108011B",
-      "filename": "spec-mtf.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=738E5F89081E37516FDC52F1F108011B"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/image/index-fig-01.jpg?h=400&la=ja-JP&w=1120&hash=05744629664A4CEE5C40EFDE525434A7",
+      "filename": "index-fig-01.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/image/index-fig-01.jpg?h=400&la=ja-JP&w=1120&hash=05744629664A4CEE5C40EFDE525434A7"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=5ACEC39DA653FF9BF43B8A935D5037C1",
-      "filename": "media-fig.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=5ACEC39DA653FF9BF43B8A935D5037C1"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/image/index-fig-02.jpg?h=222&la=ja-JP&w=360&hash=061C8F39078E333E8EB10D1653B5DFEE",
+      "filename": "index-fig-02.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/image/index-fig-02.jpg?h=222&la=ja-JP&w=360&hash=061C8F39078E333E8EB10D1653B5DFEE"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=5EC2D0F758F25C3FCB9CE8A552F38492",
-      "filename": "spec-lens-construction.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=5EC2D0F758F25C3FCB9CE8A552F38492"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/image/index-fig-03.jpg?h=258&la=ja-JP&w=1120&hash=5B49A5563E34E5BA013AA5CDB8911051",
+      "filename": "index-fig-03.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/image/index-fig-03.jpg?h=258&la=ja-JP&w=1120&hash=5B49A5563E34E5BA013AA5CDB8911051"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=16AEA8A729B47BAFCC29B8048E1A9189",
-      "filename": "spec-view.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=16AEA8A729B47BAFCC29B8048E1A9189"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/image/index-fig-04.jpg?h=222&la=ja-JP&w=360&hash=757FCDB4CAB427051884B021E33BC57A",
+      "filename": "index-fig-04.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/image/index-fig-04.jpg?h=222&la=ja-JP&w=360&hash=757FCDB4CAB427051884B021E33BC57A"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/image/index-fig-05.jpg?h=506&la=ja-JP&w=1120&hash=66E48EB76877C93D1212D14E5A5E25C9",
+      "filename": "index-fig-05.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf200-800-f63-9/image/index-fig-05.jpg?h=506&la=ja-JP&w=1120&hash=66E48EB76877C93D1212D14E5A5E25C9"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
+      "filename": "lens-ud.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
+      "filename": "rf-lensworld-thumb.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
     }
   ],
-  "specifications": {
-    "画角（水平・垂直・対角線）": "10° ～ 2°35′・7° ～ 1°40′・12° ～ 3°05′",
-    "レンズ構成": "11群17枚",
-    "絞り羽根枚数": "9枚",
-    "最小絞り": "32（200mm時）、51（800mm時）",
-    "最短撮影距離": "0.8m（200mm時）、3.3m（800mm時）",
-    "最大撮影倍率": "0.25倍（200mm時）、0.2倍（800mm時）",
-    "フィルター径": "95mm",
-    "最大径×長さ": "約φ102.3mm×314.1mm",
-    "質量": "約2,050g"
-  }
+  "specifications": {}
 }

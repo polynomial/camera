@@ -1,8 +1,8 @@
 {
   "lens_name": "RF5.2mm F2.8 L DUAL FISHEYE",
-  "url": "https://personal.canon.jp/product/camera/rf/rf52-f28l-dfe",
-  "mtf_image_url": null,
-  "construction_image_url": null,
+  "url": "https://personal.canon.jp/product/camera/rf/rf52-f28l-dfe/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/spec/spec-mtf.jpg?h=361&la=ja-JP&w=540&hash=11A97ABF6F3EA0E88FA9E0A4A0B4E09C",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/spec/spec-lens-construction.jpg?h=430&la=ja-JP&w=440&hash=3C453B6091054471305D418D30ECDA0E",
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
@@ -10,35 +10,36 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/image/index-fig-02.jpg?h=216&la=ja-JP&w=1120&hash=6E040539ACD84B5BAED91C6AC6FF5E2C",
-      "filename": "index-fig-02.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/image/index-fig-02.jpg?h=216&la=ja-JP&w=1120&hash=6E040539ACD84B5BAED91C6AC6FF5E2C"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/spec/spec-mtf.jpg?h=361&la=ja-JP&w=540&hash=11A97ABF6F3EA0E88FA9E0A4A0B4E09C",
+      "filename": "spec-mtf.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/spec/spec-mtf.jpg?h=361&la=ja-JP&w=540&hash=11A97ABF6F3EA0E88FA9E0A4A0B4E09C"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/image/index-fig-03.jpg?h=222&la=ja-JP&w=360&hash=A7F873021A0E00B0DD3BC97401B7C557",
-      "filename": "index-fig-03.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/image/index-fig-03.jpg?h=222&la=ja-JP&w=360&hash=A7F873021A0E00B0DD3BC97401B7C557"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=36DE3E07AD53B7310022B01EA11BAE4B",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=36DE3E07AD53B7310022B01EA11BAE4B"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/image/index-fig-04.jpg?h=406&la=ja-JP&w=1120&hash=2470349F68DAE989829D523206ED2CAB",
-      "filename": "index-fig-04.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/image/index-fig-04.jpg?h=406&la=ja-JP&w=1120&hash=2470349F68DAE989829D523206ED2CAB"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/spec/spec-lens-construction.jpg?h=430&la=ja-JP&w=440&hash=3C453B6091054471305D418D30ECDA0E",
+      "filename": "spec-lens-construction.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/spec/spec-lens-construction.jpg?h=430&la=ja-JP&w=440&hash=3C453B6091054471305D418D30ECDA0E"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/image/index-fig-05.jpg?h=293&la=ja-JP&w=440&hash=8DF88EAA4F78CCE14C904E5696E85896",
-      "filename": "index-fig-05.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/image/index-fig-05.jpg?h=293&la=ja-JP&w=440&hash=8DF88EAA4F78CCE14C904E5696E85896"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/image/index-fig-06.jpg?h=293&la=ja-JP&w=440&hash=4BBEE2B53B021E8894F49256784EA1A7",
-      "filename": "index-fig-06.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/image/index-fig-06.jpg?h=293&la=ja-JP&w=440&hash=4BBEE2B53B021E8894F49256784EA1A7"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
-      "filename": "lens-ud.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/spec/spec-view.jpg?h=382&la=ja-JP&w=440&hash=63CB1E87DD53D376C81231AFF719DF7D",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf52-f28l-dfe/spec/spec-view.jpg?h=382&la=ja-JP&w=440&hash=63CB1E87DD53D376C81231AFF719DF7D"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "画角（水平・垂直・対角線）": "190°00′・190°00′・190°00′",
+    "レンズ構成": "10群12枚",
+    "絞り羽根枚数": "7枚",
+    "最小絞り": "16",
+    "最短撮影距離": "0.2m",
+    "最大撮影倍率": "0.03倍",
+    "フィルター径": "後部にゼラチンフィルターを装着可能",
+    "最大径×長さ": "約121.1（幅）×53.5mm",
+    "質量": "約350g",
+    "対象機種": "EOS R5 C／EOS R5／EOS R6 Mark II／EOS R5 Mark II※"
+  }
 }

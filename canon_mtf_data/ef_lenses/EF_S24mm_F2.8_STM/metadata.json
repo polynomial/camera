@@ -1,8 +1,8 @@
 {
   "lens_name": "EF-S24mm F2.8 STM",
-  "url": "https://personal.canon.jp/product/camera/ef/ef-s24-f28-stm",
-  "mtf_image_url": null,
-  "construction_image_url": null,
+  "url": "https://personal.canon.jp/product/camera/ef/ef-s24-f28-stm/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s24-f28-stm/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=4EF98D0A3A570AACA17A82FA8B347B18",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s24-f28-stm/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=3FFABE6BBB9B62873FFF3FE8E33D6223",
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288",
@@ -10,10 +10,35 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E",
-      "filename": "lens-aspherical.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s24-f28-stm/spec/image/mtf.png?h=282&la=ja-JP&w=400&hash=2EC86C5825ED05AADCFE35E778299C7C",
+      "filename": "mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s24-f28-stm/spec/image/mtf.png?h=282&la=ja-JP&w=400&hash=2EC86C5825ED05AADCFE35E778299C7C"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s24-f28-stm/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=4EF98D0A3A570AACA17A82FA8B347B18",
+      "filename": "mtf-chart-note.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s24-f28-stm/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=4EF98D0A3A570AACA17A82FA8B347B18"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s24-f28-stm/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=3FFABE6BBB9B62873FFF3FE8E33D6223",
+      "filename": "lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s24-f28-stm/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=3FFABE6BBB9B62873FFF3FE8E33D6223"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s24-f28-stm/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=EDF588D685D7BB914E9EF7567EA8B529",
+      "filename": "view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef-s24-f28-stm/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=EDF588D685D7BB914E9EF7567EA8B529"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "画角（水平・垂直・対角線）": "50°35’・34°55’・59°10’",
+    "レンズ構成": "5群6枚",
+    "絞り羽根枚数": "7枚",
+    "最小絞り": "22",
+    "最短撮影距離": "0.16m",
+    "最大撮影倍率": "0.27倍",
+    "フィルター径": "52mm",
+    "最大径×長さ": "φ68.2×22.8mm",
+    "質量": "約125g"
+  }
 }

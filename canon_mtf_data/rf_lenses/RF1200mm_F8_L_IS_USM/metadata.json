@@ -1,8 +1,8 @@
 {
   "lens_name": "RF1200mm F8 L IS USM",
-  "url": "https://personal.canon.jp/product/camera/rf/rf1200-f8l",
-  "mtf_image_url": null,
-  "construction_image_url": null,
+  "url": "https://personal.canon.jp/product/camera/rf/rf1200-f8l/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf1200-f8l/spec/image/spec-mtf.png?h=290&la=ja-JP&w=400&hash=A0E65F7B1C94E3E4D7E14393A6C94B47",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf1200-f8l/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=B922523744F161EBD7C843BE57EC3D5D",
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
@@ -10,20 +10,35 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-fluorite.png?la=ja-JP&hash=847F0B740C96434D70BF5991356AE38C",
-      "filename": "lens-fluorite.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-fluorite.png?la=ja-JP&hash=847F0B740C96434D70BF5991356AE38C"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf1200-f8l/spec/image/spec-mtf.png?h=290&la=ja-JP&w=400&hash=A0E65F7B1C94E3E4D7E14393A6C94B47",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf1200-f8l/spec/image/spec-mtf.png?h=290&la=ja-JP&w=400&hash=A0E65F7B1C94E3E4D7E14393A6C94B47"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud-super.png?la=ja-JP&hash=C85EAA932C1813019AD7E61872EC7ADA",
-      "filename": "lens-ud-super.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud-super.png?la=ja-JP&hash=C85EAA932C1813019AD7E61872EC7ADA"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf1200-f8l/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=A5BD75973267EDA63457603EF51223B3",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf1200-f8l/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=A5BD75973267EDA63457603EF51223B3"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
-      "filename": "rf-lensworld-thumb.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf1200-f8l/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=B922523744F161EBD7C843BE57EC3D5D",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf1200-f8l/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=B922523744F161EBD7C843BE57EC3D5D"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf1200-f8l/spec/image/spec-view.jpg?h=280&la=ja-JP&w=470&hash=46C8EA8C995A996BAEAFDF9FA418D1EE",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf1200-f8l/spec/image/spec-view.jpg?h=280&la=ja-JP&w=470&hash=46C8EA8C995A996BAEAFDF9FA418D1EE"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "画角（水平・垂直・対角線）": "01°45′・01°10′・02°05′",
+    "レンズ構成": "18群26枚",
+    "絞り羽根枚数": "9枚",
+    "最小絞り": "64",
+    "最短撮影距離": "4.3m",
+    "最大撮影倍率": "0.29倍",
+    "フィルター径": "差し込み52mm",
+    "最大径×長さ": "約φ168mm×537mm",
+    "質量": "約3340g"
+  }
 }

@@ -1,0 +1,13 @@
+{
+  "total_attempted": 138,
+  "successful_collections": 58,
+  "mtf_charts_collected": 58,
+  "construction_diagrams_collected": 58,
+  "failed_collections": 80,
+  "by_mount": {
+    "RF": 45,
+    "EF": 11,
+    "EF-S": 2,
+    "Unknown": 0
+  }
+}

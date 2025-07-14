@@ -1,8 +1,8 @@
 {
   "lens_name": "EF24-105mm F4L IS II USM",
-  "url": "https://personal.canon.jp/product/camera/ef/ef24-105-f4lii/spec",
-  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-105-f4lii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=0958E4B9F77F340180BE1BC827BC9A9A",
-  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-105-f4lii/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=716023FAC22189D8861450D7DEC08756",
+  "url": "https://personal.canon.jp/product/camera/ef/ef24-105-f4lii",
+  "mtf_image_url": null,
+  "construction_image_url": null,
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288",
@@ -10,36 +10,10 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-105-f4lii/spec/image/mtf.png?h=286&la=ja-JP&w=560&hash=A0855CCA551FACB70857F011529227DD",
-      "filename": "mtf.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-105-f4lii/spec/image/mtf.png?h=286&la=ja-JP&w=560&hash=A0855CCA551FACB70857F011529227DD"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-105-f4lii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=0958E4B9F77F340180BE1BC827BC9A9A",
-      "filename": "mtf-chart-note.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-105-f4lii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=0958E4B9F77F340180BE1BC827BC9A9A"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-105-f4lii/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=716023FAC22189D8861450D7DEC08756",
-      "filename": "lens-construction.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-105-f4lii/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=716023FAC22189D8861450D7DEC08756"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-105-f4lii/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=0172D109F4B32D756D657A1863273322",
-      "filename": "view.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-105-f4lii/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=0172D109F4B32D756D657A1863273322"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E",
+      "filename": "lens-aspherical.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E"
     }
   ],
-  "specifications": {
-    "画角（水平・垂直・対角線）": "74°〜19°20'・53°〜13°・84°〜23°20'",
-    "レンズ構成": "12群17枚",
-    "絞り羽根枚数": "10枚",
-    "最小絞り": "22",
-    "最短撮影距離": "0.45m",
-    "最大撮影倍率": "0.24倍（105mm時）",
-    "フィルター径": "77mm",
-    "最大径×長さ": "φ83.5mm×118mm",
-    "質量": "約795g",
-    "手ブレ補正効果": "4.0段分※（CIPAガイドライン準拠）"
-  }
+  "specifications": {}
 }

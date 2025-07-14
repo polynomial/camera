@@ -339,6 +339,9 @@ class ComprehensiveLensDiscovery:
         elif '/ef-s/' in url:
             return 'EF-S'
         elif '/ef/' in url:
+            # Check if this is actually an EF-S lens based on URL pattern
+            if 'ef-s' in url.lower():
+                return 'EF-S'
             return 'EF'
         return 'Unknown'
     

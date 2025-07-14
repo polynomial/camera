@@ -1,8 +1,8 @@
 {
   "lens_name": "RF15-35mm F2.8 L IS USM",
-  "url": "https://personal.canon.jp/product/camera/rf/rf15-35-f28l/spec",
-  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=08623BE587C3863509E1D8A25878AEE8",
-  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=7087C5CA52583582459A43890EDCF78C",
+  "url": "https://personal.canon.jp/product/camera/rf/rf15-35-f28l",
+  "mtf_image_url": null,
+  "construction_image_url": null,
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
@@ -10,35 +10,35 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=08623BE587C3863509E1D8A25878AEE8",
-      "filename": "spec-mtf.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=08623BE587C3863509E1D8A25878AEE8"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/image/index-fig-01.jpg?h=222&la=ja-JP&w=360&hash=6D08B548BFB08D8B66F9482679E68A49",
+      "filename": "index-fig-01.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/image/index-fig-01.jpg?h=222&la=ja-JP&w=360&hash=6D08B548BFB08D8B66F9482679E68A49"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=B7F5CA7A63844EFDEB04E2941618A272",
-      "filename": "media-fig.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=B7F5CA7A63844EFDEB04E2941618A272"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/image/index-fig-02.jpg?h=222&la=ja-JP&w=360&hash=2B1C9F2F74FE8C0E6B565932F97B26D3",
+      "filename": "index-fig-02.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/image/index-fig-02.jpg?h=222&la=ja-JP&w=360&hash=2B1C9F2F74FE8C0E6B565932F97B26D3"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=7087C5CA52583582459A43890EDCF78C",
-      "filename": "spec-lens-construction.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=7087C5CA52583582459A43890EDCF78C"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/image/index-fig-03.jpg?h=222&la=ja-JP&w=360&hash=0300F2B7BCC8B6E316D1AD98E7E7C6B1",
+      "filename": "index-fig-03.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/image/index-fig-03.jpg?h=222&la=ja-JP&w=360&hash=0300F2B7BCC8B6E316D1AD98E7E7C6B1"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/spec/image/spec-view.jpg?h=280&la=ja-JP&w=470&hash=8CADBA219083B720F1927727AB4607C9",
-      "filename": "spec-view.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf15-35-f28l/spec/image/spec-view.jpg?h=280&la=ja-JP&w=470&hash=8CADBA219083B720F1927727AB4607C9"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E",
+      "filename": "lens-aspherical.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
+      "filename": "lens-ud.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
+      "filename": "rf-lensworld-thumb.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
     }
   ],
-  "specifications": {
-    "画角（水平・垂直・対角線）": "100°25′～54°・77°20′～38°・110°30′～63°",
-    "レンズ構成": "12群16枚",
-    "絞り羽根枚数": "9枚（円形絞り）",
-    "最小絞り": "22",
-    "最短撮影距離": "0.28m",
-    "最大撮影倍率": "0.21倍（35mm時）",
-    "フィルター径": "82mm",
-    "最大径×長さ": "約φ88.5mm×126.8mm",
-    "質量": "約840g"
-  }
+  "specifications": {}
 }

@@ -1,8 +1,8 @@
 {
   "lens_name": "EF100mm F2.8Lマクロ IS USM",
-  "url": "https://personal.canon.jp/product/camera/ef/ef100-f28l",
-  "mtf_image_url": null,
-  "construction_image_url": null,
+  "url": "https://personal.canon.jp/product/camera/ef/ef100-f28l/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef100-f28l/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=95D39A6E88EFD7D8F7238137E84CFC55",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef100-f28l/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=3E9538B89461CABF52B188899561089D",
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288",
@@ -10,10 +10,36 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
-      "filename": "lens-ud.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef100-f28l/spec/image/mtf.png?h=282&la=ja-JP&w=400&hash=AA4C2CDD611F56418DD1E206D0C3C6B9",
+      "filename": "mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef100-f28l/spec/image/mtf.png?h=282&la=ja-JP&w=400&hash=AA4C2CDD611F56418DD1E206D0C3C6B9"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef100-f28l/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=95D39A6E88EFD7D8F7238137E84CFC55",
+      "filename": "mtf-chart-note.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef100-f28l/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=95D39A6E88EFD7D8F7238137E84CFC55"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef100-f28l/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=3E9538B89461CABF52B188899561089D",
+      "filename": "lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef100-f28l/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=3E9538B89461CABF52B188899561089D"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef100-f28l/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=41C5061532940CE5C7769A7EA5286ECF",
+      "filename": "view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef100-f28l/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=41C5061532940CE5C7769A7EA5286ECF"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "画角（水平・垂直・対角線）": "20°・14°・24°",
+    "レンズ構成": "12群15枚",
+    "絞り羽根枚数": "9枚",
+    "最小絞り": "32",
+    "最短撮影距離": "0.3m",
+    "最大撮影倍率": "1倍",
+    "フィルター径": "67mm",
+    "最大径×長さ": "φ77.7mm×123mm",
+    "質量": "約625g",
+    "手ブレ補正効果": "通常撮影距離領域：約4.0段分※1\n            マクロ領域0.5倍撮影時：約3.0段分※2\n            マクロ領域等倍撮影時：約2.0段分※2"
+  }
 }

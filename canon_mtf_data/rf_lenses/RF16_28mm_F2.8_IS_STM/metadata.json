@@ -1,8 +1,8 @@
 {
   "lens_name": "RF16-28mm F2.8 IS STM",
-  "url": "https://personal.canon.jp/product/camera/rf/rf16-28-f28/spec",
-  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-28-f28/spec/image/spec-mtf.jpg?h=286&la=ja-JP&w=550&hash=1B6828766ECE812D0D3BEE385DA503D8",
-  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-28-f28/spec/image/spec-lens-construction.png?h=295&la=ja-JP&w=400&hash=D0C59CE7DB2CCA3FA955FF8EBB8F20E8",
+  "url": "https://personal.canon.jp/product/camera/rf/rf16-28-f28",
+  "mtf_image_url": null,
+  "construction_image_url": null,
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
@@ -10,35 +10,20 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-28-f28/spec/image/spec-mtf.jpg?h=286&la=ja-JP&w=550&hash=1B6828766ECE812D0D3BEE385DA503D8",
-      "filename": "spec-mtf.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-28-f28/spec/image/spec-mtf.jpg?h=286&la=ja-JP&w=550&hash=1B6828766ECE812D0D3BEE385DA503D8"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
+      "filename": "lens-ud.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-28-f28/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=B55DA276A23299FB25A80F2698F5A843",
-      "filename": "media-fig.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-28-f28/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=B55DA276A23299FB25A80F2698F5A843"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E",
+      "filename": "lens-aspherical.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-28-f28/spec/image/spec-lens-construction.png?h=295&la=ja-JP&w=400&hash=D0C59CE7DB2CCA3FA955FF8EBB8F20E8",
-      "filename": "spec-lens-construction.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-28-f28/spec/image/spec-lens-construction.png?h=295&la=ja-JP&w=400&hash=D0C59CE7DB2CCA3FA955FF8EBB8F20E8"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-28-f28/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=0C8A1AB49AB3738353654F03F2F4BC18",
-      "filename": "spec-view.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-28-f28/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=0C8A1AB49AB3738353654F03F2F4BC18"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
+      "filename": "rf-lensworld-thumb.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
     }
   ],
-  "specifications": {
-    "画角（水平・垂直・対角線）": "98°～65°・74°10’～46°・108°10’～75°",
-    "レンズ構成": "13群16枚",
-    "絞り羽根枚数": "9枚",
-    "最小絞り": "22",
-    "最短撮影距離": "0.2m／0.66ft.（28mm時）",
-    "最大撮影倍率": "0.26倍（28mm時）",
-    "フィルター径": "Φ67mm",
-    "最大径×長さ": "約Φ76.5×91mm（収納時）、112.8mm（16mm時）、102.1mm（28mm時）",
-    "質量": "約445g"
-  }
+  "specifications": {}
 }

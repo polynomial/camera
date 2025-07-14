@@ -1,8 +1,8 @@
 {
   "lens_name": "RF85mm F1.2 L USM DS",
-  "url": "https://personal.canon.jp/product/camera/rf/rf85-f12l-ds",
-  "mtf_image_url": null,
-  "construction_image_url": null,
+  "url": "https://personal.canon.jp/product/camera/rf/rf85-f12l-ds/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f12l-ds/spec/spec-mtf.png?h=282&la=ja-JP&w=400&hash=A1C2A3478CD401BDFCE538072BD8C82F",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f12l-ds/spec/spec-lens-construction.png?h=355&la=ja-JP&w=400&hash=11F193545EF1BFF620D4A990E4DDF8F7",
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
@@ -10,35 +10,35 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f12l-ds/image/index-fig-01.jpg?h=222&la=ja-JP&w=360&hash=0358DC01F20872BBAAC4CF2A14E73513",
-      "filename": "index-fig-01.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f12l-ds/image/index-fig-01.jpg?h=222&la=ja-JP&w=360&hash=0358DC01F20872BBAAC4CF2A14E73513"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f12l-ds/spec/spec-mtf.png?h=282&la=ja-JP&w=400&hash=A1C2A3478CD401BDFCE538072BD8C82F",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f12l-ds/spec/spec-mtf.png?h=282&la=ja-JP&w=400&hash=A1C2A3478CD401BDFCE538072BD8C82F"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical-special.png?la=ja-JP&hash=5E7207B5A186AD0DB4D7B79D968E0CFF",
-      "filename": "lens-aspherical-special.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical-special.png?la=ja-JP&hash=5E7207B5A186AD0DB4D7B79D968E0CFF"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f12l-ds/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=693772054AB3525DC4D1B1A6EFD3CAA2",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f12l-ds/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=693772054AB3525DC4D1B1A6EFD3CAA2"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E",
-      "filename": "lens-aspherical.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f12l-ds/spec/spec-lens-construction.png?h=355&la=ja-JP&w=400&hash=11F193545EF1BFF620D4A990E4DDF8F7",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f12l-ds/spec/spec-lens-construction.png?h=355&la=ja-JP&w=400&hash=11F193545EF1BFF620D4A990E4DDF8F7"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
-      "filename": "lens-ud.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/br-lens.png?la=ja-JP&hash=3C848FDAB433C049D2A6C740F6FDC71B",
-      "filename": "br-lens.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/br-lens.png?la=ja-JP&hash=3C848FDAB433C049D2A6C740F6FDC71B"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
-      "filename": "rf-lensworld-thumb.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f12l-ds/spec/spec-view.jpg?h=280&la=ja-JP&w=400&hash=042CF8BBAFF5C0A327EAE035BA9D3DD5",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f12l-ds/spec/spec-view.jpg?h=280&la=ja-JP&w=400&hash=042CF8BBAFF5C0A327EAE035BA9D3DD5"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "画角（水平・垂直・対角線）": "24°・16°・28°30′",
+    "レンズ構成": "9群13枚",
+    "絞り羽根枚数": "9枚（円形絞り）",
+    "最小絞り": "16",
+    "最短撮影距離": "0.85m",
+    "最大撮影倍率": "0.12倍",
+    "フィルター径": "82mm",
+    "最大径×長さ": "約φ103.2×117.3mm",
+    "質量": "約1,195g"
+  }
 }

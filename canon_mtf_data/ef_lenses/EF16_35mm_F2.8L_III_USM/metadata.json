@@ -1,8 +1,8 @@
 {
   "lens_name": "EF16-35mm F2.8L III USM",
-  "url": "https://personal.canon.jp/product/camera/ef/ef16-35-f28liii",
-  "mtf_image_url": null,
-  "construction_image_url": null,
+  "url": "https://personal.canon.jp/product/camera/ef/ef16-35-f28liii/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef16-35-f28liii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=8A2AD71C9868BBFC412847B207F4A9D9",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef16-35-f28liii/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=CC045D423CAE914E91DAEF1840D775D7",
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288",
@@ -10,20 +10,35 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical-special.png?la=ja-JP&hash=5E7207B5A186AD0DB4D7B79D968E0CFF",
-      "filename": "lens-aspherical-special.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical-special.png?la=ja-JP&hash=5E7207B5A186AD0DB4D7B79D968E0CFF"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef16-35-f28liii/spec/image/mtf.png?h=286&la=ja-JP&w=560&hash=C9C4849E5AB64BB8B1147C6779EA8D14",
+      "filename": "mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef16-35-f28liii/spec/image/mtf.png?h=286&la=ja-JP&w=560&hash=C9C4849E5AB64BB8B1147C6779EA8D14"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E",
-      "filename": "lens-aspherical.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef16-35-f28liii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=8A2AD71C9868BBFC412847B207F4A9D9",
+      "filename": "mtf-chart-note.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef16-35-f28liii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=8A2AD71C9868BBFC412847B207F4A9D9"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
-      "filename": "lens-ud.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef16-35-f28liii/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=CC045D423CAE914E91DAEF1840D775D7",
+      "filename": "lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef16-35-f28liii/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=CC045D423CAE914E91DAEF1840D775D7"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef16-35-f28liii/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=B88716707C6CBCE3875BD992145F1E0E",
+      "filename": "view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef16-35-f28liii/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=B88716707C6CBCE3875BD992145F1E0E"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "画角（水平・垂直・対角線）": "98°〜54°・74°10'〜38°・108°10'〜63°",
+    "レンズ構成": "11群16枚",
+    "絞り羽根枚数": "9枚",
+    "最小絞り": "22",
+    "最短撮影距離": "0.28m",
+    "最大撮影倍率": "0.25倍（35mm時）",
+    "フィルター径": "82mm",
+    "最大径×長さ": "φ88.5mm×127.5mm",
+    "質量": "約790g"
+  }
 }

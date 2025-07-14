@@ -1,8 +1,8 @@
 {
   "lens_name": "RF135mm F1.8 L IS USM",
-  "url": "https://personal.canon.jp/product/camera/rf/rf135-f18l",
-  "mtf_image_url": null,
-  "construction_image_url": null,
+  "url": "https://personal.canon.jp/product/camera/rf/rf135-f18l/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf135-f18l/spec/spec-mtf.jpg?h=280&la=ja-JP&w=400&hash=1940E13AAE620A5FACB510EEC36EF01C",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf135-f18l/spec/spec-lens-construction.png?h=263&la=ja-JP&w=400&hash=03A9753CFEE0F506DC85EC84ABDEFC6F",
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
@@ -10,20 +10,35 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf135-f18l/image/f1,-d-,8-lens.jpg?h=222&la=ja-JP&w=360&hash=729AB5F87B2C6EEF10008E8E1A747D2F",
-      "filename": "f1,-d-,8-lens.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf135-f18l/image/f1,-d-,8-lens.jpg?h=222&la=ja-JP&w=360&hash=729AB5F87B2C6EEF10008E8E1A747D2F"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf135-f18l/spec/spec-mtf.jpg?h=280&la=ja-JP&w=400&hash=1940E13AAE620A5FACB510EEC36EF01C",
+      "filename": "spec-mtf.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf135-f18l/spec/spec-mtf.jpg?h=280&la=ja-JP&w=400&hash=1940E13AAE620A5FACB510EEC36EF01C"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
-      "filename": "lens-ud.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf135-f18l/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=4C1DC2E4893EE551E98C9964F10299D5",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf135-f18l/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=4C1DC2E4893EE551E98C9964F10299D5"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
-      "filename": "rf-lensworld-thumb.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf135-f18l/spec/spec-lens-construction.png?h=263&la=ja-JP&w=400&hash=03A9753CFEE0F506DC85EC84ABDEFC6F",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf135-f18l/spec/spec-lens-construction.png?h=263&la=ja-JP&w=400&hash=03A9753CFEE0F506DC85EC84ABDEFC6F"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf135-f18l/spec/spec-view.png?h=280&la=ja-JP&w=470&hash=FC8C565FAE70ADFE7B77B3E8DC1670F3",
+      "filename": "spec-view.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf135-f18l/spec/spec-view.png?h=280&la=ja-JP&w=470&hash=FC8C565FAE70ADFE7B77B3E8DC1670F3"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "画角（水平・垂直・対角線）": "15°00′・10°00′・18°00′",
+    "レンズ構成": "12群17枚",
+    "絞り羽根枚数": "9枚",
+    "最小絞り": "22",
+    "最短撮影距離": "0.70m",
+    "最大撮影倍率": "0.26倍",
+    "フィルター径": "82mm",
+    "最大径×長さ": "約φ89.2mm×130.3mm",
+    "質量": "約935g"
+  }
 }

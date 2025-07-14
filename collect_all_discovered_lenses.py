@@ -52,6 +52,11 @@ def collect_all_discovered_lenses():
         if lens_data and lens_data['lens_name']:
             # Determine lens mount and directory
             mount = lens_info['mount']
+            
+            # Fix EF-S detection - check both mount and lens name
+            if mount == 'EF' and ('EF-S' in lens_data['lens_name'] or 'EF_S' in lens_data['lens_name']):
+                mount = 'EF-S'
+            
             if mount == 'RF':
                 lens_dir = scraper.rf_dir
             elif mount in ['EF', 'EF-S']:

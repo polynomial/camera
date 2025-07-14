@@ -1,8 +1,8 @@
 {
   "lens_name": "RF400mm F2.8 L IS USM",
-  "url": "https://personal.canon.jp/product/camera/rf/rf400-f28l",
-  "mtf_image_url": null,
-  "construction_image_url": null,
+  "url": "https://personal.canon.jp/product/camera/rf/rf400-f28l/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf400-f28l/spec/spec-mtf.png?h=290&la=ja-JP&w=400&hash=7E699C00145EF2F6EF48D5EF8425DDEF",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf400-f28l/spec/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=50ED7EA0AD70CBB7350E89997C5BA89D",
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
@@ -10,20 +10,35 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-fluorite.png?la=ja-JP&hash=847F0B740C96434D70BF5991356AE38C",
-      "filename": "lens-fluorite.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-fluorite.png?la=ja-JP&hash=847F0B740C96434D70BF5991356AE38C"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf400-f28l/spec/spec-mtf.png?h=290&la=ja-JP&w=400&hash=7E699C00145EF2F6EF48D5EF8425DDEF",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf400-f28l/spec/spec-mtf.png?h=290&la=ja-JP&w=400&hash=7E699C00145EF2F6EF48D5EF8425DDEF"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud-super.png?la=ja-JP&hash=C85EAA932C1813019AD7E61872EC7ADA",
-      "filename": "lens-ud-super.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud-super.png?la=ja-JP&hash=C85EAA932C1813019AD7E61872EC7ADA"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf400-f28l/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=A3A001BC5DF2F3F23A4DD33ECA0986B6",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf400-f28l/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=A3A001BC5DF2F3F23A4DD33ECA0986B6"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
-      "filename": "rf-lensworld-thumb.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf400-f28l/spec/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=50ED7EA0AD70CBB7350E89997C5BA89D",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf400-f28l/spec/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=50ED7EA0AD70CBB7350E89997C5BA89D"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf400-f28l/spec/spec-view.jpg?h=280&la=ja-JP&w=470&hash=6DDB4967D837D1C2AA3E9FB952411303",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf400-f28l/spec/spec-view.jpg?h=280&la=ja-JP&w=470&hash=6DDB4967D837D1C2AA3E9FB952411303"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "画角（水平・垂直・対角線）": "05°10′・03°30′・06°10′",
+    "レンズ構成": "13群17枚",
+    "絞り羽根枚数": "9枚",
+    "最小絞り": "32",
+    "最短撮影距離": "2.5m",
+    "最大撮影倍率": "0.17倍",
+    "フィルター径": "差し込み52mm",
+    "最大径×長さ": "約φ163mm×367mm",
+    "質量": "約2890g"
+  }
 }

@@ -1,27 +1,38 @@
 {
   "lens_name": "EXTENDER RF1.4x",
-  "url": "https://personal.canon.jp/product/camera/rf/extender-rf14",
-  "mtf_image_url": null,
-  "construction_image_url": null,
+  "url": "https://personal.canon.jp/product/camera/rf/extender-rf14/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/extender-rf14/spec/image/spec-mtf.png?h=610&la=ja-JP&w=600&hash=D4438252900FDF94FBCA6B83FA1F4299",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/extender-rf14/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=DE2F2C7ABFD6E56F0620ABCEFA56BC7B",
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
       "filename": "rflens.png",
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/extender-rf14/spec/image/spec-mtf.png?h=610&la=ja-JP&w=600&hash=D4438252900FDF94FBCA6B83FA1F4299",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/extender-rf14/spec/image/spec-mtf.png?h=610&la=ja-JP&w=600&hash=D4438252900FDF94FBCA6B83FA1F4299"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/extender-rf14/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=7C170D84995E838B94011D728072D4C3",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/extender-rf14/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=7C170D84995E838B94011D728072D4C3"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/extender-rf14/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=DE2F2C7ABFD6E56F0620ABCEFA56BC7B",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/extender-rf14/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=DE2F2C7ABFD6E56F0620ABCEFA56BC7B"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/extender-rf14/spec/image/spec-view.jpg?h=280&la=ja-JP&w=470&hash=0D85E17246DCE55D78FD3899E45D7B7C",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/extender-rf14/spec/image/spec-view.jpg?h=280&la=ja-JP&w=470&hash=0D85E17246DCE55D78FD3899E45D7B7C"
     }
   ],
   "specifications": {
-    "対応レンズ": "焦点距離／開放F値",
-    "RF400mm F2.8 L IS USM": "560mm／F4",
-    "RF600mm F4 L IS USM": "840mm／F5.6",
-    "RF600mm F11 IS STM": "840mm／F16",
-    "RF800mm F5.6 L IS USM": "1,120mm／F8",
-    "RF800mm F11 IS STM": "1,120mm／F16",
-    "RF1200mm F8 L IS USM": "1,680mm／F11",
-    "RF70-200mm F2.8 L IS USM Z": "98-280mm／F4",
-    "RF100-300mm F2.8 L IS USM": "140-420mm／F4",
-    "RF100-400mm F5.6-8 IS USM": "140-560mm／F8-F11",
-    "RF100-500mm F4.5-7.1 L IS USM※": "420-700mm／F8-10",
-    "RF200-800mm F6.3-9 IS USM": "280-1,120mm／F9-13"
+    "レンズ構成": "4群7枚",
+    "最大径×長さ": "φ71.2×20.3mm",
+    "質量": "約225g"
   }
 }

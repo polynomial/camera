@@ -1,8 +1,8 @@
 {
   "lens_name": "RF100-300mm F2.8 L IS USM",
-  "url": "https://personal.canon.jp/product/camera/rf/rf100-300-f28l/spec",
-  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/spec-mtf-2.png?h=316&la=ja-JP&w=550&hash=F912452332C0F54F6083A02A499B6105",
-  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=721ABB8C5B763B2ED4FFFCD3371E1579",
+  "url": "https://personal.canon.jp/product/camera/rf/rf100-300-f28l",
+  "mtf_image_url": null,
+  "construction_image_url": null,
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
@@ -10,45 +10,25 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/spec-mtf.png?h=316&la=ja-JP&w=550&hash=796AC54ED5B54159A0AF85E5578C5DF1",
-      "filename": "spec-mtf.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/spec-mtf.png?h=316&la=ja-JP&w=550&hash=796AC54ED5B54159A0AF85E5578C5DF1"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-fluorite.png?la=ja-JP&hash=847F0B740C96434D70BF5991356AE38C",
+      "filename": "lens-fluorite.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-fluorite.png?la=ja-JP&hash=847F0B740C96434D70BF5991356AE38C"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/spec-mtf-14.png?h=316&la=ja-JP&w=550&hash=B854B36BCE82A831D84E29B896FC6C49",
-      "filename": "spec-mtf-14.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/spec-mtf-14.png?h=316&la=ja-JP&w=550&hash=B854B36BCE82A831D84E29B896FC6C49"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
+      "filename": "lens-ud.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/spec-mtf-2.png?h=316&la=ja-JP&w=550&hash=F912452332C0F54F6083A02A499B6105",
-      "filename": "spec-mtf-2.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/spec-mtf-2.png?h=316&la=ja-JP&w=550&hash=F912452332C0F54F6083A02A499B6105"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E",
+      "filename": "lens-aspherical.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-aspherical.png?la=ja-JP&hash=31D7CD6242C62FFD387A65BAAC05BB0E"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=0B5DE85810C7596EAC0611646FDA5E6C",
-      "filename": "media-fig.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=0B5DE85810C7596EAC0611646FDA5E6C"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=721ABB8C5B763B2ED4FFFCD3371E1579",
-      "filename": "spec-lens-construction.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/spec-lens-construction.png?h=272&la=ja-JP&w=400&hash=721ABB8C5B763B2ED4FFFCD3371E1579"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/spec-view.jpg?h=280&la=ja-JP&w=470&hash=D800270814FAB079D7BAFD53139A1430",
-      "filename": "spec-view.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-300-f28l/spec/image/spec-view.jpg?h=280&la=ja-JP&w=470&hash=D800270814FAB079D7BAFD53139A1430"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
+      "filename": "rf-lensworld-thumb.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
     }
   ],
-  "specifications": {
-    "画角（水平・垂直・対角線）": "20°～6°50’・14°～4°35′・24°～8°15’",
-    "レンズ構成": "18群23枚",
-    "絞り羽根枚数": "9枚",
-    "最小絞り": "22",
-    "最短撮影距離": "1.8m",
-    "最大撮影倍率": "0.06倍（100mm時）、0.16倍（300mm時）",
-    "フィルター径": "112mm",
-    "最大径×長さ": "約φ128mm×323.4mm",
-    "質量": "約2590g"
-  }
+  "specifications": {}
 }

@@ -1,44 +1,14 @@
 {
   "lens_name": "EF50mm F1.8 STM",
-  "url": "https://personal.canon.jp/product/camera/ef/ef50-f18stm/spec",
-  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef50-f18stm/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=1292BD3B45B2FBCA8F9A6E520FB21840",
-  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef50-f18stm/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=DB74D0605727AF12BF72F8CE97A5FD72",
+  "url": "https://personal.canon.jp/product/camera/ef/ef50-f18stm",
+  "mtf_image_url": null,
+  "construction_image_url": null,
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288",
       "filename": "pagetitle-logo-eflens.jpg",
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef50-f18stm/spec/image/mtf.png?h=282&la=ja-JP&w=400&hash=5D217C9AFEB62243D70A7AFC72C7F37A",
-      "filename": "mtf.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef50-f18stm/spec/image/mtf.png?h=282&la=ja-JP&w=400&hash=5D217C9AFEB62243D70A7AFC72C7F37A"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef50-f18stm/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=1292BD3B45B2FBCA8F9A6E520FB21840",
-      "filename": "mtf-chart-note.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef50-f18stm/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=1292BD3B45B2FBCA8F9A6E520FB21840"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef50-f18stm/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=DB74D0605727AF12BF72F8CE97A5FD72",
-      "filename": "lens-construction.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef50-f18stm/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=DB74D0605727AF12BF72F8CE97A5FD72"
-    },
-    {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef50-f18stm/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=3F013618A51AD13B59927686742BEE57",
-      "filename": "view.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef50-f18stm/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=3F013618A51AD13B59927686742BEE57"
     }
   ],
-  "specifications": {
-    "画角（水平・垂直・対角線）": "40°・27°・46°",
-    "レンズ構成": "5群 6枚",
-    "絞り羽根枚数": "7枚",
-    "最小絞り": "22",
-    "最短撮影距離": "0.35m",
-    "最大撮影倍率": "0.21倍",
-    "フィルター径": "49mm",
-    "最大径×長さ": "φ69.2mm×39.3mm",
-    "質量": "約160g"
-  }
+  "specifications": {}
 }

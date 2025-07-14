@@ -1,8 +1,8 @@
 {
   "lens_name": "RF85mm F2 MACRO IS STM",
-  "url": "https://personal.canon.jp/product/camera/rf/rf85-f2",
-  "mtf_image_url": null,
-  "construction_image_url": null,
+  "url": "https://personal.canon.jp/product/camera/rf/rf85-f2/spec",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f2/spec/spec-mtf.png?h=290&la=ja-JP&w=400&hash=8C7E2D8DC9797A65117CD4CEF64B7530",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f2/spec/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=12576FB96E824B60E9FD8ABF09352448",
   "all_spec_images": [
     {
       "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
@@ -10,20 +10,35 @@
       "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f2/image/index-fig-01.jpg?h=222&la=ja-JP&w=360&hash=97690D4875E0E2F387BB509087FE3446",
-      "filename": "index-fig-01.jpg",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f2/image/index-fig-01.jpg?h=222&la=ja-JP&w=360&hash=97690D4875E0E2F387BB509087FE3446"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f2/spec/spec-mtf.png?h=290&la=ja-JP&w=400&hash=8C7E2D8DC9797A65117CD4CEF64B7530",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f2/spec/spec-mtf.png?h=290&la=ja-JP&w=400&hash=8C7E2D8DC9797A65117CD4CEF64B7530"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8",
-      "filename": "lens-ud.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/common/icon/image/lens-ud.png?la=ja-JP&hash=51FBEA1B628AD9543C31F8825A20AAC8"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f2/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=E0634530EA334C9B3B6D229443E5C277",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f2/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=E0634530EA334C9B3B6D229443E5C277"
     },
     {
-      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B",
-      "filename": "rf-lensworld-thumb.png",
-      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf-lensworld/image/common/rf-lensworld-thumb.png?la=ja-JP&hash=93250C22F46532807DDD81012375D14B"
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f2/spec/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=12576FB96E824B60E9FD8ABF09352448",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f2/spec/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=12576FB96E824B60E9FD8ABF09352448"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f2/spec/spec-view.jpg?h=280&la=ja-JP&w=470&hash=B5B83A45C2089814F745F760C765CDC6",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf85-f2/spec/spec-view.jpg?h=280&la=ja-JP&w=470&hash=B5B83A45C2089814F745F760C765CDC6"
     }
   ],
-  "specifications": {}
+  "specifications": {
+    "画角（水平・垂直・対角線）": "24°・16°・28°30′",
+    "レンズ構成": "11群12枚",
+    "絞り羽根枚数": "9枚（円形絞り）",
+    "最小絞り": "29",
+    "最短撮影距離": "0.35m",
+    "最大撮影倍率": "0.5倍",
+    "フィルター径": "67mm",
+    "最大径×長さ": "約φ78.0×90.5mm",
+    "質量": "約500g"
+  }
 }
