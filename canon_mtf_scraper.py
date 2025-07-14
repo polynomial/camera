@@ -106,7 +106,7 @@ class CanonMTFScraper:
         return list(set(lens_urls))  # Remove duplicates
     
     def parse_lens_spec_page(self, url):
-        """Parse a lens specification page to extract MTF chart and metadata."""
+        """Parse a lens specification page to extract MTF chart, construction diagram, and metadata."""
         response = self.get_page(url)
         if not response:
             return None
@@ -120,30 +120,62 @@ class CanonMTFScraper:
             raw_title = h1_tag.get_text().strip()
             lens_name = self.extract_lens_name(raw_title)
         
-        # Find MTF chart image - handle both RF and EF patterns
-        mtf_image_url = None
+        # Find all relevant images - MTF charts and construction diagrams
+        images = {
+            'mtf_image_url': None,
+            'construction_image_url': None,
+            'all_spec_images': []
+        }
         
-        # First, look for standard MTF images (RF lenses use 'mtf' in filename)
+        # Collect all images from the spec page
         for img in soup.find_all('img'):
             src = img.get('src')
-            if src and 'mtf' in src.lower():
-                mtf_image_url = urljoin(url, src)
-                break
+            if not src:
+                continue
+                
+            full_url = urljoin(url, src)
+            
+            # Check if this is in the spec/image directory or contains relevant keywords
+            if '/spec/image/' in src or 'spec-' in src or any(keyword in src.lower() for keyword in ['mtf', 'fig', 'lens', 'construction']):
+                images['all_spec_images'].append({
+                    'url': full_url,
+                    'filename': os.path.basename(urlparse(src).path),
+                    'src': src
+                })
         
-        # If not found, look for EF-style MTF images (spec-fig.png)
-        if not mtf_image_url:
-            for img in soup.find_all('img'):
-                src = img.get('src')
-                if src and ('spec-fig.png' in src or '/image/spec-fig' in src):
-                    mtf_image_url = urljoin(url, src)
+        # Categorize images by type
+        for img_info in images['all_spec_images']:
+            filename = img_info['filename'].lower()
+            src = img_info['src'].lower()
+            
+            # MTF charts
+            if 'mtf' in filename or 'mtf' in src:
+                images['mtf_image_url'] = img_info['url']
+            # EF lens MTF charts (usually spec-fig.png without number)
+            elif 'spec-fig.png' in filename and 'spec-fig-' not in filename:
+                if not images['mtf_image_url']:  # Only if we haven't found an MTF chart yet
+                    images['mtf_image_url'] = img_info['url']
+            # Construction diagrams (usually spec-fig-02.png or similar with numbers)
+            elif ('spec-fig-' in filename and any(char.isdigit() for char in filename)) or \
+                 ('construction' in filename) or \
+                 ('lens' in filename and 'diagram' in filename):
+                images['construction_image_url'] = img_info['url']
+        
+        # If we still don't have an MTF chart, look for any spec image that might be it
+        if not images['mtf_image_url'] and images['all_spec_images']:
+            # Prefer images with 'spec-fig' in the name
+            for img_info in images['all_spec_images']:
+                if 'spec-fig' in img_info['filename'].lower():
+                    images['mtf_image_url'] = img_info['url']
                     break
         
-        # If still not found, look for any image in spec/image/ directory
-        if not mtf_image_url:
-            for img in soup.find_all('img'):
-                src = img.get('src')
-                if src and '/spec/image/' in src and any(ext in src.lower() for ext in ['.png', '.jpg', '.jpeg']):
-                    mtf_image_url = urljoin(url, src)
+        # If we don't have a construction diagram but have multiple spec images, try to find one
+        if not images['construction_image_url'] and len(images['all_spec_images']) > 1:
+            for img_info in images['all_spec_images']:
+                filename = img_info['filename'].lower()
+                # Look for numbered spec figures that aren't the MTF chart
+                if 'spec-fig-' in filename and img_info['url'] != images['mtf_image_url']:
+                    images['construction_image_url'] = img_info['url']
                     break
         
         # Extract specifications table
@@ -160,7 +192,9 @@ class CanonMTFScraper:
         return {
             'lens_name': lens_name,
             'url': url,
-            'mtf_image_url': mtf_image_url,
+            'mtf_image_url': images['mtf_image_url'],
+            'construction_image_url': images['construction_image_url'],
+            'all_spec_images': images['all_spec_images'],
             'specifications': specs
         }
     
@@ -177,7 +211,7 @@ class CanonMTFScraper:
         return False
     
     def save_lens_data(self, lens_data, lens_dir):
-        """Save lens data and download MTF chart."""
+        """Save lens data and download MTF chart and construction diagram."""
         if not lens_data or not lens_data['lens_name']:
             return False
         
@@ -191,6 +225,8 @@ class CanonMTFScraper:
         with open(metadata_file, 'w', encoding='utf-8') as f:
             json.dump(lens_data, f, indent=2, ensure_ascii=False)
         
+        success_count = 0
+        
         # Download MTF chart
         if lens_data['mtf_image_url']:
             # Extract original filename and extension
@@ -202,14 +238,49 @@ class CanonMTFScraper:
             if not clean_name:
                 clean_name = "mtf_chart.png"
             
-            mtf_image_path = lens_path / clean_name
+            mtf_image_path = lens_path / f"mtf_{clean_name}"
             if self.download_image(lens_data['mtf_image_url'], mtf_image_path):
                 print(f"✅ Downloaded MTF chart for {lens_data['lens_name']}")
-                return True
+                success_count += 1
             else:
                 print(f"❌ Failed to download MTF chart for {lens_data['lens_name']}")
         
-        return False
+        # Download construction diagram
+        if lens_data['construction_image_url']:
+            # Extract original filename and extension
+            url_path = urlparse(lens_data['construction_image_url']).path
+            original_filename = os.path.basename(url_path)
+            
+            # Clean the filename
+            clean_name = self.clean_filename(original_filename)
+            if not clean_name:
+                clean_name = "construction_diagram.png"
+            
+            construction_image_path = lens_path / f"construction_{clean_name}"
+            if self.download_image(lens_data['construction_image_url'], construction_image_path):
+                print(f"✅ Downloaded construction diagram for {lens_data['lens_name']}")
+                success_count += 1
+            else:
+                print(f"❌ Failed to download construction diagram for {lens_data['lens_name']}")
+        
+        # Download any additional spec images that might be useful
+        if lens_data.get('all_spec_images'):
+            for i, img_info in enumerate(lens_data['all_spec_images']):
+                # Skip images we've already downloaded
+                if (img_info['url'] == lens_data.get('mtf_image_url') or 
+                    img_info['url'] == lens_data.get('construction_image_url')):
+                    continue
+                
+                # Download other potentially useful images
+                clean_name = self.clean_filename(img_info['filename'])
+                if not clean_name:
+                    clean_name = f"spec_image_{i+1}.png"
+                
+                extra_image_path = lens_path / f"extra_{clean_name}"
+                if self.download_image(img_info['url'], extra_image_path):
+                    print(f"✅ Downloaded additional spec image: {clean_name}")
+        
+        return success_count > 0
     
     def test_single_lens(self, lens_url):
         """Test the scraper with a single lens."""
@@ -219,6 +290,8 @@ class CanonMTFScraper:
         if lens_data:
             print(f"Found lens: {lens_data['lens_name']}")
             print(f"MTF image URL: {lens_data['mtf_image_url']}")
+            print(f"Construction image URL: {lens_data['construction_image_url']}")
+            print(f"Total spec images found: {len(lens_data.get('all_spec_images', []))}")
             print(f"Specifications: {len(lens_data['specifications'])} items")
             
             # Determine if it's RF or EF lens

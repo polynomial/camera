@@ -1,7 +1,35 @@
 {
   "lens_name": "EF24-70mm F2.8L II USM",
   "url": "https://personal.canon.jp/product/camera/ef/ef24-70-f28l-ii/spec",
-  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-70-f28l-ii/spec/image/mtf.png?h=286&la=ja-JP&w=560&hash=9F1FD358FCE8DA0F986C36B084050BFE",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-70-f28l-ii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=C39EB568E4CF79B9F69C626FD77B8571",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-70-f28l-ii/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=5AA862305FA80F374E2617B069A5A14C",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288",
+      "filename": "pagetitle-logo-eflens.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-70-f28l-ii/spec/image/mtf.png?h=286&la=ja-JP&w=560&hash=9F1FD358FCE8DA0F986C36B084050BFE",
+      "filename": "mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-70-f28l-ii/spec/image/mtf.png?h=286&la=ja-JP&w=560&hash=9F1FD358FCE8DA0F986C36B084050BFE"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-70-f28l-ii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=C39EB568E4CF79B9F69C626FD77B8571",
+      "filename": "mtf-chart-note.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-70-f28l-ii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=C39EB568E4CF79B9F69C626FD77B8571"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-70-f28l-ii/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=5AA862305FA80F374E2617B069A5A14C",
+      "filename": "lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-70-f28l-ii/spec/image/lens-construction.png?h=270&la=ja-JP&w=400&hash=5AA862305FA80F374E2617B069A5A14C"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-70-f28l-ii/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=44486D8BA319E17D673D520107989F60",
+      "filename": "view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef24-70-f28l-ii/spec/image/view.jpg?h=270&la=ja-JP&w=400&hash=44486D8BA319E17D673D520107989F60"
+    }
+  ],
   "specifications": {
     "画角（水平・垂直・対角線）": "74°〜29°・53°〜19°30'・84°〜34°",
     "レンズ構成": "13群18枚",

@@ -2,6 +2,34 @@
   "lens_name": "RF16mm F2.8 STM",
   "url": "https://personal.canon.jp/product/camera/rf/rf16-f28/spec",
   "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-f28/spec/spec-mtf.png?h=280&la=ja-JP&w=400&hash=A738D8062C1D8E9B3B1CD517A66913CB",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-f28/spec/spec-lens-construction.png?h=310&la=ja-JP&w=400&hash=FECAF1DA4F8CC4DF960E27A419E7507C",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-f28/spec/spec-mtf.png?h=280&la=ja-JP&w=400&hash=A738D8062C1D8E9B3B1CD517A66913CB",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-f28/spec/spec-mtf.png?h=280&la=ja-JP&w=400&hash=A738D8062C1D8E9B3B1CD517A66913CB"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-f28/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=20A007374479482ED88836B3AE8DD463",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-f28/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=20A007374479482ED88836B3AE8DD463"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-f28/spec/spec-lens-construction.png?h=310&la=ja-JP&w=400&hash=FECAF1DA4F8CC4DF960E27A419E7507C",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-f28/spec/spec-lens-construction.png?h=310&la=ja-JP&w=400&hash=FECAF1DA4F8CC4DF960E27A419E7507C"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-f28/spec/spec-view.jpg?h=280&la=ja-JP&w=400&hash=072E4A1AD734C1FF603A615B53376267",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf16-f28/spec/spec-view.jpg?h=280&la=ja-JP&w=400&hash=072E4A1AD734C1FF603A615B53376267"
+    }
+  ],
   "specifications": {
     "画角（水平・垂直・対角線）": "98°00′・74°10′・108°10′",
     "レンズ構成": "7群9枚",

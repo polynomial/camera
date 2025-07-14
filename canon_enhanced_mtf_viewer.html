@@ -1,0 +1,1381 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canon MTF Charts & Lens Construction Collection</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            color: #c41e3a;
+            margin: 0 0 10px 0;
+            font-size: 2.8em;
+            font-weight: 700;
+        }
+        
+        .header .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+        
+        .stat {
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        
+        .stat .number {
+            font-size: 2.2em;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .stat .label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        .controls {
+            margin-bottom: 30px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        
+        .control-btn {
+            background: #c41e3a;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .control-btn:hover {
+            background: #a01729;
+            transform: translateY(-2px);
+        }
+        
+        .control-btn.active {
+            background: #333;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        
+        .view-toggle {
+            background: #667eea;
+            margin-left: 20px;
+        }
+        
+        .view-toggle:hover {
+            background: #5a6fd8;
+        }
+        
+        .lens-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 25px;
+        }
+        
+        .lens-grid.compact {
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        }
+        
+        .lens-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+        
+        .lens-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+        
+        .lens-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .lens-type {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .lens-type.rf {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+        }
+        
+        .lens-type.ef {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            color: white;
+        }
+        
+        .lens-name {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+        }
+        
+        .image-section {
+            margin-bottom: 20px;
+        }
+        
+        .image-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .image-container {
+            text-align: center;
+        }
+        
+        .image-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        
+        .lens-image {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: contain;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            background: #f8f9fa;
+        }
+        
+        .no-image {
+            width: 100%;
+            height: 150px;
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        .specs-summary {
+            font-size: 0.85em;
+            color: #666;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        
+        .spec-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            padding: 3px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .spec-label {
+            font-weight: 500;
+            color: #555;
+        }
+        
+        .compact .lens-image {
+            max-height: 120px;
+        }
+        
+        .compact .image-row {
+            grid-template-columns: 1fr;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            color: #666;
+            font-size: 0.9em;
+            background: white;
+            border-radius: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .lens-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .image-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔬 Canon MTF & Construction Collection</h1>
+        <p class="subtitle">Complete optical analysis with MTF charts and lens construction diagrams</p>
+        <p>Generated on July 13, 2025 at 05:30 PM</p>
+        <div class="stats">
+            <div class="stat">
+                <span class="number">19</span>
+                <span class="label">Total Lenses</span>
+            </div>
+            <div class="stat">
+                <span class="number">19</span>
+                <span class="label">MTF Charts</span>
+            </div>
+            <div class="stat">
+                <span class="number">19</span>
+                <span class="label">Construction Diagrams</span>
+            </div>
+            <div class="stat">
+                <span class="number">19</span>
+                <span class="label">Complete Sets</span>
+            </div>
+            <div class="stat">
+                <span class="number">10</span>
+                <span class="label">RF Lenses</span>
+            </div>
+            <div class="stat">
+                <span class="number">9</span>
+                <span class="label">EF Lenses</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="controls">
+        <button class="control-btn active" onclick="filterLenses('all')">All Lenses</button>
+        <button class="control-btn" onclick="filterLenses('rf')">RF Only</button>
+        <button class="control-btn" onclick="filterLenses('ef')">EF Only</button>
+        <button class="control-btn" onclick="filterLenses('complete')">Complete Sets</button>
+        <button class="control-btn view-toggle" onclick="toggleView()">🔄 Toggle Compact View</button>
+    </div>
+    
+    <div class="lens-grid" id="lensGrid">
+
+        <div class="lens-card" data-type="ef" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type ef">EF</div>
+                    <h3 class="lens-name">EF100-400mm F4.5-5.6L IS II USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/ef_lenses/EF100_400mm_F4.5_5.6L_IS_II_USM/mtf_mtf_chart_note.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/ef_lenses/EF100_400mm_F4.5_5.6L_IS_II_USM/construction_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>20°～5°10’・14°～3°30’・24°～6°10’</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>32-40</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約1,570g（三脚座を除く）</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.98m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.31倍（400mm時）</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="ef" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type ef">EF</div>
+                    <h3 class="lens-name">EF100mm F2.8Lマクロ IS USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/ef_lenses/EF100mm_F2.8Lマクロ_IS_USM/mtf_mtf_chart_note.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/ef_lenses/EF100mm_F2.8Lマクロ_IS_USM/construction_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>20°・14°・24°</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>32</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約625g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.3m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>1倍</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="ef" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type ef">EF</div>
+                    <h3 class="lens-name">EF16-35mm F2.8L III USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/ef_lenses/EF16_35mm_F2.8L_III_USM/mtf_mtf_chart_note.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/ef_lenses/EF16_35mm_F2.8L_III_USM/construction_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>98°〜54°・74°10'〜38°・108°10'〜63°</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>22</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約790g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.28m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.25倍（35mm時）</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="ef" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type ef">EF</div>
+                    <h3 class="lens-name">EF16-35mm F4L IS USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/ef_lenses/EF16_35mm_F4L_IS_USM/mtf_mtf_chart_note.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/ef_lenses/EF16_35mm_F4L_IS_USM/construction_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>98°〜54°・74°10'〜38°・108°10'〜63°</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>22</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約615g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.28m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.23倍</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="ef" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type ef">EF</div>
+                    <h3 class="lens-name">EF24-105mm F4L IS II USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/ef_lenses/EF24_105mm_F4L_IS_II_USM/mtf_mtf_chart_note.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/ef_lenses/EF24_105mm_F4L_IS_II_USM/construction_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>74°〜19°20'・53°〜13°・84°〜23°20'</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>22</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約795g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.45m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.24倍（105mm時）</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="ef" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type ef">EF</div>
+                    <h3 class="lens-name">EF24-70mm F2.8L II USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/ef_lenses/EF24_70mm_F2.8L_II_USM/mtf_mtf_chart_note.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/ef_lenses/EF24_70mm_F2.8L_II_USM/construction_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>74°〜29°・53°〜19°30'・84°〜34°</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>22</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約805g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.38m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.21倍（70mm時）</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="ef" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type ef">EF</div>
+                    <h3 class="lens-name">EF50mm F1.8 STM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/ef_lenses/EF50mm_F1.8_STM/mtf_mtf_chart_note.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/ef_lenses/EF50mm_F1.8_STM/construction_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>40°・27°・46°</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>22</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約160g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.35m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.21倍</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="ef" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type ef">EF</div>
+                    <h3 class="lens-name">EF70-200mm F2.8L IS III USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/ef_lenses/EF70_200mm_F2.8L_IS_III_USM/mtf_mtf_chart_note.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/ef_lenses/EF70_200mm_F2.8L_IS_III_USM/construction_spec_fig_02.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>29°～10°・19°30’～7°・34°～12°</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>32</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約1,480g（三脚座を除く）</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>1.2m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.21倍</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="ef" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type ef">EF</div>
+                    <h3 class="lens-name">EF70-300mm F4-5.6 IS II USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/ef_lenses/EF70_300mm_F4_5.6_IS_II_USM/mtf_mtf_chart_note.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/ef_lenses/EF70_300mm_F4_5.6_IS_II_USM/construction_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>29°～6°50'・19°30'～4°35'・34°～8°15'</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>32～45</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約710g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>1.2m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.25倍（300mm時）</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="rf" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type rf">RF</div>
+                    <h3 class="lens-name">RF100-500mm F4.5-7.1 L IS USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/rf_lenses/RF100_500mm_F4.5_7.1_L_IS_USM/mtf_spec_mtf.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/rf_lenses/RF100_500mm_F4.5_7.1_L_IS_USM/construction_spec_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>20°～4°・14°～2°45′・24°～5°</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>32（100mm時）、51（500mm時）</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約1,370g（三脚座含まず／三脚座質量 約160g）</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.9m（100mm時）</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.33倍（500mm時）</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="rf" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type rf">RF</div>
+                    <h3 class="lens-name">RF15-35mm F2.8 L IS USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/rf_lenses/RF15_35mm_F2.8_L_IS_USM/mtf_spec_mtf.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/rf_lenses/RF15_35mm_F2.8_L_IS_USM/construction_spec_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>100°25′～54°・77°20′～38°・110°30′～63°</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>22</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約840g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.28m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.21倍（35mm時）</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="rf" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type rf">RF</div>
+                    <h3 class="lens-name">RF16mm F2.8 STM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/rf_lenses/RF16mm_F2.8_STM/mtf_spec_mtf.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/rf_lenses/RF16mm_F2.8_STM/construction_spec_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>98°00′・74°10′・108°10′</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>22</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約165g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.13m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.26倍</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="rf" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type rf">RF</div>
+                    <h3 class="lens-name">RF24-105mm F4 L IS USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/rf_lenses/RF24_105mm_F4_L_IS_USM/mtf_spec_mtf.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/rf_lenses/RF24_105mm_F4_L_IS_USM/construction_spec_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>74°～19°20'・53°～13°・84°～23°20'</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>22</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>700g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.45m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.24倍</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="rf" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type rf">RF</div>
+                    <h3 class="lens-name">RF24-70mm F2.8 L IS USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/rf_lenses/RF24_70mm_F2.8_L_IS_USM/mtf_spec_mtf.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/rf_lenses/RF24_70mm_F2.8_L_IS_USM/construction_spec_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>74°～29°・53°～19°30′・84°34°</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>22</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約900g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.21m（24mm時）</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.30倍（32mm時）</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="rf" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type rf">RF</div>
+                    <h3 class="lens-name">RF28-70mm F2 L USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/rf_lenses/RF28_70mm_F2_L_USM/mtf_spec_mtf.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/rf_lenses/RF28_70mm_F2_L_USM/construction_spec_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>65°～29°・ 46°～19°30′ ・75°～34°</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>22</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約1430g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.39m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.18倍</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="rf" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type rf">RF</div>
+                    <h3 class="lens-name">RF35mm F1.8 MACRO IS STM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/rf_lenses/RF35mm_F1.8_MACRO_IS_STM/mtf_spec_mtf.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/rf_lenses/RF35mm_F1.8_MACRO_IS_STM/construction_spec_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>54° ・ 38° ・ 63°</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>22</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約305g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.17m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.5倍</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="rf" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type rf">RF</div>
+                    <h3 class="lens-name">RF50mm F1.2 L USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/rf_lenses/RF50mm_F1.2_L_USM/mtf_spec_mtf.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/rf_lenses/RF50mm_F1.2_L_USM/construction_spec_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>40° ・ 27° ・ 46°</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>16</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>950g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.4m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.19倍</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="rf" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type rf">RF</div>
+                    <h3 class="lens-name">RF70-200mm F2.8 L IS USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/rf_lenses/RF70_200mm_F2.8_L_IS_USM/mtf_spec_mtf.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/rf_lenses/RF70_200mm_F2.8_L_IS_USM/construction_spec_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>29°～10°・19°30′～7°・34°～12°</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>32</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約1,070g（三脚座含まず／三脚座質量 約130g）</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.7m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.23倍（200mm時）</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="lens-card" data-type="rf" data-complete="true">
+            <div class="lens-header">
+                <div>
+                    <div class="lens-type rf">RF</div>
+                    <h3 class="lens-name">RF85mm F1.2 L USM</h3>
+                </div>
+                <div style="text-align: right; font-size: 1.2em;">
+                    ✅ ✅
+                </div>
+            </div>
+            
+            <div class="image-section">
+                <div class="image-row">
+                    <div class="image-container">
+                        <div class="image-label">📊 MTF Chart</div>
+<img src="canon_mtf_data/rf_lenses/RF85mm_F1.2_L_USM/mtf_spec_mtf.png" alt="MTF Chart" class="lens-image">
+                    </div>
+                    <div class="image-container">
+                        <div class="image-label">🔧 Construction</div>
+<img src="canon_mtf_data/rf_lenses/RF85mm_F1.2_L_USM/construction_spec_lens_construction.png" alt="Construction Diagram" class="lens-image">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="specs-summary">
+
+                <div class="spec-item">
+                    <span class="spec-label">画角（水平・垂直・対角線）</span>
+                    <span>24°・16°・28°30′</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最小絞り</span>
+                    <span>16</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">質量</span>
+                    <span>約1,195g</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最短撮影距離</span>
+                    <span>0.85m</span>
+                </div>
+
+                <div class="spec-item">
+                    <span class="spec-label">最大撮影倍率</span>
+                    <span>0.12倍</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="footer">
+        <p><strong>🎯 Super Dense Optical Analysis Collection</strong></p>
+        <p>MTF charts show lens sharpness across the frame | Construction diagrams reveal optical element arrangement</p>
+        <p>Data © Canon Inc. | Collection for educational and research purposes</p>
+    </div>
+    
+    <script>
+        let isCompact = false;
+        
+        function filterLenses(type) {
+            const cards = document.querySelectorAll('.lens-card');
+            const buttons = document.querySelectorAll('.control-btn:not(.view-toggle)');
+            
+            // Update button states
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Filter cards
+            cards.forEach(card => {
+                let show = false;
+                
+                if (type === 'all') {
+                    show = true;
+                } else if (type === 'complete') {
+                    show = card.dataset.complete === 'true';
+                } else {
+                    show = card.dataset.type === type;
+                }
+                
+                card.style.display = show ? 'block' : 'none';
+            });
+        }
+        
+        function toggleView() {
+            const grid = document.getElementById('lensGrid');
+            const button = document.querySelector('.view-toggle');
+            
+            isCompact = !isCompact;
+            
+            if (isCompact) {
+                grid.classList.add('compact');
+                button.textContent = '🔄 Normal View';
+            } else {
+                grid.classList.remove('compact');
+                button.textContent = '🔄 Compact View';
+            }
+        }
+    </script>
+</body>
+</html>

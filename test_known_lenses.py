@@ -43,8 +43,15 @@ def test_known_lenses():
         print(f"\n[{i}/{rf_total}] Testing: {lens_url}")
         
         lens_data = scraper.parse_lens_spec_page(lens_url)
-        if lens_data and lens_data['lens_name'] and lens_data['mtf_image_url']:
+        if lens_data and lens_data['lens_name']:
+            mtf_available = bool(lens_data['mtf_image_url'])
+            construction_available = bool(lens_data['construction_image_url'])
+            
             print(f"✅ Found: {lens_data['lens_name']}")
+            print(f"   📊 MTF Chart: {'✅' if mtf_available else '❌'}")
+            print(f"   🔧 Construction: {'✅' if construction_available else '❌'}")
+            print(f"   📷 Total Images: {len(lens_data.get('all_spec_images', []))}")
+            
             success = scraper.save_lens_data(lens_data, scraper.rf_dir)
             if success:
                 rf_success += 1
@@ -61,8 +68,15 @@ def test_known_lenses():
         print(f"\n[{i}/{ef_total}] Testing: {lens_url}")
         
         lens_data = scraper.parse_lens_spec_page(lens_url)
-        if lens_data and lens_data['lens_name'] and lens_data['mtf_image_url']:
+        if lens_data and lens_data['lens_name']:
+            mtf_available = bool(lens_data['mtf_image_url'])
+            construction_available = bool(lens_data['construction_image_url'])
+            
             print(f"✅ Found: {lens_data['lens_name']}")
+            print(f"   📊 MTF Chart: {'✅' if mtf_available else '❌'}")
+            print(f"   🔧 Construction: {'✅' if construction_available else '❌'}")
+            print(f"   📷 Total Images: {len(lens_data.get('all_spec_images', []))}")
+            
             success = scraper.save_lens_data(lens_data, scraper.ef_dir)
             if success:
                 ef_success += 1

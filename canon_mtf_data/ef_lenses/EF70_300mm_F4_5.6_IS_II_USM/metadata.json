@@ -1,7 +1,35 @@
 {
   "lens_name": "EF70-300mm F4-5.6 IS II USM",
   "url": "https://personal.canon.jp/product/camera/ef/ef70-300-f4-56ii/spec",
-  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-300-f4-56ii/spec/image/mtf.png?h=286&la=ja-JP&w=550&hash=90CE66FDCC6194A3455134B31FF58D56",
+  "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-300-f4-56ii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=D4841096980E3599FD78776E707F5406",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-300-f4-56ii/spec/image/lens-construction.png?h=270&la=ja-JP&w=440&hash=3CCD445C14C19AD33F5F66F0BFD41F62",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288",
+      "filename": "pagetitle-logo-eflens.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/common/image/pagetitle-logo-eflens.jpg?h=33&la=ja-JP&w=139&hash=7F87D53D0C92F6327601E96F31600288"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-300-f4-56ii/spec/image/mtf.png?h=286&la=ja-JP&w=550&hash=90CE66FDCC6194A3455134B31FF58D56",
+      "filename": "mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-300-f4-56ii/spec/image/mtf.png?h=286&la=ja-JP&w=550&hash=90CE66FDCC6194A3455134B31FF58D56"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-300-f4-56ii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=D4841096980E3599FD78776E707F5406",
+      "filename": "mtf-chart-note.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-300-f4-56ii/spec/image/mtf-chart-note.png?h=76&la=ja-JP&w=262&hash=D4841096980E3599FD78776E707F5406"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-300-f4-56ii/spec/image/lens-construction.png?h=270&la=ja-JP&w=440&hash=3CCD445C14C19AD33F5F66F0BFD41F62",
+      "filename": "lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-300-f4-56ii/spec/image/lens-construction.png?h=270&la=ja-JP&w=440&hash=3CCD445C14C19AD33F5F66F0BFD41F62"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-300-f4-56ii/spec/image/view.jpg?h=270&la=ja-JP&w=500&hash=25628AF79B6CE54BC386239FE434C2BB",
+      "filename": "view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/ef/ef70-300-f4-56ii/spec/image/view.jpg?h=270&la=ja-JP&w=500&hash=25628AF79B6CE54BC386239FE434C2BB"
+    }
+  ],
   "specifications": {
     "画角（水平・垂直・対角線）": "29°～6°50'・19°30'～4°35'・34°～8°15'",
     "レンズ構成": "12群17枚",

@@ -2,6 +2,34 @@
   "lens_name": "RF50mm F1.2 L USM",
   "url": "https://personal.canon.jp/product/camera/rf/rf50-f12l/spec",
   "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf50-f12l/spec/spec-mtf.png?h=282&la=ja-JP&w=400&hash=7CC7A7DC6C98C284D11122E0F31F999A",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf50-f12l/spec/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=8A98C631CE005181191EAC239757773A",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf50-f12l/spec/spec-mtf.png?h=282&la=ja-JP&w=400&hash=7CC7A7DC6C98C284D11122E0F31F999A",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf50-f12l/spec/spec-mtf.png?h=282&la=ja-JP&w=400&hash=7CC7A7DC6C98C284D11122E0F31F999A"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf50-f12l/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=E53EFCB7D797F0DB10CEBC59A484049D",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf50-f12l/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=E53EFCB7D797F0DB10CEBC59A484049D"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf50-f12l/spec/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=8A98C631CE005181191EAC239757773A",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf50-f12l/spec/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=8A98C631CE005181191EAC239757773A"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf50-f12l/spec/spec-view.jpg?h=280&la=ja-JP&w=400&hash=F9E4BFAE51DF21CC4B1921DF2A38224B",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf50-f12l/spec/spec-view.jpg?h=280&la=ja-JP&w=400&hash=F9E4BFAE51DF21CC4B1921DF2A38224B"
+    }
+  ],
   "specifications": {
     "画角（水平・垂直・対角線）": "40° ・ 27° ・ 46°",
     "レンズ構成": "9群15枚",

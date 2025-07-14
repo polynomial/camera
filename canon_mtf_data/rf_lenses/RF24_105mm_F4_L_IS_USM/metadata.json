@@ -2,6 +2,34 @@
   "lens_name": "RF24-105mm F4 L IS USM",
   "url": "https://personal.canon.jp/product/camera/rf/rf24-105-f4l/spec",
   "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=56EC8DC580D4F93C51259EFC1B3A3BCA",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4l/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=FA08AAFD157260252DD1ADDB6A143D38",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=56EC8DC580D4F93C51259EFC1B3A3BCA",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=56EC8DC580D4F93C51259EFC1B3A3BCA"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4l/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=0BFE7C66974B5C413522F09154B121BD",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4l/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=0BFE7C66974B5C413522F09154B121BD"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4l/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=FA08AAFD157260252DD1ADDB6A143D38",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4l/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=FA08AAFD157260252DD1ADDB6A143D38"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4l/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=24BD4124B2BFBD56F6AE09D9AECC6F65",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-105-f4l/spec/image/spec-view.jpg?h=280&la=ja-JP&w=400&hash=24BD4124B2BFBD56F6AE09D9AECC6F65"
+    }
+  ],
   "specifications": {
     "画角（水平・垂直・対角線）": "74°～19°20'・53°～13°・84°～23°20'",
     "レンズ構成": "14群18枚",

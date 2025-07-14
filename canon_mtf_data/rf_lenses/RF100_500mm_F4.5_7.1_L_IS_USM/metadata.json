@@ -2,6 +2,34 @@
   "lens_name": "RF100-500mm F4.5-7.1 L IS USM",
   "url": "https://personal.canon.jp/product/camera/rf/rf100-500-f45-71l/spec",
   "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-mtf.png?h=286&la=ja-JP&w=550&hash=FB8988D9D63CE4FB86AB94B3E08E7DEE",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-lens-construction.png?h=295&la=ja-JP&w=400&hash=8F3A36F9EFC5571F2E10DD459FF69973",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-mtf.png?h=286&la=ja-JP&w=550&hash=FB8988D9D63CE4FB86AB94B3E08E7DEE",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-mtf.png?h=286&la=ja-JP&w=550&hash=FB8988D9D63CE4FB86AB94B3E08E7DEE"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=0C73A7D76FE65709E95E2DFD5000756A",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/media-fig.png?h=76&la=ja-JP&w=262&hash=0C73A7D76FE65709E95E2DFD5000756A"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-lens-construction.png?h=295&la=ja-JP&w=400&hash=8F3A36F9EFC5571F2E10DD459FF69973",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-lens-construction.png?h=295&la=ja-JP&w=400&hash=8F3A36F9EFC5571F2E10DD459FF69973"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-view.jpg?h=280&la=ja-JP&w=470&hash=89791D42559FC918621332B8F6EC71E3",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf100-500-f45-71l/spec/spec-view.jpg?h=280&la=ja-JP&w=470&hash=89791D42559FC918621332B8F6EC71E3"
+    }
+  ],
   "specifications": {
     "画角（水平・垂直・対角線）": "20°～4°・14°～2°45′・24°～5°",
     "レンズ構成": "14群20枚",

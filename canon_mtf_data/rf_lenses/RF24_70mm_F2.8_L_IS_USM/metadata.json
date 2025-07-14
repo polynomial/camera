@@ -2,6 +2,34 @@
   "lens_name": "RF24-70mm F2.8 L IS USM",
   "url": "https://personal.canon.jp/product/camera/rf/rf24-70-f28l/spec",
   "mtf_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-70-f28l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=3739B158C3634C4699130A6CD35E5E69",
+  "construction_image_url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-70-f28l/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=9780D66EDED965C1EC8E37D34175E17B",
+  "all_spec_images": [
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0",
+      "filename": "rflens.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/common/image/logo/rflens.png?h=33&la=ja-JP&w=139&hash=7838F95EFDA0EF133CEDFFF4510D02C0"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-70-f28l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=3739B158C3634C4699130A6CD35E5E69",
+      "filename": "spec-mtf.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-70-f28l/spec/image/spec-mtf.png?h=286&la=ja-JP&w=550&hash=3739B158C3634C4699130A6CD35E5E69"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-70-f28l/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=D80D2ACE30B1445CF34D41A018C19B60",
+      "filename": "media-fig.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-70-f28l/spec/image/media-fig.png?h=76&la=ja-JP&w=262&hash=D80D2ACE30B1445CF34D41A018C19B60"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-70-f28l/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=9780D66EDED965C1EC8E37D34175E17B",
+      "filename": "spec-lens-construction.png",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-70-f28l/spec/image/spec-lens-construction.png?h=280&la=ja-JP&w=400&hash=9780D66EDED965C1EC8E37D34175E17B"
+    },
+    {
+      "url": "https://personal.canon.jp/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-70-f28l/spec/image/spec-view.jpg?h=280&la=ja-JP&w=470&hash=2564735A9D888FC1A8C3767121AAF37F",
+      "filename": "spec-view.jpg",
+      "src": "/-/media/Project/Canon/CanonJP/Personal/product/camera/rf/rf24-70-f28l/spec/image/spec-view.jpg?h=280&la=ja-JP&w=470&hash=2564735A9D888FC1A8C3767121AAF37F"
+    }
+  ],
   "specifications": {
     "画角（水平・垂直・対角線）": "74°～29°・53°～19°30′・84°34°",
     "レンズ構成": "15群21枚",
