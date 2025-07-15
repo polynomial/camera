@@ -35,13 +35,13 @@
 ### 🥈 **Outstanding Performers (MTF 0.6-0.8 @ 10 lp/mm)**
 
 #### **RF24-70mm F2.8L IS USM**
-![RF24-70mm F2.8L IS USM MTF](../../canon_mtf_data/rf_lenses/RF24_70mm_F2.8L_IS_USM/mtf_spec_mtf.png)
+![RF24-70mm F2.8L IS USM MTF](../../canon_mtf_data/rf_lenses/RF24_70mm_F2.8_L_IS_USM/mtf_spec_mtf.png)
 - **Zoom Performance**: Excellent throughout range
 - **Image Stabilization**: 8-stop effectiveness
 - **[View Details](../lens_detail/RF24_70mm_F2.8L_IS_USM.md)**
 
 #### **RF70-200mm F2.8L IS USM**
-![RF70-200mm F2.8L IS USM MTF](../../canon_mtf_data/rf_lenses/RF70_200mm_F2.8L_IS_USM/mtf_spec_mtf.png)
+![RF70-200mm F2.8L IS USM MTF](../../canon_mtf_data/rf_lenses/RF70_200mm_F2.8_L_IS_USM/mtf_spec_mtf.png)
 - **Professional Standard**: Sports/wildlife excellence
 - **Consistent Performance**: Sharp across zoom range
 - **[View Details](../lens_detail/RF70_200mm_F2.8L_IS_USM.md)**

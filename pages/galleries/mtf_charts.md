@@ -28,7 +28,7 @@
 #### 📸 **RF24-70mm F2.8L IS USM**
 *Professional standard zoom with excellent MTF performance*
 
-![RF24-70mm F2.8L IS USM MTF](../../canon_mtf_data/rf_lenses/RF24_70mm_F2.8L_IS_USM/mtf_spec_mtf.png)
+![RF24-70mm F2.8L IS USM MTF](../../canon_mtf_data/rf_lenses/RF24_70mm_F2.8_L_IS_USM/mtf_spec_mtf.png)
 
 **[📊 View Details](../lens_detail/RF24_70mm_F2.8L_IS_USM.md)**
 
@@ -46,7 +46,7 @@
 #### 🌄 **RF14-35mm F4L IS USM**
 *Ultra-wide zoom with consistent performance*
 
-![RF14-35mm F4L IS USM MTF](../../canon_mtf_data/rf_lenses/RF14_35mm_F4_L_IS_USM/mtf_spec_mtf.png)
+**MTF Chart**: Not currently available
 
 **[📊 View Details](../lens_detail/RF14_35mm_F4_L_IS_USM.md)**
 
@@ -55,7 +55,7 @@
 #### 🏃 **RF70-200mm F2.8L IS USM**
 *Professional telephoto zoom excellence*
 
-![RF70-200mm F2.8L IS USM MTF](../../canon_mtf_data/rf_lenses/RF70_200mm_F2.8L_IS_USM/mtf_spec_mtf.png)
+![RF70-200mm F2.8L IS USM MTF](../../canon_mtf_data/rf_lenses/RF70_200mm_F2.8_L_IS_USM/mtf_spec_mtf.png)
 
 **[📊 View Details](../lens_detail/RF70_200mm_F2.8L_IS_USM.md)**
 
@@ -66,7 +66,7 @@
 #### 🔍 **RF100mm F2.8L Macro IS USM**
 *Professional macro with 1:1 magnification*
 
-![RF100mm F2.8L Macro IS USM MTF](../../canon_mtf_data/rf_lenses/RF100mm_F2.8L_MACRO_IS_USM/mtf_spec_mtf.png)
+![RF100mm F2.8L Macro IS USM MTF](../../canon_mtf_data/rf_lenses/RF100mm_F2.8_L_MACRO_IS_USM/mtf_spec_mtf.png)
 
 **[📊 View Details](../lens_detail/RF100mm_F2.8L_MACRO_IS_USM.md)**
 
@@ -86,7 +86,7 @@
 #### 🦅 **RF100-500mm F4.5-7.1L IS USM**
 *Versatile super telephoto zoom*
 
-![RF100-500mm F4.5-7.1L IS USM MTF](../../canon_mtf_data/rf_lenses/RF100_500mm_F4.5_7.1L_IS_USM/mtf_spec_mtf.png)
+![RF100-500mm F4.5-7.1L IS USM MTF](../../canon_mtf_data/rf_lenses/RF100_500mm_F4.5_7.1_L_IS_USM/mtf_spec_mtf.png)
 
 **[📊 View Details](../lens_detail/RF100_500mm_F4.5_7.1L_IS_USM.md)**
 
@@ -95,7 +95,7 @@
 #### 🎯 **RF600mm F4L IS USM**
 *Professional super telephoto prime*
 
-![RF600mm F4L IS USM MTF](../../canon_mtf_data/rf_lenses/RF600mm_F4L_IS_USM/mtf_spec_mtf.png)
+![RF600mm F4L IS USM MTF](../../canon_mtf_data/rf_lenses/RF600mm_F4_L_IS_USM/mtf_spec_mtf.png)
 
 **[📊 View Details](../lens_detail/RF600mm_F4L_IS_USM.md)**
 

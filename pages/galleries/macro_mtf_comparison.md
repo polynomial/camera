@@ -17,7 +17,7 @@
 ## 📈 **Professional Macro Lenses**
 
 ### 🏆 **RF100mm F2.8L Macro IS USM**
-![RF100mm F2.8L Macro IS USM MTF](../../canon_mtf_data/rf_lenses/RF100mm_F2.8L_MACRO_IS_USM/mtf_spec_mtf.png)
+![RF100mm F2.8L Macro IS USM MTF](../../canon_mtf_data/rf_lenses/RF100mm_F2.8_L_MACRO_IS_USM/mtf_spec_mtf.png)
 
 **Performance Analysis:**
 - **1:1 Magnification**: Professional macro capability
