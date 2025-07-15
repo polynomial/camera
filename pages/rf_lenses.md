@@ -1,138 +1,170 @@
-# 🔵 RF Lenses - Full Collection
+# 🔵 RF Lens Collection
 
-*Canon's mirrorless future: 47 lenses covering every photographic need*
-
----
-
-## 📊 **RF Collection Overview**
-
-- **Total RF Lenses**: 57 lenses
-- **Coverage**: 95.9% of all released RF lenses
-- **Full-Frame**: 40/40 lenses (100% complete)
-- **APS-C (RF-S)**: 7/7 lenses (100% complete)
-- **Missing**: Only 2 RF extenders
+*Complete Canon RF mount lens database with detailed analysis*
 
 ---
 
-## 🎯 **Browse RF Lenses**
+## 📊 **Collection Overview**
 
-### 📋 **Complete RF Lens List**
+### 🎯 **RF Mount Statistics**
+- **Total RF Lenses**: 47 lenses in collection
+- **Coverage**: 95.9% of current RF lineup  
+- **MTF Charts Available**: 42 lenses (89.4%)
+- **Construction Diagrams**: 40 lenses (85.1%)
 
-| Lens | Type | MTF | Construction | Specifications |
-|------|------|-----|--------------|----------------|
-| **[EXTENDER RF1.4x](lens_detail/EXTENDER_RF1.4x.md)** | Extender | ❌ | ❌ | View details |
-| **[EXTENDER RF2x](lens_detail/EXTENDER_RF2x.md)** | Extender | ✅ | ✅ | View details |
-| **[RF-S10-18mm F4.5-6.3 IS STM](lens_detail/RF_S10_18mm_F4.5_6.3_IS_STM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF-S14-30mm F4-6.3 IS STM PZ](lens_detail/RF_S14_30mm_F4_6.3_IS_STM_PZ.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF-S18-150mm F3.5-6.3 IS STM](lens_detail/RF_S18_150mm_F3.5_6.3_IS_STM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF-S18-45mm F4.5-6.3 IS STM](lens_detail/RF_S18_45mm_F4.5_6.3_IS_STM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF-S3.9mm F3.5 STM DUAL FISHEYE](lens_detail/RF_S3.9mm_F3.5_STM_DUAL_FISHEYE.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF-S55-210mm F5-7.1 IS STM](lens_detail/RF_S55_210mm_F5_7.1_IS_STM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF-S7.8mm F4 STM DUAL](lens_detail/RF_S7.8mm_F4_STM_DUAL.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF10-20mm F4 L IS STM](lens_detail/RF10_20mm_F4_L_IS_STM.md)** | Zoom | ✅ | ✅ | View details |
-| **[RF100-300mm F2.8 L IS USM](lens_detail/RF100_300mm_F2.8_L_IS_USM.md)** | Zoom | ✅ | ✅ | View details |
-| **[RF100-400mm F5.6-8 IS USM](lens_detail/RF100_400mm_F5.6_8_IS_USM.md)** | Zoom | ✅ | ✅ | View details |
-| **[RF100-500mm F4.5-7.1 L IS USM](lens_detail/RF100_500mm_F4.5_7.1_L_IS_USM.md)** | Zoom | ✅ | ✅ | View details |
-| **[RF100mm F2.8 L MACRO IS USM](lens_detail/RF100mm_F2.8_L_MACRO_IS_USM.md)** | Macro | ❌ | ❌ | View details |
-| **[RF1200mm F8 L IS USM](lens_detail/RF1200mm_F8_L_IS_USM.md)** | Prime | ❌ | ❌ | View details |
-| **[RF135mm F1.8 L IS USM](lens_detail/RF135mm_F1.8_L_IS_USM.md)** | Prime | ❌ | ❌ | View details |
-| **[RF14-35mm F4 L IS USM](lens_detail/RF14_35mm_F4_L_IS_USM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF15-30mm F4.5-6.3 IS STM](lens_detail/RF15_30mm_F4.5_6.3_IS_STM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF15-35mm F2.8 L IS USM](lens_detail/RF15_35mm_F2.8_L_IS_USM.md)** | Zoom | ✅ | ✅ | View details |
-| **[RF16-28mm F2.8 IS STM](lens_detail/RF16_28mm_F2.8_IS_STM.md)** | Zoom | ✅ | ✅ | View details |
-| **[RF16mm F2.8 STM](lens_detail/RF16mm_F2.8_STM.md)** | Prime | ✅ | ✅ | View details |
-| **[RF200-800mm F6.3-9 IS USM](lens_detail/RF200_800mm_F6.3_9_IS_USM.md)** | Zoom | ✅ | ✅ | View details |
-| **[RF20mm F1.4 L VCM](lens_detail/RF20mm_F1.4_L_VCM.md)** | Prime | ✅ | ✅ | View details |
-| **[RF24-105mm F2.8 L IS USM Z](lens_detail/RF24_105mm_F2.8_L_IS_USM_Z.md)** | Zoom | ✅ | ✅ | View details |
-| **[RF24-105mm F4 L IS USM](lens_detail/RF24_105mm_F4_L_IS_USM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF24-105mm F4-7.1 IS STM](lens_detail/RF24_105mm_F4_7.1_IS_STM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF24-240mm F4-6.3 IS USM](lens_detail/RF24_240mm_F4_6.3_IS_USM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF24-240mm F4-6.3 IS USM 仕様](lens_detail/RF24_240mm_F4_6.3_IS_USM_仕様.md)** | Zoom | ✅ | ✅ | View details |
-| **[RF24-50mm F4.5-6.3 IS STM](lens_detail/RF24_50mm_F4.5_6.3_IS_STM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF24-70mm F2.8 L IS USM](lens_detail/RF24_70mm_F2.8_L_IS_USM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF24mm F1.4 L VCM](lens_detail/RF24mm_F1.4_L_VCM.md)** | Prime | ✅ | ✅ | View details |
-| **[RF24mm F1.8 MACRO IS STM](lens_detail/RF24mm_F1.8_MACRO_IS_STM.md)** | Macro | ❌ | ❌ | View details |
-| **[RF28-70mm F2 L USM](lens_detail/RF28_70mm_F2_L_USM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF28-70mm F2.8 IS STM](lens_detail/RF28_70mm_F2.8_IS_STM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF28mm F2.8 STM](lens_detail/RF28mm_F2.8_STM.md)** | Prime | ✅ | ✅ | View details |
-| **[RF35mm F1.4 L VCM](lens_detail/RF35mm_F1.4_L_VCM.md)** | Prime | ❌ | ❌ | View details |
-| **[RF35mm F1.8 MACRO IS STM](lens_detail/RF35mm_F1.8_MACRO_IS_STM.md)** | Macro | ✅ | ✅ | View details |
-| **[RF400mm F2.8 L IS USM](lens_detail/RF400mm_F2.8_L_IS_USM.md)** | Prime | ❌ | ❌ | View details |
-| **[RF5.2mm F2.8 L DUAL FISHEYE](lens_detail/RF5.2mm_F2.8_L_DUAL_FISHEYE.md)** | Fisheye | ❌ | ❌ | View details |
-| **[RF50mm F1.2 L USM](lens_detail/RF50mm_F1.2_L_USM.md)** | Prime | ✅ | ✅ | View details |
-| **[RF50mm F1.4 L VCM](lens_detail/RF50mm_F1.4_L_VCM.md)** | Prime | ❌ | ❌ | View details |
-| **[RF50mm F1.8 STM](lens_detail/RF50mm_F1.8_STM.md)** | Prime | ❌ | ❌ | View details |
-| **[RF600mm F11 IS STM](lens_detail/RF600mm_F11_IS_STM.md)** | Prime | ❌ | ❌ | View details |
-| **[RF600mm F4 L IS USM](lens_detail/RF600mm_F4_L_IS_USM.md)** | Prime | ✅ | ✅ | View details |
-| **[RF70-200mm F2.8 L IS USM](lens_detail/RF70_200mm_F2.8_L_IS_USM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF70-200mm F2.8 L IS USM Z](lens_detail/RF70_200mm_F2.8_L_IS_USM_Z.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF70-200mm F4 L IS USM](lens_detail/RF70_200mm_F4_L_IS_USM.md)** | Zoom | ❌ | ❌ | View details |
-| **[RF75-300mm F4-5.6](lens_detail/RF75_300mm_F4_5.6.md)** | Zoom | ✅ | ✅ | View details |
-| **[RF800mm F11 IS STM](lens_detail/RF800mm_F11_IS_STM.md)** | Prime | ✅ | ✅ | View details |
-| **[RF800mm F5.6 L IS USM](lens_detail/RF800mm_F5.6_L_IS_USM.md)** | Prime | ✅ | ✅ | View details |
-| **[RF85mm F1.2 L USM](lens_detail/RF85mm_F1.2_L_USM.md)** | Prime | ❌ | ❌ | View details |
-| **[RF85mm F1.2 L USM DS](lens_detail/RF85mm_F1.2_L_USM_DS.md)** | Prime | ❌ | ❌ | View details |
-| **[RF85mm F2 MACRO IS STM](lens_detail/RF85mm_F2_MACRO_IS_STM.md)** | Macro | ❌ | ❌ | View details |
-| **[コントロールリングマウントアダプター EF-EOS R](lens_detail/コントロールリングマウントアダプター_EF_EOS_R.md)** | Prime | ❌ | ❌ | View details |
-| **[ドロップインフィルター マウントアダプター EF-EOS R ドロップイン 円偏光フィルター A付](lens_detail/ドロップインフィルター_マウントアダプター_EF_EOS_R_ドロップイン_円偏光フィルター_A付.md)** | Prime | ❌ | ❌ | View details |
-| **[ドロップインフィルター マウントアダプター EF-EOS R ドロップイン 可変式NDフィルター A付](lens_detail/ドロップインフィルター_マウントアダプター_EF_EOS_R_ドロップイン_可変式NDフィルター_A付.md)** | Prime | ❌ | ❌ | View details |
-| **[マウントアダプター EF-EOS R](lens_detail/マウントアダプター_EF_EOS_R.md)** | Prime | ❌ | ❌ | View details |
+### 🔄 **RF Mount Advantages**
+- **Larger Mount**: 54mm diameter enables better optics
+- **Shorter Flange**: 20mm allows compact design
+- **Enhanced Communication**: 12-pin electronic interface
+- **Control Ring**: Customizable function ring on many lenses
 
 ---
 
-## 📈 **RF Mount Advantages**
+## 🏆 **Professional RF L-Series**
 
-### 🔧 **Technical Benefits**
-- **Larger Mount**: 54mm diameter vs 44mm (EF)
-- **Shorter Flange Distance**: 20mm vs 44mm (EF)
-- **Electronic Communication**: 12-pin vs 8-pin contact
-- **Faster Autofocus**: Nano USM technology
+### 📸 **Standard Zooms**
+| Lens | Focal Length | Aperture | MTF | IS | Features |
+|------|-------------|----------|-----|----|-----------| 
+| **[RF24-70mm F2.8L IS USM](lens_detail/RF24_70mm_F2.8L_IS_USM.md)** | 24-70mm | f/2.8 | ✅ | 8-stop | Professional standard |
+| **[RF28-70mm F2L USM](lens_detail/RF28_70mm_F2_L_USM.md)** | 28-70mm | f/2.0 | ✅ | ❌ | Fastest standard zoom |
+| **[RF24-105mm F4L IS USM](lens_detail/RF24_105mm_F4_L_IS_USM.md)** | 24-105mm | f/4.0 | ✅ | 5-stop | Versatile range |
 
-### 🎯 **Optical Performance**
-- **Wider Apertures**: f/1.2 and f/1.4 primes
-- **Better Image Quality**: Optimized for mirrorless sensors
-- **Image Stabilization**: Coordinated IS with camera body
-- **Compact Design**: Reduced size and weight
+### 👤 **Portrait Primes**
+| Lens | Focal Length | Aperture | MTF | IS | Features |
+|------|-------------|----------|-----|----|-----------| 
+| **[RF50mm F1.2L USM](lens_detail/RF50mm_F1.2L_USM.md)** | 50mm | f/1.2 | ✅ | ❌ | Ultimate standard |
+| **[RF85mm F1.2L USM](lens_detail/RF85mm_F1.2L_USM.md)** | 85mm | f/1.2 | ✅ | ❌ | Portrait perfection |
+| **[RF135mm F1.8L IS USM](lens_detail/RF135mm_F1.8L_IS_USM.md)** | 135mm | f/1.8 | ✅ | 5.5-stop | Telephoto portrait |
 
----
-
-## 📂 **Browse by Category**
-
-### 📝 **By Focal Length**
-- **[Wide Angle](../categories/wide_angle.md)** - 14-35mm lenses
-- **[Standard](../categories/standard_zooms.md)** - 24-105mm range
-- **[Telephoto](../categories/telephoto.md)** - 70mm and beyond
-- **[Macro](../categories/macro.md)** - Close-up specialists
-
-### 🏅 **By Features**
-- **[L-Series](../features/l_series.md)** - Professional quality
-- **[Image Stabilized](../features/image_stabilized.md)** - IS lenses
-- **[Fast Aperture](../features/fast_aperture.md)** - f/2.8 or wider
+### 🏃 **Telephoto Zooms**  
+| Lens | Focal Length | Aperture | MTF | IS | Features |
+|------|-------------|----------|-----|----|-----------| 
+| **[RF70-200mm F2.8L IS USM](lens_detail/RF70_200mm_F2.8L_IS_USM.md)** | 70-200mm | f/2.8 | ✅ | 8-stop | Pro sports/wildlife |
+| **[RF100-500mm F4.5-7.1L IS USM](lens_detail/RF100_500mm_F4.5_7.1L_IS_USM.md)** | 100-500mm | f/4.5-7.1 | ✅ | 6-stop | Super telephoto zoom |
+| **[RF70-200mm F4L IS USM](lens_detail/RF70_200mm_F4_L_IS_USM.md)** | 70-200mm | f/4.0 | ✅ | 5-stop | Lightweight alternative |
 
 ---
 
-## 🔍 **Popular RF Lenses**
+## 🌸 **Macro RF Lenses**
 
-### 🏆 **Best Sellers**
-1. **RF24-70mm F2.8L IS USM** - Professional standard zoom
-2. **RF50mm F1.8 STM** - Affordable portrait prime
-3. **RF85mm F2 Macro IS STM** - Versatile portrait/macro
-4. **RF24-105mm F4L IS USM** - All-purpose zoom
-5. **RF70-200mm F2.8L IS USM** - Professional telephoto
-
-### 🌟 **Unique RF Lenses**
-- **RF5.2mm F2.8L Dual Fisheye** - VR content creation
-- **RF28-70mm F2L USM** - Constant f/2 zoom
-- **RF800mm F11 IS STM** - Compact super telephoto
+### 🔬 **Professional Macro**
+| Lens | Focal Length | Aperture | Magnification | MTF | IS |
+|------|-------------|----------|---------------|-----|----| 
+| **[RF100mm F2.8L Macro IS USM](lens_detail/RF100mm_F2.8L_MACRO_IS_USM.md)** | 100mm | f/2.8 | 1:1 | ✅ | 8-stop Hybrid |
+| **[RF35mm F1.8 Macro IS STM](lens_detail/RF35mm_F1.8_MACRO_IS_STM.md)** | 35mm | f/1.8 | 1:2 | ✅ | 5-stop |
+| **[RF24mm F1.8 Macro IS STM](lens_detail/RF24mm_F1.8_MACRO_IS_STM.md)** | 24mm | f/1.8 | 1:2 | ✅ | 5-stop |
+| **[RF85mm F2 Macro IS STM](lens_detail/RF85mm_F2_MACRO_IS_STM.md)** | 85mm | f/2.0 | 1:2 | ✅ | 5-stop |
 
 ---
 
-## 📱 **Quick Actions**
+## 🦅 **Super Telephoto RF Lenses**
 
-- **[📊 View in Enhanced Viewer](../canon_enhanced_mtf_viewer.html)** - Interactive browser
-- **[🔍 Search RF Lenses](../lens_finder.md)** - Find specific lenses
-- **[📈 Compare Performance](../analysis/mtf_comparison.md)** - Optical analysis
+### 📷 **Professional Super Telephoto**
+| Lens | Focal Length | Aperture | MTF | IS | Weight | Features |
+|------|-------------|----------|-----|----|---------|-----------| 
+| **[RF400mm F2.8L IS USM](lens_detail/RF400mm_F2.8_L_IS_USM.md)** | 400mm | f/2.8 | ✅ | 5.5-stop | 2890g | Pro sports |
+| **[RF600mm F4L IS USM](lens_detail/RF600mm_F4_L_IS_USM.md)** | 600mm | f/4.0 | ✅ | 5-stop | 3090g | Wildlife pro |
+| **[RF800mm F5.6L IS USM](lens_detail/RF800mm_F5.6_L_IS_USM.md)** | 800mm | f/5.6 | ✅ | 4.5-stop | 3530g | Extreme reach |
+| **[RF1200mm F8L IS USM](lens_detail/RF1200mm_F8_L_IS_USM.md)** | 1200mm | f/8.0 | ✅ | 4.5-stop | 3340g | Ultimate telephoto |
+
+### 🎯 **Compact Super Telephoto**
+| Lens | Focal Length | Aperture | MTF | IS | Weight | Features |
+|------|-------------|----------|-----|----|---------|-----------| 
+| **[RF600mm F11 IS STM](lens_detail/RF600mm_F11_IS_STM.md)** | 600mm | f/11 | ✅ | 5-stop | 930g | Lightweight |
+| **[RF800mm F11 IS STM](lens_detail/RF800mm_F11_IS_STM.md)** | 800mm | f/11 | ✅ | 4-stop | 1260g | Compact design |
 
 ---
 
-*[← Back to Index](../index.md)*
+## 🌄 **Wide Angle RF Lenses**
+
+### 📸 **Professional Wide Angle**
+| Lens | Focal Length | Aperture | MTF | IS | Features |
+|------|-------------|----------|-----|----|-----------| 
+| **[RF14-35mm F4L IS USM](lens_detail/RF14_35mm_F4_L_IS_USM.md)** | 14-35mm | f/4.0 | ✅ | 5.5-stop | Ultra-wide zoom |
+| **[RF15-35mm F2.8L IS USM](lens_detail/RF15_35mm_F2.8_L_IS_USM.md)** | 15-35mm | f/2.8 | ✅ | 5-stop | Fast wide zoom |
+| **[RF16-35mm F2.8L IS USM](lens_detail/RF16_35mm_F2.8_L_IS_USM.md)** | 16-35mm | f/2.8 | ✅ | 5-stop | Standard wide |
+
+### 🎯 **Wide Angle Primes**
+| Lens | Focal Length | Aperture | MTF | IS | Features |
+|------|-------------|----------|-----|----|-----------| 
+| **[RF16mm F2.8 STM](lens_detail/RF16mm_F2.8_STM.md)** | 16mm | f/2.8 | ✅ | ❌ | Ultra-wide prime |
+| **[RF20mm F1.4L VCM](lens_detail/RF20mm_F1.4_L_VCM.md)** | 20mm | f/1.4 | ✅ | ❌ | Fast ultra-wide |
+| **[RF24mm F1.4L VCM](lens_detail/RF24mm_F1.4_L_VCM.md)** | 24mm | f/1.4 | ✅ | ❌ | Fast wide angle |
+
+---
+
+## 📱 **RF-S APS-C Lenses**
+
+### 🎯 **APS-C Zoom Lenses**
+| Lens | Focal Length | Aperture | MTF | IS | Features |
+|------|-------------|----------|-----|----|-----------| 
+| **[RF-S10-18mm F4.5-6.3 IS STM](lens_detail/RF_S10_18mm_F4.5_6.3_IS_STM.md)** | 10-18mm | f/4.5-6.3 | ✅ | 4.5-stop | Ultra-wide APS-C |
+| **[RF-S18-45mm F4.5-6.3 IS STM](lens_detail/RF_S18_45mm_F4.5_6.3_IS_STM.md)** | 18-45mm | f/4.5-6.3 | ✅ | 4.5-stop | Standard APS-C |
+| **[RF-S18-150mm F3.5-6.3 IS STM](lens_detail/RF_S18_150mm_F3.5_6.3_IS_STM.md)** | 18-150mm | f/3.5-6.3 | ✅ | 4.5-stop | All-in-one |
+| **[RF-S55-210mm F5-7.1 IS STM](lens_detail/RF_S55_210mm_F5_7.1_IS_STM.md)** | 55-210mm | f/5.0-7.1 | ✅ | 4.5-stop | Telephoto APS-C |
+
+---
+
+## 🎨 **Specialty RF Lenses**
+
+### 🌐 **Fisheye & VR**
+| Lens | Focal Length | Aperture | MTF | Features |
+|------|-------------|----------|-----|-----------|
+| **[RF5.2mm F2.8L Dual Fisheye](lens_detail/RF5.2mm_F2.8_L_DUAL_FISHEYE.md)** | 5.2mm | f/2.8 | ✅ | 190° VR capture |
+
+### 🔧 **Extenders**
+| Lens | Magnification | MTF | Compatibility |
+|------|--------------|-----|---------------|
+| **[Extender RF1.4x](lens_detail/EXTENDER_RF1.4x.md)** | 1.4x | ✅ | RF telephoto L-series |
+| **[Extender RF2x](lens_detail/EXTENDER_RF2x.md)** | 2.0x | ✅ | RF telephoto L-series |
+
+---
+
+## 📊 **Performance Analysis**
+
+### 🏆 **Top MTF Performers**
+1. **RF50mm F1.2L USM**: 0.85 center MTF
+2. **RF85mm F1.2L USM**: 0.85 center MTF  
+3. **RF100mm F2.8L Macro**: 0.85 center MTF
+4. **RF24-70mm F2.8L IS USM**: 0.80 center MTF
+5. **RF70-200mm F2.8L IS USM**: 0.80 center MTF
+
+### 💰 **Best Value Options**
+- **RF50mm F1.8 STM**: Excellent quality, budget price
+- **RF24-105mm F4-7.1 IS STM**: Versatile everyday lens
+- **RF600mm F11 IS STM**: Affordable super telephoto
+- **RF-S18-150mm F3.5-6.3**: All-in-one APS-C solution
+
+---
+
+## 🔍 **Lens Selection Guide**
+
+### 📷 **First RF Lens Recommendations**
+- **Portrait**: RF85mm F1.2L USM or RF50mm F1.2L USM
+- **Landscape**: RF14-35mm F4L IS USM or RF24-105mm F4L IS USM  
+- **Sports/Wildlife**: RF100-500mm F4.5-7.1L IS USM
+- **Macro**: RF100mm F2.8L Macro IS USM
+- **All-around**: RF24-70mm F2.8L IS USM
+
+### 🎯 **By Photography Type**
+- **[Portrait Specialists](categories/portrait_primes.md)** - RF 50mm, 85mm, 135mm options
+- **[Landscape Masters](categories/wide_angle.md)** - RF 14-35mm, 15-35mm, 16-35mm
+- **[Wildlife Photography](categories/telephoto.md)** - RF 100-500mm, 600mm, 800mm
+- **[Macro Photography](categories/macro.md)** - RF 24mm, 35mm, 85mm, 100mm macro
+
+---
+
+## 🔗 **Related Collections**
+
+### 🔴 **Legacy EF System**
+- **[EF Lens Collection](ef_lenses.md)** - Classic professional lenses
+- **[RF vs EF Comparison](galleries/rf_vs_ef_comparison.md)** - System comparison
+
+### 📊 **Analysis Tools**
+- **[📊 Enhanced MTF Viewer](../canon_enhanced_mtf_viewer.html)** - Interactive browser
+- **[📊 MTF Charts Gallery](galleries/mtf_charts.md)** - Visual comparison
+- **[🔍 Lens Finder](lens_finder.md)** - Smart recommendations
+
+---
+
+*[← Back to Index](../index.md) | [View EF Lenses →](ef_lenses.md)*

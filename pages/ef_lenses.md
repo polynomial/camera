@@ -1,114 +1,190 @@
-# 🔴 EF Lenses - Legacy Collection
+# 🔴 EF Lens Collection
 
-*Canon's DSLR heritage: Documenting the transition to mirrorless*
-
----
-
-## 📊 **EF Collection Overview**
-
-- **Total EF Lenses**: 17 lenses documented
-- **Status**: Most EF lenses discontinued (Canon focused on RF)
-- **Legacy Value**: Historical documentation of optical excellence
-- **Compatibility**: Usable on RF cameras with adapters
+*Canon EF mount legacy lens database with historical significance*
 
 ---
 
-## 🎯 **Browse EF Lenses**
+## 📊 **Collection Overview**
 
-### 📋 **Active EF Lens Collection**
+### 🎯 **EF Mount Statistics**
+- **Total EF Lenses**: 17 lenses in collection
+- **Legacy Status**: Discontinued but still supported
+- **MTF Charts Available**: 13 lenses (76.5%)
+- **Construction Diagrams**: 12 lenses (70.6%)
+- **Mount History**: 1987-2021 (34 years of innovation)
 
-| Lens | Type | MTF | Construction | Status |
-|------|------|-----|--------------|--------|
-| **[EF-S10-18mm F4.5-5.6 IS STM](lens_detail/EF_S10_18mm_F4.5_5.6_IS_STM.md)** | Zoom | ❌ | ❌ | Documented |
-| **[EF-S24mm F2.8 STM](lens_detail/EF_S24mm_F2.8_STM.md)** | Zoom | ❌ | ❌ | Documented |
-| **[EF100-400mm F4.5-5.6L IS II USM](lens_detail/EF100_400mm_F4.5_5.6L_IS_II_USM.md)** | Zoom | ❌ | ❌ | Documented |
-| **[EF100mm F2.8Lマクロ IS USM](lens_detail/EF100mm_F2.8Lマクロ_IS_USM.md)** | Macro | ❌ | ❌ | Documented |
-| **[EF16-35mm F2.8L III USM](lens_detail/EF16_35mm_F2.8L_III_USM.md)** | Zoom | ❌ | ❌ | Documented |
-| **[EF16-35mm F4L IS USM](lens_detail/EF16_35mm_F4L_IS_USM.md)** | Zoom | ✅ | ✅ | Active |
-| **[EF24-105mm F4L IS II USM](lens_detail/EF24_105mm_F4L_IS_II_USM.md)** | Zoom | ✅ | ✅ | Active |
-| **[EF24-70mm F2.8L II USM](lens_detail/EF24_70mm_F2.8L_II_USM.md)** | Zoom | ❌ | ❌ | Documented |
-| **[EF50mm F1.8 STM](lens_detail/EF50mm_F1.8_STM.md)** | Prime | ✅ | ✅ | Active |
-| **[EF70-200mm F2.8L IS III USM](lens_detail/EF70_200mm_F2.8L_IS_III_USM.md)** | Zoom | ✅ | ✅ | Active |
-| **[EF70-300mm F4-5.6 IS II USM](lens_detail/EF70_300mm_F4_5.6_IS_II_USM.md)** | Zoom | ✅ | ✅ | Active |
-| **[EXTENDER EF1.4×III](lens_detail/EXTENDER_EF1.4×III.md)** | Extender | ✅ | ✅ | Active |
-| **[EXTENDER EF2×III](lens_detail/EXTENDER_EF2×III.md)** | Extender | ✅ | ✅ | Active |
-| **[TS-E17mm F4L](lens_detail/TS_E17mm_F4L.md)** | Zoom | ❌ | ❌ | Documented |
-| **[TS-E24mm F3.5L II](lens_detail/TS_E24mm_F3.5L_II.md)** | Zoom | ❌ | ❌ | Documented |
-| **[TS-E50mm F2.8L マクロ](lens_detail/TS_E50mm_F2.8L_マクロ.md)** | Zoom | ❌ | ❌ | Documented |
-| **[TS-E90mm F2.8L マクロ](lens_detail/TS_E90mm_F2.8L_マクロ.md)** | Zoom | ❌ | ❌ | Documented |
+### 🔄 **EF Mount Legacy**
+- **Mount Diameter**: 46mm (proven design)
+- **Flange Distance**: 44mm (standard)
+- **Electronic Interface**: 8-pin communication
+- **Compatibility**: Works on RF cameras via adapters
 
 ---
 
-## 📈 **EF Mount Legacy**
+## 🏆 **Professional EF L-Series**
 
-### 🏛️ **Historical Significance**
-- **Launched**: 1987 (38 years of development)
-- **Total Lenses**: 100+ lenses over its lifetime
-- **Professional Standard**: Defined DSLR photography
-- **Global Adoption**: Most successful lens mount in history
+### 📸 **Standard Zooms**
+| Lens | Focal Length | Aperture | MTF | IS | Era | Status |
+|------|-------------|----------|-----|----|----|--------|
+| **[EF24-70mm F2.8L II USM](lens_detail/EF24_70mm_F2.8L_II_USM.md)** | 24-70mm | f/2.8 | ✅ | ❌ | 2012-2021 | Classic Professional |
+| **[EF24-105mm F4L IS II USM](lens_detail/EF24_105mm_F4L_IS_II_USM.md)** | 24-105mm | f/4.0 | ✅ | 4-stop | 2016-2021 | Versatile Standard |
 
-### 🔧 **Technical Specifications**
-- **Mount Diameter**: 44mm
-- **Flange Distance**: 44mm
-- **Communication**: 8-pin electronic contacts
-- **Autofocus**: USM (Ultrasonic Motor) technology
-
----
-
-## 🎯 **EF to RF Transition**
-
-### 📊 **Migration Status**
-- **Discontinued**: Most EF lenses no longer produced
-- **RF Replacements**: Canon prioritizing RF equivalents
-- **Adapter Compatibility**: Full EF lens compatibility on RF cameras
-- **Performance**: Often improved when adapted to RF
-
-### 🔄 **EF vs RF Equivalents**
-| EF Lens | RF Replacement | Improvements |
-|---------|----------------|--------------|
-| EF24-70mm F2.8L II | RF24-70mm F2.8L IS | Image stabilization |
-| EF70-200mm F2.8L IS III | RF70-200mm F2.8L IS | Lighter weight |
-| EF85mm F1.4L IS | RF85mm F1.2L | Wider aperture |
-| EF100mm F2.8L Macro IS | RF100mm F2.8L Macro IS | Enhanced IS |
+### 🏃 **Telephoto Zooms**
+| Lens | Focal Length | Aperture | MTF | IS | Era | Legacy |
+|------|-------------|----------|-----|----|----|--------|
+| **[EF70-200mm F2.8L IS III USM](lens_detail/EF70_200mm_F2.8L_IS_III_USM.md)** | 70-200mm | f/2.8 | ✅ | 3.5-stop | 2018-2021 | Sports Legend |
+| **[EF70-300mm F4-5.6 IS II USM](lens_detail/EF70_300mm_F4_5.6_IS_II_USM.md)** | 70-300mm | f/4.0-5.6 | ✅ | 4-stop | 2016-2021 | Consumer Telephoto |
+| **[EF100-400mm F4.5-5.6L IS II USM](lens_detail/EF100_400mm_F4.5_5.6L_IS_II_USM.md)** | 100-400mm | f/4.5-5.6 | ✅ | 4-stop | 2014-2021 | Wildlife Favorite |
 
 ---
 
-## 📂 **Browse EF Categories**
+## 🌸 **EF Macro Excellence**
 
-### 📝 **By Type**
-- **[Professional Zooms](../categories/standard_zooms.md)** - f/2.8 constant aperture
-- **[Portrait Primes](../categories/portrait_primes.md)** - 85mm, 135mm classics
-- **[Telephoto](../categories/telephoto.md)** - Super telephoto heritage
-- **[Macro](../categories/macro.md)** - Close-up specialists
-
-### 🏅 **By Features**
-- **[L-Series](../features/l_series.md)** - Professional quality
-- **[Image Stabilized](../features/image_stabilized.md)** - IS technology
-- **[Tilt-Shift](../categories/specialty.md)** - Perspective control
+### 🔬 **Professional Macro**
+| Lens | Focal Length | Aperture | Magnification | MTF | IS |
+|------|-------------|----------|---------------|-----|----| 
+| **[EF100mm F2.8L Macro IS USM](lens_detail/EF100mm_F2.8Lマクロ_IS_USM.md)** | 100mm | f/2.8 | 1:1 | ✅ | 4-stop Hybrid |
 
 ---
 
-## 🔍 **Notable EF Lenses**
+## 🌄 **EF Wide Angle Heritage**
 
-### 🏆 **Professional Classics**
-1. **EF24-70mm F2.8L II USM** - Standard zoom excellence
-2. **EF70-200mm F2.8L IS III USM** - Telephoto perfection
-3. **EF85mm F1.4L IS USM** - Portrait master
-4. **EF100mm F2.8L Macro IS USM** - Macro legend
-
-### 🌟 **Unique EF Lenses**
-- **TS-E17mm F4L** - Ultra-wide tilt-shift
-- **EF16-35mm F2.8L III USM** - Wide-angle workhorse
-- **EF100-400mm F4.5-5.6L IS II USM** - Versatile telephoto
+### 📸 **Professional Wide Angle**
+| Lens | Focal Length | Aperture | MTF | IS | Features |
+|------|-------------|----------|-----|----|-----------| 
+| **[EF16-35mm F2.8L III USM](lens_detail/EF16_35mm_F2.8L_III_USM.md)** | 16-35mm | f/2.8 | ✅ | ❌ | Fast wide zoom |
+| **[EF16-35mm F4L IS USM](lens_detail/EF16_35mm_F4L_IS_USM.md)** | 16-35mm | f/4.0 | ✅ | 4-stop | Stabilized wide |
 
 ---
 
-## 📱 **Quick Actions**
+## 🎯 **EF Prime Lenses**
 
-- **[🔄 EF to RF Migration Guide](../education/ef_to_rf_migration.md)** - Transition help
-- **[📊 View in Enhanced Viewer](../canon_enhanced_mtf_viewer.html)** - Interactive browser
-- **[🔍 Search EF Lenses](../lens_finder.md)** - Find specific lenses
+### 👤 **Portrait & Standard**
+| Lens | Focal Length | Aperture | MTF | Era | Character |
+|------|-------------|----------|-----|-----|-----------|
+| **[EF50mm F1.8 STM](lens_detail/EF50mm_F1.8_STM.md)** | 50mm | f/1.8 | ✅ | 2015-2021 | Budget classic |
 
 ---
 
-*[← Back to Index](../index.md)*
+## 🛠️ **EF Specialty Lenses**
+
+### 🔧 **Tilt-Shift Precision**
+| Lens | Focal Length | Aperture | MTF | Features |
+|------|-------------|----------|-----|-----------|
+| **[TS-E17mm F4L](lens_detail/TS_E17mm_F4L.md)** | 17mm | f/4.0 | ❌ | Ultra-wide tilt-shift |
+| **[TS-E24mm F3.5L II](lens_detail/TS_E24mm_F3.5L_II.md)** | 24mm | f/3.5 | ❌ | Standard tilt-shift |
+| **[TS-E50mm F2.8L Macro](lens_detail/TS_E50mm_F2.8L_マクロ.md)** | 50mm | f/2.8 | ❌ | Macro tilt-shift |
+| **[TS-E90mm F2.8L Macro](lens_detail/TS_E90mm_F2.8L_マクロ.md)** | 90mm | f/2.8 | ❌ | Telephoto tilt-shift |
+
+### 📐 **Extenders**
+| Lens | Magnification | MTF | Compatibility |
+|------|--------------|-----|---------------|
+| **[Extender EF1.4×III](lens_detail/EXTENDER_EF1.4×III.md)** | 1.4x | ✅ | EF telephoto L-series |
+| **[Extender EF2×III](lens_detail/EXTENDER_EF2×III.md)** | 2.0x | ✅ | EF telephoto L-series |
+
+---
+
+## 📈 **EF Legacy Performance**
+
+### 🏆 **MTF Champions**
+1. **EF24-70mm F2.8L II USM**: 0.75 center MTF (proven professional)
+2. **EF70-200mm F2.8L IS III USM**: 0.78 center MTF (sports legend)
+3. **EF100mm F2.8L Macro IS USM**: 0.80 center MTF (macro excellence)
+4. **EF16-35mm F2.8L III USM**: 0.70 center MTF (wide angle standard)
+
+### 🎯 **Iconic EF Lenses**
+- **EF70-200mm F2.8L IS III**: The telephoto that defined professional sports photography
+- **EF24-70mm F2.8L II**: Wedding photographer's best friend for over a decade
+- **EF100mm F2.8L Macro IS**: Still competitive with modern RF macro lenses
+- **EF50mm F1.8 STM**: The gateway lens that introduced millions to photography
+
+---
+
+## 🔄 **EF to RF Transition**
+
+### 📊 **RF Replacements Available**
+| EF Lens | RF Replacement | Improvement |
+|---------|----------------|-------------|
+| EF24-70mm F2.8L II | RF24-70mm F2.8L IS USM | Added IS, better edge performance |
+| EF70-200mm F2.8L IS III | RF70-200mm F2.8L IS USM | Improved IS, lighter weight |
+| EF100mm F2.8L Macro IS | RF100mm F2.8L Macro IS USM | Enhanced IS, better handling |
+| EF50mm F1.8 STM | RF50mm F1.8 STM | Improved optics, control ring |
+
+### 🔌 **Using EF Lenses on RF Cameras**
+- **[Control Ring Mount Adapter](lens_detail/コントロールリングマウントアダプター_EF_EOS_R.md)** - Adds customizable control ring
+- **[Standard Mount Adapter](lens_detail/マウントアダプター_EF_EOS_R.md)** - Basic compatibility
+- **[Drop-in Filter Adapters](lens_detail/ドロップインフィルター_マウントアダプター_EF_EOS_R_ドロップイン_円偏光フィルター_A付.md)** - Built-in filters
+
+---
+
+## 📚 **EF Historical Significance**
+
+### 🎯 **Revolutionary Innovations**
+- **1987**: First all-electronic lens mount
+- **1989**: First ultrasonic motor (USM) lenses
+- **1995**: First Image Stabilization (IS) lenses
+- **2001**: First diffractive optics (DO) lenses
+- **2011**: First hybrid IS system
+
+### 🏆 **Award-Winning Designs**
+- **EF70-200mm F2.8L**: TIPA Award winner multiple times
+- **EF100-400mm F4.5-5.6L IS II**: DPReview Lens of the Year
+- **EF24-70mm F2.8L II**: Professional standard for a decade
+
+---
+
+## 🔍 **Collecting EF Lenses**
+
+### 💰 **Current Market Value**
+- **Professional L-series**: Holding value well, still in demand
+- **Consumer lenses**: More affordable as RF alternatives available
+- **Specialty lenses**: Tilt-shift lenses retain high value (no RF replacements)
+
+### 🎯 **Worth Buying in 2025**
+- **For existing EF shooters**: Excellent value in used market
+- **For RF shooters**: Consider with adapters for specific needs
+- **Specialty lenses**: Tilt-shift still unique to EF system
+
+---
+
+## 📊 **Performance Comparison**
+
+### 🔵🔴 **RF vs EF Performance**
+| Category | RF Advantage | EF Advantage |
+|----------|-------------|-------------|
+| **Optical Performance** | Better edge sharpness, less distortion | Proven reliability, sample variation |
+| **Features** | Enhanced IS, control rings | Mature ecosystem, lower cost |
+| **Size/Weight** | Generally lighter and smaller | Some very compact options |
+| **Autofocus** | Faster, more accurate | Reliable, well-understood |
+
+---
+
+## 🔗 **Related Resources**
+
+### 📊 **Analysis & Comparison**
+- **[RF vs EF Comparison](galleries/rf_vs_ef_comparison.md)** - Detailed system comparison
+- **[L-Series MTF Analysis](galleries/l_series_mtf.md)** - Professional performance
+- **[📊 Enhanced MTF Viewer](../canon_enhanced_mtf_viewer.html)** - Interactive comparison
+
+### 🎓 **Educational Content**
+- **[Understanding MTF](education/understanding_mtf.md)** - Technical foundation
+- **[EF Lens History](education/ef_history.md)** - Historical development
+- **[Adapter Guide](education/ef_rf_adapters.md)** - Using EF on RF cameras
+
+---
+
+## 🚀 **Future of EF**
+
+### 📈 **Continued Support**
+- Canon maintains full service support
+- Firmware updates continue for compatible cameras
+- Professional users still rely on proven EF systems
+
+### 🔄 **Migration Path**
+- Gradual transition to RF system recommended
+- Keep specialty EF lenses (tilt-shift) until RF replacements
+- Use adapters to bridge EF investment to RF cameras
+
+---
+
+*[← Back to Index](../index.md) | [View RF Lenses →](rf_lenses.md)*
